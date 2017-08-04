@@ -1,0 +1,18 @@
+.page-header {
+
+
+}
+
+dd {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #2D6ED3;
+}
+
+.venue { font-style: italic; }
+
+#pubTable_filter{
+    display:none;
+}
