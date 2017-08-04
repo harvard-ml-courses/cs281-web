@@ -1,0 +1,704 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="icon" href="../../favicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="jquery.dataTables.min.js"></script>
+
+    <script src="bib-list.js"></script>
+
+    <link rel="stylesheet" href="bib-publication-list.css" type="text/css" />
+
+    <title>Harvard CS 181</title>
+
+    <!-- Bootstrap core CSS -->
+
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="page.css">
+  </head>
+
+  <body>
+    <div class="row">
+    </div>
+    <div class="container">
+      <div class="panel panel-primary" style="margin-top:10px;background-color:#2D6ED3;border-color:#000000;">
+        <div class="panel-heading" style="background-color:#2D6ED3;border-color:#2D6ED3;">
+          <h1>CS181: Machine Learning</h1>
+          <p class="lead">Harvard University</p>
+
+        </div>
+        <div class="panel-footer">
+          <ul class="nav nav-pills invert-colors">
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#grading">Grading</a></li>
+            <!-- <li><a href="#faq">FAQ</a></li> -->
+          </ul>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row container">
+      <h3 id="description">Course Info</h3>
+
+      <div class="container ">
+        <!-- <div class="panel-body"> -->
+        <dl>
+          <dt>Instructors</dt>
+          <dd> <ul><li>David Parkes <br>
+OH: Mon 1-2p, Thur 2:30-3:30, 5.15-6p, MD 229<br>
+</li>
+              <li>Alexander "Sasha" Rush  <br>
+                  OH: Wed 2:30-4, MD 217 
+              </li> 
+<li>Email: Piazza preferred or cs181 at seas.harvard.edu  (instructors only) 
+</li></ul>
+          </dd>
+          
+        <dt>Lectures</dt>
+        <dd> <ul><li>Tues/Thurs 10:00-11:30am </li>
+<li><a href="http://map.harvard.edu/?bld=04240&level=9">Geological Museum 100</a> (just across Oxford St. from Pierce)
+</li></ul></dd>
+
+        
+        <dt>Teaching Assistants</dt>
+        <dd>
+          <ul>
+            <li>
+            
+            Shai Szulanski,
+            Jeffrey Ling,
+            Samuel Cheng,
+            Ankit Gupta,
+            Aidi Zhang,
+            Lily Zhang,
+            Frances Ding,
+            Mark Goldstein,
+            Charles Liu,
+            Jeffrey Chang,
+            Rachit Singh,
+            Joseph Song,
+            Fanney Zhu,
+            Christine Hwang, and Carl Denton
+            </li>
+          </ul>
+        </dd>
+
+        <dt>Forum and Announcements</dt>
+          <dd><ul>
+<li><a href="https://piazza.com/harvard/spring2017/cs181">Piazza </a></li></ul></dd>
+
+        <dt>Office Hours</dt>
+        <dd>
+          <ul>
+            
+            <li>Tue 8-10pm: Quincy DH</li>
+            
+            <li>Wed 6-8pm: MD 119 / Second Floor</li>
+            
+            <li>Wed 8-10pm: Lowell DH</li>
+            
+            <li>Thu 8-10pm: Currier DH</li>
+            
+            <li>Thu 8-10pm: Eliot DH</li>
+            
+            <li>Fri 10-Noon: MD First Floor Lounge (one floor above ground!)</li>
+            
+          </ul>
+        </dd>
+        <dt>References</dt>
+          <dd><ul>
+              <li> Bishop, <a href="http://www.springer.com/us/book/9780387310732">Pattern Recognition and Machine Learning</a> 
+              <li> Petersen and Pedersen, <a href="http://www2.imm.dtu.dk/pubdb/views/edoc_download.php/3274/pdf/imm3274.pdf">The Matrix Cookbook</a> 
+              <li>  <a href="http://scikit-learn.org/dev/_downloads/scikit-learn-docs.pdf"> Scikit-Learn Manual </a>   
+            </li></ul>
+          </dd>
+
+        <dt>Section Times</dt>
+          <dd><ul><li>Mon, 4-5,5-6:30p(extended): MD 119</li>
+              <li>Tues, 4-5:30p(extended): Northwest Basement (B105) </li>
+              <li> Wed, 4-5,5-6p: MD 119</li>
+              <!-- <li>Bonus section (math background): Fri Jan 27, time TBD</li></ul> -->
+          </dd>
+
+    <dt>Syllabus and Collaboration Policy</dt>
+        <dd>
+          <ul>
+
+            <li>See the course <a href="syllabus.pdf">syllabus</a>
+</ul>
+        </dd>
+
+
+     <dt>Links</dt>
+        <dd>
+          <ul>
+            <li><a href="https://classroom.github.com/assignment-invitations/9356a5cc64112274d9e93f77cd214d93">GitHub Classrooms</a></li>
+            <li><a href="https://canvas.harvard.edu/courses/21992">Canvas Site</a></li>
+            <li><a href="https://harvard-ml-courses.github.io/cs181-s17-homeworks/guidelines/practical-logistics.pdf">Practical Guidelines</a></li>
+            <li><a href="https://harvard-ml-courses.github.io/cs181-s17-homeworks/guidelines/practical-template.pdf">Practical Template</a></li>
+            <li><a href="lectures/Style_Guide.pdf">Style Guide</a></li>
+          </ul>
+        </dd>
+
+      </dl>
+      </div>
+      </div>
+        <hr>
+        <hr>
+        <div class="row container">
+          <h3 id="schedule">Schedule</h3>
+
+
+      <table class="table">
+        <tr><th>Date</th> <th>Area</th> <th>Topic</th><th>Demos </th><th>Readings</th><th>Assignment (DUE: Fri 5pm of this week)</th></tr>
+        
+        <tr class = >
+          <td> Jan. 24 </td> <td> <a href="https://github.com/harvard-ml-courses/cs181-lectures/blob/master/01-lectures-intro.pdf">Machine Learning</a> </td>
+          <td> </td>
+          <td>
+            
+          </td>
+          <td>
+            
+          </td>
+          
+          <td> </td>
+        </tr>
+        
+        <tr class = >
+          <td> Jan. 26 </td> <td> Regression </td>
+          <td> <a href="https://github.com/harvard-ml-courses/cs181-lectures/blob/master/02-lectures-lr.pdf">Linear Regression 1</a></td>
+          <td>
+            <a href="https://github.com/harvard-ml-courses/cs181-demos/blob/master/Regression.ipynb">Regression</a>
+          </td>
+          <td>
+            Bishop &sect; 3.1, Sklearn &sect; 3.1, 18.10
+          </td>
+          
+          <td> </td>
+        </tr>
+        
+        <tr class = active>
+          <td> Jan. 27 </td> <td>  </td>
+          <td> Section 0 <a href="https://github.com/harvard-ml-courses/cs181-section/blob/master/Section_0.pdf"> Math Review </a></td>
+          <td>
+            
+          </td>
+          <td>
+            
+          </td>
+          
+          <td> </td>
+        </tr>
+        
+        <tr class = active>
+          <td> Jan. 30 </td> <td>  </td>
+          <td> Section 1   <a href="https://github.com/harvard-ml-courses/cs181-section/blob/master/section01-s17-student.pdf"> Linear Reg (<a href="https://github.com/harvard-ml-courses/cs181-section/blob/master/section01-s17-final.pdf"> sol </a>) </a></td>
+          <td>
+            
+          </td>
+          <td>
+            
+          </td>
+          
+          <td> </td>
+        </tr>
+        
+        <tr class = >
+          <td> Jan. 31 </td> <td>  </td>
+          <td> <a href="https://github.com/harvard-ml-courses/cs181-lectures/blob/master/03-lectures-lr.pdf">Linear Regression 2</a></td>
+          <td>
+            <a href = "https://github.com/harvard-ml-courses/cs181-demos/blob/master/Gaussian.ipynb"> Gaussian </a> <br> <a href = "https://github.com/harvard-ml-courses/cs181-demos/blob/master/BasisRegression.ipynb"> BasisRegression </a>
+          </td>
+          <td>
+            Bishop &sect; 2.3, 3.1
+          </td>
+          
+          <td> T1 <a href="https://harvard-ml-courses.github.io/cs181-s17-homeworks/h1/homework1-regression.pdf">Regression</a> (<a href="https://canvas.harvard.edu/courses/21992/assignments/117075">submit</a> | <a href="https://canvas.harvard.edu/courses/21992/quizzes/54494">self-grading</a>)</td>
+        </tr>
+        
+        <tr class = >
+          <td> Feb. 2 </td> <td> Model Regularization </td>
+          <td> <a href="https://github.com/harvard-ml-courses/cs181-lectures/blob/master/04-lectures-modelselection-tmp.pdf">Model Selection</a></td>
+          <td>
+            
+          </td>
+          <td>
+            
+          </td>
+          
+          <td> </td>
+        </tr>
+        
+        <tr class = active>
+          <td> Feb. 6 </td> <td>  </td>
+          <td> Section 2 <a href="https://github.com/harvard-ml-courses/cs181-section/blob/master/section02-s17-student.pdf">  Model Selection </a> <a href="https://github.com/harvard-ml-courses/cs181-section/blob/master/section02-s17-soln.pdf">  (sol) </a></td>
+          <td>
+            <a href=https://github.com/harvard-ml-courses/cs181-demos/blob/master/sklearn-demo.ipynb>Sklearn</a>
+          </td>
+          <td>
+            
+          </td>
+          
+          <td> </td>
+        </tr>
+        
+        <tr class = >
+          <td> Feb. 7 </td> <td>  </td>
+          <td> <a href="https://github.com/harvard-ml-courses/cs181-lectures/blob/master/05.handout.pdf">Bayesian Linear Regression</a></td>
+          <td>
+            
+          </td>
+          <td>
+            Bishop &sect; 3.3
+          </td>
+          
+          <td> P1 <a href="hw/practical1-regression.pdf">Regression</a> (<a href="https://canvas.harvard.edu/courses/21992/assignments/117077">submit</a> | <a href="https://inclass.kaggle.com/c/cs181-regression-practical">kaggle</a>)</td>
+        </tr>
+        
+        <tr class = >
+          <td> Feb. 9 </td> <td> Classification </td>
+          <td> <a href="https://github.com/harvard-ml-courses/cs181-lectures/blob/master/06-lectures-class.pdf">Linear Classification</a></td>
+          <td>
+            <a href = "https://github.com/harvard-ml-courses/cs181-demos/blob/master/Perceptron.ipynb"> Perceptron </a>
+          </td>
+          <td>
+            Bishop &sect; 4.1, Sklearn &sect;  15.9
+          </td>
+          
+          <td> </td>
+        </tr>
+        
+        <tr class = active>
+          <td> Feb. 13 </td> <td>  </td>
+          <td> Section 3  <a href="https://github.com/harvard-ml-courses/cs181-section/blob/master/section03-s17-student.pdf">  Bayes Classification </a><a href="https://github.com/harvard-ml-courses/cs181-section/blob/master/section03-s17.pdf">  (sol) </a></td>
+          <td>
+            
+          </td>
+          <td>
+            
+          </td>
+          
+          <td> </td>
+        </tr>
+        
+        <tr class = >
+          <td> Feb. 14 </td> <td>  </td>
+          <td> <a href="https://github.com/harvard-ml-courses/cs181-lectures/blob/master/07-lectures-class.pdf">Probabilistic Classification</a></td>
+          <td>
+            <a href="https://github.com/harvard-ml-courses/cs181-demos/blob/master/ProbabilisticClassification.ipynb">Probabilistic Classification</a>
+          </td>
+          <td>
+            Bishop &sect; 4.2, 4.3, Sklearn &sect;  18.1, 29.24
+          </td>
+          
+          <td> </td>
+        </tr>
+        
+        <tr class = >
+          <td> Feb. 16 </td> <td> Neural Networks </td>
+          <td> <a href="https://github.com/harvard-ml-courses/cs181-lectures/blob/master/08-lectures-nn1.pdf">Neural Networks 1</a></td>
+          <td>
+            <a href="https://github.com/harvard-ml-courses/cs181-demos/blob/master/NeuralNetwork1.ipynb">Neural Networks 1</a> <br> <a href="http://playground.tensorflow.org/">TF Playground</a>
+          </td>
+          <td>
+            Bishop &sect; 5.1-5.2
+          </td>
+          
+          <td> </td>
+        </tr>
+        
+        <tr class = active>
+          <td> Feb. 20 </td> <td>  </td>
+          <td> Section 4 <a href="https://github.com/harvard-ml-courses/cs181-section/blob/master/section04-s17-student.pdf">Probabilistic Classification &  NN1 </a> <a href="https://github.com/harvard-ml-courses/cs181-section/blob/master/section04-s17-soln.pdf">(sol) </a></td>
+          <td>
+            
+          </td>
+          <td>
+            
+          </td>
+          
+          <td> </td>
+        </tr>
+        
+        <tr class = >
+          <td> Feb. 21 </td> <td>  </td>
+          <td> <a href="https://github.com/harvard-ml-courses/cs181-lectures/blob/master/09-lectures-nn2.pdf">Neural Networks 2</a></td>
+          <td>
+            <a href="https://github.com/harvard-ml-courses/cs181-demos/blob/master/NeuralNetwork1.ipynb">Neural Networks 1</a> <br> <a href="http://cs.stanford.edu/people/karpathy/convnetjs/">ConvNet JS</a>
+          </td>
+          <td>
+            Bishop &sect; 5.3
+          </td>
+          
+          <td> T2 <a href="https://harvard-ml-courses.github.io/cs181-s17-homeworks/h2/homework2-classification.pdf">Classification</a> (<a href="https://canvas.harvard.edu/courses/21992/assignments/117078">submit</a> |  <a href="https://canvas.harvard.edu/courses/21992/quizzes/55050">self-grading</a> | <a href="https://canvas.harvard.edu/courses/21992/files/3662941/download?wrap=1">soln</a>)</td>
+        </tr>
+        
+        <tr class = >
+          <td> Feb. 23 </td> <td> Margin-Based Models </td>
+          <td> <a href="https://github.com/harvard-ml-courses/cs181-lectures/blob/master/10.handout.pdf">Margin-Based Classification</a></td>
+          <td>
+            
+          </td>
+          <td>
+            Bishop &sect; 7.1
+          </td>
+          
+          <td> </td>
+        </tr>
+        
+        <tr class = active>
+          <td> Feb. 27 </td> <td>  </td>
+          <td> <a href="https://github.com/harvard-ml-courses/cs181-section/blob/master/midterm-review.pdf">Midterm Review</a></td>
+          <td>
+            
+          </td>
+          <td>
+            
+          </td>
+          
+          <td> <a href="https://github.com/harvard-ml-courses/cs181-section/blob/master/practice-midterm-problems.pdf">Practice Problems</a> | <a href="https://github.com/harvard-ml-courses/cs181-section/blob/master/practice-midterm-problems-soln.pdf">Solutions</a></td>
+        </tr>
+        
+        <tr class = >
+          <td> Feb. 28 </td> <td>  </td>
+          <td> <a href="https://github.com/harvard-ml-courses/cs181-lectures/blob/master/11.handout.pdf">Support Vector Machines</a></td>
+          <td>
+            
+          </td>
+          <td>
+            Bishop &sect; 7.1
+          </td>
+          
+          <td> </td>
+        </tr>
+        
+        <tr class = >
+          <td> Mar. 2 </td> <td>  </td>
+          <td> Midterm 1</td>
+          <td>
+            
+          </td>
+          <td>
+            
+          </td>
+          
+          <td> </td>
+        </tr>
+        
+        <tr class = active>
+          <td> Mar. 6 </td> <td>  </td>
+          <td> Section 5 <br><a href="https://github.com/harvard-ml-courses/cs181-section/blob/master/section05-s17-student.pdf">Support Vector Machines</a> <a href="https://github.com/harvard-ml-courses/cs181-section/blob/master/section05-s17.pdf">(sol) </a></td>
+          <td>
+            
+          </td>
+          <td>
+            
+          </td>
+          
+          <td> </td>
+        </tr>
+        
+        <tr class = >
+          <td> Mar. 7 </td> <td> Unsupervised </td>
+          <td> <a href="https://github.com/harvard-ml-courses/cs181-lectures/blob/master/12.handout.pdf">Hierarchical Clustering, K-Means</a></td>
+          <td>
+            
+          </td>
+          <td>
+            Bishop &sect; 9.1
+          </td>
+          
+          <td> P2 <a href="https://github.com/harvard-ml-courses/cs181-s17-homeworks/blob/master/p2/practical2-classification.pdf">Classification</a> (<a href="https://canvas.harvard.edu/courses/21992/assignments/117079">submit</a> | <a href="https://inclass.kaggle.com/c/cs-181-classification-practical">kaggle</a>) <br> Kaggle due Th 11:59pm<br> Competition ends W 11:59pm</td>
+        </tr>
+        
+        <tr class = >
+          <td> Mar. 9 </td> <td> Topics 1 </td>
+          <td> <a href="https://github.com/harvard-ml-courses/cs181-lectures/blob/master/13-lectures-deeplearning.pdf">Deep Learning for Text</a></td>
+          <td>
+            
+          </td>
+          <td>
+            <a href = http://u.cs.biu.ac.il/~yogo/nnlp.pdf> Deep NLP Tutorial (optional) </a>
+          </td>
+          
+          <td> </td>
+        </tr>
+        
+        <tr class = active>
+          <td> Mar. 20 </td> <td>  </td>
+          <td> Section 7 <a href="https://github.com/harvard-ml-courses/cs181-section/blob/master/cs181-section7-student.pdf">Clustering</a> <br> <a href = 'https://github.com/harvard-ml-courses/cs181-section/blob/master/Curse%20of%20Dimensionality%20Simulations.ipynb'>demo</a> <a href = 'https://github.com/harvard-ml-courses/cs181-section/blob/master/cs181-section7.pdf'> (sol) </a></td>
+          <td>
+            
+          </td>
+          <td>
+            
+          </td>
+          
+          <td> </td>
+        </tr>
+        
+        <tr class = >
+          <td> Mar. 21 </td> <td>  </td>
+          <td> <a href="https://github.com/harvard-ml-courses/cs181-lectures/blob/master/14.handout.pdf">Mixture Models, EM</a></td>
+          <td>
+            
+          </td>
+          <td>
+            Bishop &sect; 9.2,9.3
+          </td>
+          
+          <td> T3 <a href="https://github.com/harvard-ml-courses/cs181-s17-homeworks/tree/master/h3">SVMs</a> (<a href="https://canvas.harvard.edu/courses/21992/assignments/117080">submit</a>)</td>
+        </tr>
+        
+        <tr class = >
+          <td> Mar. 23 </td> <td>  </td>
+          <td> <a href="https://github.com/harvard-ml-courses/cs181-lectures/blob/master/15-lectures-topicmodel.pdf">Discrete Mixtures, Topic Models</a></td>
+          <td>
+            <a href = 'https://github.com/harvard-ml-courses/cs181-demos/blob/master/TopicModeling.ipynb'> Topic Modeling </a>
+          </td>
+          <td>
+            Bishop &sect; 9.3.3,<br> <a href = http://menome.com/wp/wp-content/uploads/2014/12/Blei2011.pdf> Introduction to Probabilistic Topic Models  (optional) </a>
+          </td>
+          
+          <td> </td>
+        </tr>
+        
+        <tr class = active>
+          <td> Mar. 27 </td> <td>  </td>
+          <td> Section 8 <a href = 'https://github.com/harvard-ml-courses/cs181-section/blob/master/section08-s17-student.pdf'> <br> EM and Topic Modeling </a> <a href = 'https://github.com/harvard-ml-courses/cs181-section/blob/master/CS_181___Section_8.pdf'> (sol) </a></td>
+          <td>
+            
+          </td>
+          <td>
+            
+          </td>
+          
+          <td> </td>
+        </tr>
+        
+        <tr class = >
+          <td> Mar. 28 </td> <td>  </td>
+          <td> <a href="https://github.com/harvard-ml-courses/cs181-lectures/blob/master/16-lectures-pca.pdf">Dimensionality Reduction</a.</td>
+          <td>
+            <a href = 'https://github.com/harvard-ml-courses/cs181-demos/blob/master/PCA.ipynb'> PCA </a>
+          </td>
+          <td>
+            Bishop &sect; 12.1
+          </td>
+          
+          <td> T4 <a href="https://github.com/harvard-ml-courses/cs181-s17-homeworks/tree/master/h4">Clustering/EM</a> (<a href="https://canvas.harvard.edu/courses/21992/assignments/117081">submit</a>)</td>
+        </tr>
+        
+        <tr class = >
+          <td> Mar. 30 </td> <td> Graphical Models </td>
+          <td> <a href="https://github.com/harvard-ml-courses/cs181-lectures/blob/master/17.handout.pdf">HMMs</a></td>
+          <td>
+            
+          </td>
+          <td>
+            
+          </td>
+          
+          <td> </td>
+        </tr>
+        
+        <tr class = active>
+          <td> Apr. 3 </td> <td>  </td>
+          <td> Section 9 <a href = 'https://github.com/harvard-ml-courses/cs181-section/blob/master/section09-s17-student.pdf'> <br> PCA + HMMs </a> <a href = 'https://github.com/harvard-ml-courses/cs181-section/blob/master/section09-s17-soln.pdf'> (sol) </a></td>
+          <td>
+            
+          </td>
+          <td>
+            
+          </td>
+          
+          <td> </td>
+        </tr>
+        
+        <tr class = >
+          <td> Apr. 4 </td> <td>  </td>
+          <td> <a href="https://github.com/harvard-ml-courses/cs181-lectures/blob/master/18.handout.pdf">Bayesian Networks</a></td>
+          <td>
+            
+          </td>
+          <td>
+            
+          </td>
+          
+          <td> P3 <a href="https://github.com/harvard-ml-courses/cs181-s17-homeworks/tree/master/p3">Recommendation</a> (<a href="https://canvas.harvard.edu/courses/21992/assignments/117083">submit</a> | <a href="https://inclass.kaggle.com/c/cs181-recommendation-practical">kaggle</a>)</td>
+        </tr>
+        
+        <tr class = >
+          <td> Apr. 6 </td> <td>  </td>
+          <td> <a href="https://github.com/harvard-ml-courses/cs181-lectures/blob/master/19.handout.pdf">Inference</a></td>
+          <td>
+            
+          </td>
+          <td>
+            
+          </td>
+          
+          <td> </td>
+        </tr>
+        
+        <tr class = active>
+          <td> Apr. 10 </td> <td>  </td>
+          <td> Section 10 <a href = 'https://github.com/harvard-ml-courses/cs181-section/blob/master/section10-s17-student.pdf'> <br> Bayesian Networks </a> <a href= 'https://github.com/harvard-ml-courses/cs181-section/blob/master/section10-s17-soln.pdf'>(sol)</a></td>
+          <td>
+            
+          </td>
+          <td>
+            
+          </td>
+          
+          <td> </td>
+        </tr>
+        
+        <tr class = >
+          <td> Apr. 11 </td> <td> Reinforcement Learning </td>
+          <td> <a href= 'https://github.com/harvard-ml-courses/cs181-lectures/blob/master/20.handout.pdf'>MDP / Value and Policy Iteration</a></td>
+          <td>
+            
+          </td>
+          <td>
+            
+          </td>
+          
+          <td> T5 <a href="https://github.com/harvard-ml-courses/cs181-s17-homeworks/tree/master/h5">HMM/MDP</a> (<a href="https://canvas.harvard.edu/courses/21992/assignments/117082">submit</a>)</td>
+        </tr>
+        
+        <tr class = >
+          <td> Apr. 13 </td> <td>  </td>
+          <td> <a href= 'https://github.com/harvard-ml-courses/cs181-lectures/blob/master/21-lectures-rl.pdf'>Reinforcement Learning</a></td>
+          <td>
+            
+          </td>
+          <td>
+            
+          </td>
+          
+          <td> </td>
+        </tr>
+        
+        <tr class = active>
+          <td> Apr. 17 </td> <td>  </td>
+          <td> Section 11 <a href = 'https://github.com/harvard-ml-courses/cs181-section/blob/master/section11-s17-student.pdf'> MDP and RL </a></td>
+          <td>
+            
+          </td>
+          <td>
+            
+          </td>
+          
+          <td> </td>
+        </tr>
+        
+        <tr class = >
+          <td> Apr. 18 </td> <td>  </td>
+          <td> <a href= 'https://github.com/harvard-ml-courses/cs181-lectures/blob/master/22-lectures-drl.pdf'>Deep RL</a></td>
+          <td>
+            
+          </td>
+          <td>
+            
+          </td>
+          
+          <td> </td>
+        </tr>
+        
+        <tr class = >
+          <td> Apr. 20 </td> <td> Topics 2 </td>
+          <td> Learning Theory</td>
+          <td>
+            
+          </td>
+          <td>
+            
+          </td>
+          
+          <td> </td>
+        </tr>
+        
+        <tr class = active>
+          <td> Apr. 23 </td> <td>  </td>
+          <td> Midterm Review</td>
+          <td>
+            
+          </td>
+          <td>
+            
+          </td>
+          
+          <td> <a href="https://github.com/harvard-ml-courses/cs181-section/blob/master/practice-midterm2-topics.pdf">Topics</a> | <a href="https://github.com/harvard-ml-courses/cs181-section/blob/master/practice-midterm2-problems.pdf">Practice Problems</a> | <a href="https://github.com/harvard-ml-courses/cs181-section/blob/master/practice-midterm2-problems-soln.pdf">Solutions</a></td>
+        </tr>
+        
+        <tr class = >
+          <td> Apr. 25 </td> <td>  </td>
+          <td> Midterm 2</td>
+          <td>
+            
+          </td>
+          <td>
+            
+          </td>
+          
+          <td> P4 <a href="https://github.com/harvard-ml-courses/cs181-s17-homeworks/tree/master/p4">RL</a> (<a href="https://canvas.harvard.edu/courses/21992/assignments/117084">submit</a>)</td>
+        </tr>
+        
+      </table>
+      </div>
+
+      <hr>
+
+
+      <div class="row container">
+        <h3 id="grading">Grading</h3>
+
+        <p class="container">
+          Grades are determined by four aspects of the class:
+          <ul>
+            <li> Four Practicals [P] (30%) </li>
+            <li> Five Homeworks [T] (30%) </li>
+            <li> Midterm Exam 1  (20%) </li>
+            <li> Midterm Exam 2  (20%) </li>
+          </ul>
+        </p>
+      </div>
+
+
+      <!-- <div class="row container"> -->
+      <!-- <h3 id="faq">FAQ</h3> -->
+      <!-- <p class="container"> -->
+      <!--     <ul> -->
+      <!--       <li> <p> </p> -->
+      <!--     </ul> -->
+      <!-- </p> -->
+      <!-- </div> -->
+
+
+
+
+    </div> <!-- /container -->
+
+
+  </body>
+</html>
+
+
+
+<head>
+
+
+</head>
+<html>
+
+</html>
