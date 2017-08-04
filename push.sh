@@ -4,3 +4,7 @@ git add .
 git commit -a -m .
 git push origin gh-pages
 ssh cs281@login.fas.harvard.edu "cd public_html; git pull; chmod 755 *.html *.css"
+
+# Mark needed to install these:
+# - pip install pyyaml
+# - pip install jinja2-cli
