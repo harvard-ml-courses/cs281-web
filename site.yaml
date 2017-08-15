@@ -161,7 +161,7 @@ lectures:
     demos:
 
   - topic:
-    subtopic: Sampling
+    subtopic: Variational Methods
     hw:
     papers:
     section:
@@ -182,9 +182,9 @@ lectures:
     section:
     demos:
   - topic:
-    subtopic: Practical MCMC
+    subtopic: S
     hw:
-    papers:
+    papers: Sampling
     section:
     demos:
     active: 'active'
@@ -202,7 +202,7 @@ lectures:
     section:
     demos:
   - topic:
-    subtopic: Sampling
+    subtopic: Practical MCMC
     hw:
     papers:
     section:
