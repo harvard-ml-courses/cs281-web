@@ -182,9 +182,9 @@ lectures:
     section:
     demos:
   - topic:
-    subtopic: S
+    subtopic: Sampling
     hw:
-    papers: Sampling
+    papers:
     section:
     demos:
     active: 'active'
