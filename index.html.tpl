@@ -17,7 +17,7 @@
 
     <link rel="stylesheet" href="bib-publication-list.css" type="text/css" />
 
-    <title>Harvard CS 181</title>
+    <title>Harvard CS 281</title>
 
     <!-- Bootstrap core CSS -->
 
@@ -30,9 +30,9 @@
     <div class="row">
     </div>
     <div class="container">
-      <div class="panel panel-primary" style="margin-top:10px;background-color:#2D6ED3;border-color:#000000;">
-        <div class="panel-heading" style="background-color:#2D6ED3;border-color:#2D6ED3;">
-          <h1>CS181: Machine Learning</h1>
+      <div class="panel panel-primary" style="margin-top:10px;background-color:purple;border-color:#000000;">
+        <div class="panel-heading" style="background-color:purple;border-color:#2D6ED3;">
+          <h1>CS281: Advanced Machine Learning</h1>
           <p class="lead">Harvard University</p>
 
         </div>
@@ -52,22 +52,20 @@
         <!-- <div class="panel-body"> -->
         <dl>
           <dt>Instructors</dt>
-          <dd> <ul><li>David Parkes <br>
-OH: Mon 1-2p, Thur 2:30-3:30, 5.15-6p, MD 229<br>
-</li>
+          <dd> <ul>
               <li>Alexander "Sasha" Rush  <br>
-                  OH: Wed 2:30-4, MD 217 
-              </li> 
-<li>Email: Piazza preferred or cs181 at seas.harvard.edu  (instructors only) 
+                  OH: Wed 2:30-4, MD 217
+              </li>
+<li>Email: Piazza preferred or srush at seas.harvard.edu
 </li></ul>
           </dd>
-          
+
         <dt>Lectures</dt>
-        <dd> <ul><li>Tues/Thurs 10:00-11:30am </li>
-<li><a href="http://map.harvard.edu/?bld=04240&level=9">Geological Museum 100</a> (just across Oxford St. from Pierce)
+        <dd> <ul><li>Mon/Wed 1:00-2:30am </li>
+<li><a>Maxwell-Dworkin G-115</a>
 </li></ul></dd>
 
-        
+
         <dt>Teaching Assistants</dt>
         <dd>
           <ul>
@@ -92,16 +90,15 @@ OH: Mon 1-2p, Thur 2:30-3:30, 5.15-6p, MD 229<br>
         </dd>
         <dt>References</dt>
           <dd><ul>
-              <li> Bishop, <a href="http://www.springer.com/us/book/9780387310732">Pattern Recognition and Machine Learning</a> 
-              <li> Petersen and Pedersen, <a href="http://www2.imm.dtu.dk/pubdb/views/edoc_download.php/3274/pdf/imm3274.pdf">The Matrix Cookbook</a> 
-              <li>  <a href="http://scikit-learn.org/dev/_downloads/scikit-learn-docs.pdf"> Scikit-Learn Manual </a>   
-            </li></ul>
+              <li> Murphy, <a href="http://harvardcoopbooks.bncollege.com/webapp/wcs/stores/servlet/BNCB_TextbookDetailView?catalogId=10001&item=N&langId=-1&productId=600005699137&storeId=52084">Machine Learning: A Probabilistic Perspective</a>
+              <li> Petersen and Pedersen, <a href="http://www2.imm.dtu.dk/pubdb/views/edoc_download.php/3274/pdf/imm3274.pdf">The Matrix Cookbook</a>
+</ul>
           </dd>
 
         <dt>Section Times</dt>
-          <dd><ul><li>Mon, 4-5,5-6:30p(extended): MD 119</li>
-              <li>Tues, 4-5:30p(extended): Northwest Basement (B105) </li>
-              <li> Wed, 4-5,5-6p: MD 119</li>
+          <dd><ul><li>Fri, 4-5: MD 119</li>
+              <!-- <li>Tues, 4-5:30p(extended): Northwest Basement (B105) </li> -->
+              <!-- <li> Wed, 4-5,5-6p: MD 119</li> -->
               <!-- <li>Bonus section (math background): Fri Jan 27, time TBD</li></ul> -->
           </dd>
 
@@ -118,9 +115,9 @@ OH: Mon 1-2p, Thur 2:30-3:30, 5.15-6p, MD 229<br>
         <dd>
           <ul>
             <li><a href="https://classroom.github.com/assignment-invitations/9356a5cc64112274d9e93f77cd214d93">GitHub Classrooms</a></li>
-            <li><a href="https://canvas.harvard.edu/courses/21992">Canvas Site</a></li>
-            <li><a href="https://harvard-ml-courses.github.io/cs181-s17-homeworks/guidelines/practical-logistics.pdf">Practical Guidelines</a></li>
-            <li><a href="https://harvard-ml-courses.github.io/cs181-s17-homeworks/guidelines/practical-template.pdf">Practical Template</a></li>
+            <li><a href="https://canvas.harvard.edu/courses/29707">Canvas Site</a></li>
+            <li><a href="https://github.com/harvard-ml-courses/cs281-f17-homework/guidelines/practical-logistics.pdf">Practical Guidelines</a></li>
+            <li><a href="https://github.com/harvard-ml-courses/cs281-f17-homework/practical-template.pdf">Practical Template</a></li>
             <li><a href="lectures/Style_Guide.pdf">Style Guide</a></li>
           </ul>
         </dd>
@@ -146,7 +143,7 @@ OH: Mon 1-2p, Thur 2:30-3:30, 5.15-6p, MD 229<br>
           <td>
             {{lecture.papers|default("", true)}}
           </td>
-          
+
           <td> {{lecture.hw | default("",true)}}</td>
         </tr>
         {% endfor %}
@@ -162,10 +159,10 @@ OH: Mon 1-2p, Thur 2:30-3:30, 5.15-6p, MD 229<br>
         <p class="container">
           Grades are determined by four aspects of the class:
           <ul>
-            <li> Four Practicals [P] (30%) </li>
-            <li> Five Homeworks [T] (30%) </li>
-            <li> Midterm Exam 1  (20%) </li>
-            <li> Midterm Exam 2  (20%) </li>
+            <li> Assignments (35%) </li>
+            <li> In-Calss Quizzes (10%) </li>
+            <li> Midterm Exam  (15%) </li>
+            <li> Final Project (40%) </li>
           </ul>
         </p>
       </div>

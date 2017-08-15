@@ -1,257 +1,262 @@
 tas:
-  - name: Shai Szulanski
+  - name: Mark
+  - name: Rachit
+  - name: Yuntian
 
-
-dates: ["", "Aug. 30", "Sep. 1", "Sep. 6", "Sep. 11", "Sep. 13", "Sep. 15", "Sep. 18","Sep. 20", "Sep. 22", "Sep. 25.", "Sep. 27.", "Sep. 29.", "Oct. 2", "Oct. 4",
-        "Oct. 6", "Oct. 11", "Oct. 13", "Oct. 16", "Oct. 18", "Oct. 20", "Oct. 23", "Oct. 25", "Oct. 27", "Oct. 30",
-        "Nov. 1","Nov. 3", "Nov. 6", "Nov. 8",  "Nov. 10", "Nov. 12", "Nov. 15","Nov. 17" , "Nov. 20", "Nov. 27", "Nov. 29", "Dec. 1"]
-
-
+dates: ["", "Aug. 30", "Sep. 1", "Sep. 6", "Sep. 8", "Sep. 11", "Sep. 13", "Sep. 15", "Sep. 18","Sep. 20", "Sep. 22", "Sep. 25.", "Sep. 27.", "Sep. 29.", "Oct. 2", "Oct. 4", "Oct. 6", "Oct. 11", "Oct. 13", "Oct. 16", "Oct. 18", "Oct. 20", "Oct. 23", "Oct. 25", "Oct. 27", "Oct. 30", "Nov. 1","Nov. 3", "Nov. 6", "Nov. 8",  "Nov. 10", "Nov. 13", "Nov. 15","Nov. 17" , "Nov. 20", "Nov. 22", "Nov. 27", "Nov. 29", "Dec. 1"]
 ohs:
   - time: Tue 8-10pm
     location: Quincy DH
 
 lectures:
-  - topic: <a href="https://github.com/harvard-ml-courses/cs181-lectures/blob/master/01-lectures-intro.pdf">Machine Learning</a>
+  - topic: <a>Advanced Machine Learning</a>
     subtopic:
     hw:
     papers:
     section:
     demos:
-  - topic: Regression
-    subtopic: <a href="https://github.com/harvard-ml-courses/cs181-lectures/blob/master/02-lectures-lr.pdf">Linear Regression 1</a>
-    hw:
-    papers: Bishop &sect; 3.1, Sklearn &sect; 3.1, 18.10
-    section:
-    demos: <a href="https://github.com/harvard-ml-courses/cs181-demos/blob/master/Regression.ipynb">Regression</a>
   - topic:
-    subtopic:  Section 0 <a href="https://github.com/harvard-ml-courses/cs181-section/blob/master/Section_0.pdf"> Math Review </a>
+    subtopic:   <a href="https://github.com/harvard-ml-courses/cs181-section/blob/master/Section_0.pdf"> Math Review </a>
     hw:
     papers:
     section:
     demos:
     active: 'active'
+  - topic: Fundamentals
+    subtopic: Discrete Models
+    hw: T0 <a href="https://harvard-ml-courses.github.io/cs181-s17-homeworks/h1/homework1-regression.pdf">Preliminary</a> (<a href="https://canvas.harvard.edu/courses/21992/assignments/117075">submit</a> | <a href="https://canvas.harvard.edu/courses/21992/quizzes/54494">self-grading</a>)
+    papers: 2.3, 3.5
+    section:
+    demos:
   - topic:
-    subtopic: Section 1   <a href="https://github.com/harvard-ml-courses/cs181-section/blob/master/section01-s17-student.pdf"> Linear Reg (<a href="https://github.com/harvard-ml-courses/cs181-section/blob/master/section01-s17-final.pdf"> sol </a>) </a>
+    subtopic:  Code Review
     hw:
     papers:
     section:
     demos:
-    active: active
-  - topic:
-    subtopic: <a href="https://github.com/harvard-ml-courses/cs181-lectures/blob/master/03-lectures-lr.pdf">Linear Regression 2</a>
-    hw: T1 <a href="https://harvard-ml-courses.github.io/cs181-s17-homeworks/h1/homework1-regression.pdf">Regression</a> (<a href="https://canvas.harvard.edu/courses/21992/assignments/117075">submit</a> | <a href="https://canvas.harvard.edu/courses/21992/quizzes/54494">self-grading</a>)
-    papers: Bishop &sect; 2.3, 3.1
-    section:
-    demos: <a href = "https://github.com/harvard-ml-courses/cs181-demos/blob/master/Gaussian.ipynb"> Gaussian </a> <br> <a href = "https://github.com/harvard-ml-courses/cs181-demos/blob/master/BasisRegression.ipynb"> BasisRegression </a>
-  - topic: Model Regularization
+    active: 'active'
 
-    subtopic: <a href="https://github.com/harvard-ml-courses/cs181-lectures/blob/master/04-lectures-modelselection-tmp.pdf">Model Selection</a>
+  - topic:
+    subtopic: Gaussian Models
+    hw:
+    papers: 2.4, 4.1, 4.3, 4.6
+    section:
+    demos:
+  - topic:
+    subtopic: Bayesian Models
+    hw:
+    papers: 3.3, 3.4
+    section:
+    demos:
+  - topic:
+    subtopic: Optimization
+    hw:
+    papers:
+    section:
+    demos:
+    active: 'active'
 
-    hw:
-    papers:
+  - topic:
+    subtopic: Linear Regression and Classification
+    hw: T1 <a href="https://harvard-ml-courses.github.io/cs181-s17-homeworks/h1/homework1-regression.pdf">Fundamentals</a> (<a href="https://canvas.harvard.edu/courses/21992/assignments/117075">submit</a> | <a href="https://canvas.harvard.edu/courses/21992/quizzes/54494">self-grading</a>)
+    papers: 7.3, 7.6
     section:
     demos:
-  - topic:
-    subtopic: Section 2 <a href="https://github.com/harvard-ml-courses/cs181-section/blob/master/section02-s17-student.pdf">  Model Selection </a> <a href="https://github.com/harvard-ml-courses/cs181-section/blob/master/section02-s17-soln.pdf">  (sol) </a>
-    hw:
-    papers:
-    section:
-    demos: <a href=https://github.com/harvard-ml-courses/cs181-demos/blob/master/sklearn-demo.ipynb>Sklearn</a>
-    active: 'active'
-  - topic:
-    subtopic: <a href="https://github.com/harvard-ml-courses/cs181-lectures/blob/master/05.handout.pdf">Bayesian Linear Regression</a>
-    hw: P1 <a href="hw/practical1-regression.pdf">Regression</a> (<a href="https://canvas.harvard.edu/courses/21992/assignments/117077">submit</a> | <a href="https://inclass.kaggle.com/c/cs181-regression-practical">kaggle</a>)
-    papers: Bishop &sect; 3.3
-    section:
-    demos:
-  - topic: Classification
-    subtopic: <a href="https://github.com/harvard-ml-courses/cs181-lectures/blob/master/06-lectures-class.pdf">Linear Classification</a>
-    hw:
-    papers: Bishop &sect; 4.1, Sklearn &sect;  15.9
-    section:
-    demos: <a href = "https://github.com/harvard-ml-courses/cs181-demos/blob/master/Perceptron.ipynb"> Perceptron </a>
-  - topic:
-    subtopic: Section 3  <a href="https://github.com/harvard-ml-courses/cs181-section/blob/master/section03-s17-student.pdf">  Bayes Classification </a><a href="https://github.com/harvard-ml-courses/cs181-section/blob/master/section03-s17.pdf">  (sol) </a>
-    hw:
-    papers:
-    section:
-    demos:
-    active: 'active'
-  - topic:
-    subtopic: <a href="https://github.com/harvard-ml-courses/cs181-lectures/blob/master/07-lectures-class.pdf">Probabilistic Classification</a>
-    hw:
-    papers: Bishop &sect; 4.2, 4.3, Sklearn &sect;  18.1, 29.24
-    section:
-    demos: <a href="https://github.com/harvard-ml-courses/cs181-demos/blob/master/ProbabilisticClassification.ipynb">Probabilistic Classification</a>
-  - topic: Neural Networks
-    subtopic: <a href="https://github.com/harvard-ml-courses/cs181-lectures/blob/master/08-lectures-nn1.pdf">Neural Networks 1</a>
-    hw:
-    papers: Bishop &sect; 5.1-5.2
-    section:
-    demos: <a href="https://github.com/harvard-ml-courses/cs181-demos/blob/master/NeuralNetwork1.ipynb">Neural Networks 1</a> <br> <a href="http://playground.tensorflow.org/">TF Playground</a>
-  - topic:
-    subtopic: Section 4 <a href="https://github.com/harvard-ml-courses/cs181-section/blob/master/section04-s17-student.pdf">Probabilistic Classification &  NN1 </a> <a href="https://github.com/harvard-ml-courses/cs181-section/blob/master/section04-s17-soln.pdf">(sol) </a>
-    hw:
-    papers:
-    section:
-    demos:
-    active: 'active'
-  - topic:
-    subtopic: <a href="https://github.com/harvard-ml-courses/cs181-lectures/blob/master/09-lectures-nn2.pdf">Neural Networks 2</a>
-    hw: T2 <a href="https://harvard-ml-courses.github.io/cs181-s17-homeworks/h2/homework2-classification.pdf">Classification</a> (<a href="https://canvas.harvard.edu/courses/21992/assignments/117078">submit</a> |  <a href="https://canvas.harvard.edu/courses/21992/quizzes/55050">self-grading</a> | <a href="https://canvas.harvard.edu/courses/21992/files/3662941/download?wrap=1">soln</a>)
-    papers: Bishop &sect; 5.3
-    section:
-    demos: <a href="https://github.com/harvard-ml-courses/cs181-demos/blob/master/NeuralNetwork1.ipynb">Neural Networks 1</a> <br> <a href="http://cs.stanford.edu/people/karpathy/convnetjs/">ConvNet JS</a>
-  - topic: Margin-Based Models
-    subtopic: <a href="https://github.com/harvard-ml-courses/cs181-lectures/blob/master/10.handout.pdf">Margin-Based Classification</a>
-    hw:
-    papers: Bishop &sect; 7.1
-    section:
-    demos:
-  - topic:
-    subtopic: <a href="https://github.com/harvard-ml-courses/cs181-section/blob/master/midterm-review.pdf">Midterm Review</a>
-    hw: <a href="https://github.com/harvard-ml-courses/cs181-section/blob/master/practice-midterm-problems.pdf">Practice Problems</a> | <a href="https://github.com/harvard-ml-courses/cs181-section/blob/master/practice-midterm-problems-soln.pdf">Solutions</a>
-    papers:
-    section:
-    demos:
-    active: 'active'
-  - topic:
-    subtopic: <a href="https://github.com/harvard-ml-courses/cs181-lectures/blob/master/11.handout.pdf">Support Vector Machines</a>
-    hw:
-    papers: Bishop &sect; 7.1
-    section:
-    demos:
-  - topic:
-    subtopic: Midterm 1
-    hw:
-    papers:
-    section:
-    demos:
-  - topic:
-    subtopic: Section 5 <br><a href="https://github.com/harvard-ml-courses/cs181-section/blob/master/section05-s17-student.pdf">Support Vector Machines</a> <a href="https://github.com/harvard-ml-courses/cs181-section/blob/master/section05-s17.pdf">(sol) </a>
-    hw:
-    papers:
-    section:
-    demos:
-    active: 'active'
-  - topic: Unsupervised
-    subtopic: <a href="https://github.com/harvard-ml-courses/cs181-lectures/blob/master/12.handout.pdf">Hierarchical Clustering, K-Means</a>
-    hw: P2 <a href="https://github.com/harvard-ml-courses/cs181-s17-homeworks/blob/master/p2/practical2-classification.pdf">Classification</a> (<a href="https://canvas.harvard.edu/courses/21992/assignments/117079">submit</a> | <a href="https://inclass.kaggle.com/c/cs-181-classification-practical">kaggle</a>) <br> Kaggle due Th 11:59pm<br> Competition ends W 11:59pm
-    papers: Bishop &sect; 9.1
-    section:
-    demos:
-  - topic: Topics 1
-    subtopic: <a href="https://github.com/harvard-ml-courses/cs181-lectures/blob/master/13-lectures-deeplearning.pdf">Deep Learning for Text</a>
-    hw:
-    papers: <a href = http://u.cs.biu.ac.il/~yogo/nnlp.pdf> Deep NLP Tutorial (optional) </a>
-    section:
-    demos:
-  - topic:
-    subtopic: Section 7 <a href="https://github.com/harvard-ml-courses/cs181-section/blob/master/cs181-section7-student.pdf">Clustering</a> <br> <a href = 'https://github.com/harvard-ml-courses/cs181-section/blob/master/Curse%20of%20Dimensionality%20Simulations.ipynb'>demo</a> <a href = 'https://github.com/harvard-ml-courses/cs181-section/blob/master/cs181-section7.pdf'> (sol) </a>
-    hw:
-    papers:
-    section:
-    demos:
-    active: 'active'
-  - topic:
-    subtopic: <a href="https://github.com/harvard-ml-courses/cs181-lectures/blob/master/14.handout.pdf">Mixture Models, EM</a>
-    hw: T3 <a href="https://github.com/harvard-ml-courses/cs181-s17-homeworks/tree/master/h3">SVMs</a> (<a href="https://canvas.harvard.edu/courses/21992/assignments/117080">submit</a>)
-    papers: Bishop &sect; 9.2,9.3
-    section:
-    demos:
-  - topic:
-    subtopic: <a href="https://github.com/harvard-ml-courses/cs181-lectures/blob/master/15-lectures-topicmodel.pdf">Discrete Mixtures, Topic Models</a>
-    hw:
-    papers: Bishop &sect; 9.3.3,<br> <a href = http://menome.com/wp/wp-content/uploads/2014/12/Blei2011.pdf> Introduction to Probabilistic Topic Models  (optional) </a>
-    section:
-    demos: <a href = 'https://github.com/harvard-ml-courses/cs181-demos/blob/master/TopicModeling.ipynb'> Topic Modeling </a>
-  - topic:
-    subtopic: Section 8 <a href = 'https://github.com/harvard-ml-courses/cs181-section/blob/master/section08-s17-student.pdf'> <br> EM and Topic Modeling </a> <a href = 'https://github.com/harvard-ml-courses/cs181-section/blob/master/CS_181___Section_8.pdf'> (sol) </a>
-    hw:
-    papers:
-    section:
-    demos:
-    active: 'active'
-  - topic:
-    subtopic: <a href="https://github.com/harvard-ml-courses/cs181-lectures/blob/master/16-lectures-pca.pdf">Dimensionality Reduction</a.
-    hw: T4 <a href="https://github.com/harvard-ml-courses/cs181-s17-homeworks/tree/master/h4">Clustering/EM</a> (<a href="https://canvas.harvard.edu/courses/21992/assignments/117081">submit</a>)
-    papers: Bishop &sect; 12.1
-    section:
-    demos: <a href = 'https://github.com/harvard-ml-courses/cs181-demos/blob/master/PCA.ipynb'> PCA </a>
+
   - topic: Graphical Models
-    subtopic: <a href="https://github.com/harvard-ml-courses/cs181-lectures/blob/master/17.handout.pdf">HMMs</a>
+    subtopic:  Directed Graphical Models
+    hw:
+    papers: 10.1, 10.2, 10.4
+    section:
+    demos:
+  - topic:
+    subtopic: Examples of Graphical Models
     hw:
     papers:
     section:
     demos:
+    active: 'active'
+
   - topic:
-    subtopic: Section 9 <a href = 'https://github.com/harvard-ml-courses/cs181-section/blob/master/section09-s17-student.pdf'> <br> PCA + HMMs </a> <a href = 'https://github.com/harvard-ml-courses/cs181-section/blob/master/section09-s17-soln.pdf'> (sol) </a>
+    subtopic: GLMs and Markov Random Fields
+    hw:
+    papers: 9.1-3, 19.1-3
+    section:
+    demos:
+  - topic: Exact Inference
+    subtopic: Belief Propagation
+    hw:
+    papers: 20.1-3
+    section:
+    demos:
+  - topic:
+    subtopic: Graphical Models
     hw:
     papers:
     section:
     demos:
     active: 'active'
   - topic:
-    subtopic: <a href="https://github.com/harvard-ml-courses/cs181-lectures/blob/master/18.handout.pdf">Bayesian Networks</a>
-    hw: P3 <a href="https://github.com/harvard-ml-courses/cs181-s17-homeworks/tree/master/p3">Recommendation</a> (<a href="https://canvas.harvard.edu/courses/21992/assignments/117083">submit</a> | <a href="https://inclass.kaggle.com/c/cs181-recommendation-practical">kaggle</a>)
-    papers:
+    subtopic:  Junction Tree Algorithms
+    hw: T2 <a href="https://harvard-ml-courses.github.io/cs181-s17-homeworks/h2/homework2-classification.pdf">Models</a> (<a href="https://canvas.harvard.edu/courses/21992/assignments/117078">submit</a> |  <a href="https://canvas.harvard.edu/courses/21992/quizzes/55050">self-grading</a> | <a href="https://canvas.harvard.edu/courses/21992/files/3662941/download?wrap=1">soln</a>)
+    papers: 20.4
     section:
     demos:
-  - topic:
-    subtopic: <a href="https://github.com/harvard-ml-courses/cs181-lectures/blob/master/19.handout.pdf">Inference</a>
+  - topic: More Models
+    subtopic:  Mixtures
     hw:
-    papers:
+    papers: 11.1, 11.2, 11.4
     section:
     demos:
   - topic:
-    subtopic: Section 10 <a href = 'https://github.com/harvard-ml-courses/cs181-section/blob/master/section10-s17-student.pdf'> <br> Bayesian Networks </a> <a href= 'https://github.com/harvard-ml-courses/cs181-section/blob/master/section10-s17-soln.pdf'>(sol)</a>
-    hw:
-    papers:
-    section:
-    demos:
-    active: 'active'
-  - topic: Reinforcement Learning
-    subtopic: <a href= 'https://github.com/harvard-ml-courses/cs181-lectures/blob/master/20.handout.pdf'>MDP / Value and Policy Iteration</a>
-    hw: T5 <a href="https://github.com/harvard-ml-courses/cs181-s17-homeworks/tree/master/h5">HMM/MDP</a> (<a href="https://canvas.harvard.edu/courses/21992/assignments/117082">submit</a>)
-    papers:
-    section:
-    demos:
-  - topic:
-    subtopic: <a href= 'https://github.com/harvard-ml-courses/cs181-lectures/blob/master/21-lectures-rl.pdf'>Reinforcement Learning</a>
-    hw:
-    papers:
-    section:
-    demos:
-  - topic:
-    subtopic: Section 11 <a href = 'https://github.com/harvard-ml-courses/cs181-section/blob/master/section11-s17-student.pdf'> MDP and RL </a>
+    subtopic: Exact Inference
     hw:
     papers:
     section:
     demos:
     active: 'active'
   - topic:
-    subtopic: <a href= 'https://github.com/harvard-ml-courses/cs181-lectures/blob/master/22-lectures-drl.pdf'>Deep RL</a>
+    subtopic: PCA and Factor Analysis
     hw:
-    papers:
-    section:
-    demos:
-  - topic: Topics 2
-    subtopic: Learning Theory
-    hw:
-    papers:
+    papers: 12.1, 12.2, 12.4
     section:
     demos:
   - topic:
     subtopic: Midterm Review
-    hw:  <a href="https://github.com/harvard-ml-courses/cs181-section/blob/master/practice-midterm2-topics.pdf">Topics</a> | <a href="https://github.com/harvard-ml-courses/cs181-section/blob/master/practice-midterm2-problems.pdf">Practice Problems</a> | <a href="https://github.com/harvard-ml-courses/cs181-section/blob/master/practice-midterm2-problems-soln.pdf">Solutions</a>
+    hw:
     papers:
     section:
     demos:
     active: 'active'
   - topic:
-    subtopic: Midterm 2
-    hw: P4 <a href="https://github.com/harvard-ml-courses/cs181-s17-homeworks/tree/master/p4">RL</a> (<a href="https://canvas.harvard.edu/courses/21992/assignments/117084">submit</a>)
+    subtopic: Midterm
+    hw:
+    papers:
+    section:
+    demos:
+  - topic: Variational Inference
+    subtopic: Mean Field
+    hw:
+    papers: 21.1-21.3
+    section:
+    demos:
+  - topic:
+    subtopic: Review
+    hw:
+    papers:
+    section:
+    demos:
+    active: 'active'
+  - topic:
+    subtopic: Advanced Variational Methods
+    hw: T3 <a href="https://harvard-ml-courses.github.io/cs181-s17-homeworks/h2/homework2-classification.pdf">Inference</a> (<a href="https://canvas.harvard.edu/courses/21992/assignments/117078">submit</a> |  <a href="https://canvas.harvard.edu/courses/21992/quizzes/55050">self-grading</a> | <a href="https://canvas.harvard.edu/courses/21992/files/3662941/download?wrap=1">soln</a>)
+    papers: 22.1-3, 22.5
+    section:
+    demos:
+  - topic:
+    subtopic: MAP Estimation and LP Relaxations
+    hw:
+    papers: 21.6, 22.6
+    section:
+    demos:
+
+  - topic:
+    subtopic: Sampling
+    hw:
+    papers:
+    section:
+    demos:
+    active: 'active'
+
+
+  - topic: Sampling-Based Inference
+    subtopic:   Monte Carlo Basics
+    hw:
+    papers: 2.7, 23.1-22.3
+    section:
+    demos:
+  - topic:
+    subtopic: Importance Sampling and Particle Filtering
+    hw:
+    papers: 23.4-23.5
+    section:
+    demos:
+  - topic:
+    subtopic: Practical MCMC
+    hw:
+    papers:
+    section:
+    demos:
+    active: 'active'
+
+  - topic:
+    subtopic: Gibbs Sampling and MCMC
+    hw:
+    papers: 24.1-24.4
+    section:
+    demos:
+  - topic: Time Series
+    subtopic: Discrete Time Series
+    hw:
+    papers: 17.1-4
+    section:
+    demos:
+  - topic:
+    subtopic: Sampling
+    hw:
+    papers:
+    section:
+    demos:
+    active: 'active'
+
+  - topic:
+    subtopic: Continuous Time Series
+    hw: T4 <a href="https://github.com/harvard-ml-courses/cs181-s17-homeworks/tree/master/h5">Approximations</a> (<a href="https://canvas.harvard.edu/courses/21992/assignments/117082">submit</a>)
+    papers: 18.1-3
+    section:
+    demos:
+  - topic: Deep Learning
+    subtopic: Neural Networks
+    hw:
+    papers: 16.5
+    section:
+    demos:
+  - topic:
+    subtopic: Coding Neural Networks
+    hw:
+    papers:
+    section:
+    demos:
+    active: 'active'
+
+  - topic:
+    subtopic: Convolutional and Recurrent Networks
+    hw:
+    papers: (Deep Learning Chapter)
+    section:
+    demos:
+  - topic: DL Topics
+    subtopic: Attention and Memory Models
+    hw:
+    papers: Attention, Memory Networks
+    section:
+    demos:
+  - topic:
+    subtopic: "Variational Autoencoders"
+    hw:
+    papers: VAE
+    section:
+    demos:
+  - topic:
+    subtopic: Applications
+    hw:
+    papers:
+    section:
+    demos:
+
+  - topic:
+    subtopic: Projects
+    hw:
     papers:
     section:
     demos:
