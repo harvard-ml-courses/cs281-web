@@ -49,7 +49,7 @@ lectures:
     section:
     demos:
   - topic:
-    subtopic: Optimization
+    subtopic: Bayesian Methods
     hw:
     papers:
     section:
@@ -70,7 +70,7 @@ lectures:
     section:
     demos:
   - topic:
-    subtopic: Examples of Graphical Models
+    subtopic: Optimization
     hw:
     papers:
     section:
