@@ -71,7 +71,7 @@
           <ul>
             <li>
             {% for ta in tas %}
-            {{ta.name}},{% endfor %} and Carl Denton
+            {{ta.name}},{% endfor %} and Carl
             </li>
           </ul>
         </dd>
@@ -160,7 +160,7 @@
           Grades are determined by four aspects of the class:
           <ul>
             <li> Assignments (35%) </li>
-            <li> In-Calss Quizzes (10%) </li>
+            <li> In-Class Quizzes (10%) </li>
             <li> Midterm Exam  (15%) </li>
             <li> Final Project (40%) </li>
           </ul>
