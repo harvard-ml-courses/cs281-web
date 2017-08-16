@@ -4,8 +4,7 @@ How to edit the website:
 - do not make changes in index.html. It is generated from the 
 yaml and tpl when jinja is run.  
 - make sure that jinja is installed before using push.sh
-Otherwise, you will push a blank website. There are comments in push.sh 
-for the proper pip install commands.
+Otherwise, you will push a blank website.
 
 Mark needed to run the following to properly install jinja:  
 - pip install pyyaml  
