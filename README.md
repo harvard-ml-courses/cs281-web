@@ -3,6 +3,7 @@ How to edit the website:
 - make other changes (to the top of the webpage) in index.html.tpl  
 - do not make changes in index.html. It is generated from the 
 yaml and tpl when jinja is run.  
+- $ sh push.sh  
 - make sure that jinja is installed before using push.sh
 Otherwise, you will push a blank website.
 
