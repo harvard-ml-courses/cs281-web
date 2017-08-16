@@ -6,3 +6,7 @@ yaml and tpl when jinja is run.
 - make sure that jinja is installed before using push.sh
 Otherwise, you will push a blank website. There are comments in push.sh 
 for the proper pip install commands.
+
+Mark needed to run the following to properly install jinja:  
+- pip install pyyaml  
+- pip install jinja2-cli
