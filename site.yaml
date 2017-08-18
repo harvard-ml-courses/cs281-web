@@ -43,7 +43,7 @@ lectures:
     section:
     demos:
   - topic:
-    subtopic: Bayesian Models
+    subtopic: Linear Regression
     hw:
     papers: 3.3, 3.4
     section:
@@ -57,14 +57,14 @@ lectures:
     active: 'active'
 
   - topic:
-    subtopic: Linear Regression and Classification
+    subtopic: Linear Classification
     hw: T1 <a href="https://harvard-ml-courses.github.io/cs281-f17-homework/h1/homework1-regression.pdf">Fundamentals</a> (<a href="https://canvas.harvard.edu/courses/21992/assignments/117075">submit</a> | <a href="https://canvas.harvard.edu/courses/21992/quizzes/54494">self-grading</a>)
     papers: 7.3, 7.6
     section:
     demos:
 
-  - topic: Graphical Models
-    subtopic:  Directed Graphical Models
+  - topic:
+    subtopic:  Exponential Families
     hw:
     papers: 10.1, 10.2, 10.4
     section:
@@ -78,13 +78,13 @@ lectures:
     active: 'active'
 
   - topic:
-    subtopic: GLMs and Markov Random Fields
+    subtopic: Directed Graphical Models
     hw:
     papers: 9.1-3, 19.1-3
     section:
     demos:
-  - topic: Exact Inference
-    subtopic: Belief Propagation
+  - topic:
+    subtopic: Undirected Graphical Models
     hw:
     papers: 20.1-3
     section:
@@ -96,14 +96,14 @@ lectures:
     section:
     demos:
     active: 'active'
-  - topic:
-    subtopic:  Junction Tree Algorithms
+  - topic: Exact Inference
+    subtopic:  Time-Series Models
     hw: T2 <a href="https://harvard-ml-courses.github.io/cs281-f17-homework/h2/homework2-classification.pdf">Models</a> (<a href="https://canvas.harvard.edu/courses/21992/assignments/117078">submit</a> |  <a href="https://canvas.harvard.edu/courses/21992/quizzes/55050">self-grading</a> | <a href="https://canvas.harvard.edu/courses/21992/files/3662941/download?wrap=1">soln</a>)
     papers: 20.4
     section:
     demos:
-  - topic: More Models
-    subtopic:  Mixtures
+  - topic:
+    subtopic:  Belief Propagation
     hw:
     papers: 11.1, 11.2, 11.4
     section:
@@ -116,7 +116,7 @@ lectures:
     demos:
     active: 'active'
   - topic:
-    subtopic: PCA and Factor Analysis
+    subtopic: Information Theory
     hw:
     papers: 12.1, 12.2, 12.4
     section:
