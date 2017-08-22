@@ -117,6 +117,8 @@
           <ul>
             <li><a href="https://classroom.github.com/a/VQo8aFH2">GitHub Classrooms</a></li>
             <li><a href="https://canvas.harvard.edu/courses/29707">Canvas Site</a></li>
+            <li><a href="https://docs.google.com/spreadsheets/d/15MsWI7qFPDfjhW8OQmDgGfdmBM2ZxTW9XmU7XlkhNb4/edit?usp=sharing">Scribe Sign-up</a></li>
+            <li><a href="https://github.com/harvard-ml-courses/cs281-scribe">Scribe Notes GitHub</a></li>
           </ul>
         </dd>
 
