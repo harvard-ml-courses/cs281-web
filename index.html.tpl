@@ -117,9 +117,6 @@
           <ul>
             <li><a href="https://classroom.github.com/a/VQo8aFH2">GitHub Classrooms</a></li>
             <li><a href="https://canvas.harvard.edu/courses/29707">Canvas Site</a></li>
-            <li><a href="https://github.com/harvard-ml-courses/cs281-f17-homework/guidelines/practical-logistics.pdf">Practical Guidelines</a></li>
-            <li><a href="https://github.com/harvard-ml-courses/cs281-f17-homework/practical-template.pdf">Practical Template</a></li>
-            <li><a href="lectures/Style_Guide.pdf">Style Guide</a></li>
           </ul>
         </dd>
 
