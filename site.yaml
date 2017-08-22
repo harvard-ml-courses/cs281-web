@@ -24,7 +24,7 @@ lectures:
     active: 'active'
   - topic: Fundamentals
     subtopic: Discrete Models
-    hw: T0 <a href="https://harvard-ml-courses.github.io/cs281-f17-homework/h1/homework0-regression.pdf">Preliminary</a> (<a href="">submit</a> | <a href="">self-grading</a>)
+    hw: T0 <a href="https://harvard-ml-courses.github.io/cs281-f17-homework/h1/homework0-regression.pdf">Warm-up</a> (<a href="https://canvas.harvard.edu/courses/29707/assignments/161722">submit</a> | <a href="">self-grading</a>)
     papers: 2.3, 3.3-4
     section:
     demos:
