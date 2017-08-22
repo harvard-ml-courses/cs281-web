@@ -78,7 +78,7 @@
 
         <dt>Forum and Announcements</dt>
           <dd><ul>
-<li><a href="https://piazza.com/harvard/spring2017/cs181">Piazza </a></li></ul></dd>
+<li><a href="https://piazza.com/harvard/fall2017/cs281">Piazza </a></li></ul></dd>
 
         <dt>Office Hours</dt>
         <dd>
