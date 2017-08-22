@@ -16,7 +16,7 @@ lectures:
     section:
     demos:
   - topic:
-    subtopic:    Math Review
+    subtopic: <a href="https://github.com/harvard-ml-courses/cs281-sections">Math Review</a>
     hw:
     papers:
     section:
