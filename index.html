@@ -62,7 +62,7 @@
 
         <dt>Lectures</dt>
         <dd> <ul><li>Mon/Wed 1:00-2:30am </li>
-<li><a>Maxwell-Dworkin G-115</a>
+<li>Maxwell-Dworkin G-115
 </li></ul></dd>
 
 
