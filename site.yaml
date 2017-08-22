@@ -27,7 +27,7 @@ lectures:
     hw: T0 <a href="https://harvard-ml-courses.github.io/cs281-f17-homework/h1/homework0-regression.pdf">Warm-up</a> (<a href="https://canvas.harvard.edu/courses/29707/assignments/161722">submit</a> | <a href="">self-grading</a>)
     papers: 2.3, 3.3-4
     section:
-    demos:
+    demos: <a href="https://github.com/harvard-ml-courses/cs281-demos/beta.ipynb">Beta</a>
   - topic:
     subtopic:  Code Review
     hw:
