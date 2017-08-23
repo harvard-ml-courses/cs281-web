@@ -226,7 +226,7 @@ lectures:
     active: 'active'
 
   - topic:
-    subtopic: (Guest Lecture)
+    subtopic: Deep Learning in Health Care (Guest Lecture)
     hw:
     papers:
     section:
