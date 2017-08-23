@@ -205,16 +205,16 @@ lectures:
     section:
     demos:
     active: 'active'
-  - topic:
-    subtopic: (TBD)
+  - topic:  Deep Learning
+    subtopic: Neural Networks
     hw: T4 <a href="https://github.com/harvard-ml-courses/cs281-f17-homework/tree/master/h5">Approximations</a> (<a href="">submit</a>)
-    papers:
+    papers: 16.5
     section:
     demos:
-  - topic: Deep Learning
-    subtopic: Neural Networks
+  - topic:
+    subtopic: Convolutional and Recurrent Networks
     hw:
-    papers: 16.5
+    papers: (Deep Learning Chapter)
     section:
     demos:
   - topic:
@@ -226,9 +226,9 @@ lectures:
     active: 'active'
 
   - topic:
-    subtopic: Convolutional and Recurrent Networks
+    subtopic: (Guest Lecture)
     hw:
-    papers: (Deep Learning Chapter)
+    papers:
     section:
     demos:
   - topic: DL Topics
