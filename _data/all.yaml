@@ -25,7 +25,7 @@ lectures:
     active: 'active'
   - topic: Fundamentals
     subtopic: Discrete Models
-    hw: T0 <a href="https://github.com/harvard-ml-courses/cs281-f17-homework/tree/master/T0">Preliminary</a>
+    hw: T0 <a href="https://github.com/harvard-ml-courses/cs281-f17-homework/tree/master/T0">Preliminary</a> (<a href="https://canvas.harvard.edu/courses/29707/assignments/161722">submit</a>)
     papers: 2.3, 3.3-4
     section:
     demos: <a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/beta.ipynb">Beta</a>
