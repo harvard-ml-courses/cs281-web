@@ -56,7 +56,7 @@ weight: 0
 
       <div class="container">
           <div class="tab-content">
-              <div id="home_tab" class="row tab-pane fade">
+              <div id="home_tab" class="row tab-pane fade in active">
                   <div class="row container">
                       <h3 id="description">Course Info</h3>
                       <div class="container ">
@@ -77,17 +77,6 @@ weight: 0
                               </li></ul></dd>
 
 
-                              <dt>Teaching Assistants</dt>
-                              <dd>
-                                <ul>
-                                  <li>
-                                  {% for ta in site.data.all.tas %}
-                                  {{ta.name}}
-                                  {% endfor %}
-
-                                  </li>
-                                </ul>
-                              </dd>
 
                               <dt>Forum and Announcements</dt>
                               <dd><ul>
@@ -139,6 +128,35 @@ weight: 0
                               </dd>
                           </dl>
                       </div>
+                  </div>
+              </div>
+              <div id="people_tab" class="row tab-pane fade">
+                  <div class="row container">
+                      <dl>
+                          <dt>Instructors</dt>
+                          <dd> <ul>
+                              <li>Alexander "Sasha" Rush  <br>
+                                  OH: Wed 2:30-4, MD 217
+                              </li>
+                              <li>Email: Piazza preferred or srush at seas.harvard.edu
+                              </li></ul>
+                          </dd>
+
+                          <dt>Lectures</dt>
+                          <dd> <ul><li>Mon/Wed 1:00-2:30pm </li>
+                              <li>Maxwell-Dworkin G-115
+                          </li></ul></dd>
+                          <dt>Teaching Assistants</dt>
+                          <dd>
+                              <ul>
+                                  <li>
+                                  {% for ta in site.data.all.tas %}
+                                  {{ta.name}}
+                                  {% endfor %}
+                                  </li>
+                               </ul>
+                          </dd>
+                      </dl>
                   </div>
               </div>
               <div id="schedule_tab" class="row tab-pane fade">
