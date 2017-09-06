@@ -72,7 +72,7 @@ weight: 0
                       <div class="container ">
                       <!-- <div class="panel-body"> -->
                          <ul>
-                             <li>Office hours and sections have been posted.</li>
+                             <li><a href="#people_tab">Office hours</a> and <a href="#sections_tab">sections</a> have been posted.</li>
                              <li>HW0 is out. Due on <font color="red">Sep 8 (this Friday) at 5pm</font>.</li>
                          </ul>
                       </div>
@@ -87,14 +87,6 @@ weight: 0
                                   <li><a href="https://piazza.com/harvard/fall2017/cs281">Piazza </a></li>
                               </ul></dd>
 
-                              <dt>Office Hours</dt>
-                              <dd>
-                                <ul>
-                                  {% for oh in site.data.all.ohs %}
-                                  <li>{{oh.time}}: {{oh.location}}</li>
-                                  {% endfor %}
-                                </ul>
-                              </dd>
                                 
                               <dt>Section Times </dt>
                               <dd>
@@ -161,6 +153,14 @@ weight: 0
                                   {% endfor %}
                                   </li>
                                </ul>
+                          </dd>
+                          <dt>Office Hours</dt>
+                          <dd>
+                            <ul>
+                              {% for oh in site.data.all.ohs %}
+                              <li>{{oh.time}}: {{oh.location}}</li>
+                              {% endfor %}
+                            </ul>
                           </dd>
                       </dl>
                   </div>
