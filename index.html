@@ -45,6 +45,7 @@ weight: 0
           <ul class="nav nav-tabs invert-colors">
             <li class="active"><a data-toggle="tab" href="#home_tab">Home</a></li>
             <li><a data-toggle="tab" href="#schedule_tab">Schedule</a></li>
+            <li><a data-toggle="tab" href="#homework_tab">Homework</a></li>
             <li><a data-toggle="tab" href="#sections_tab">Sections</a></li>
             <li><a data-toggle="tab" href="#people_tab">People</a></li>
             <li><a data-toggle="tab" href="#grading_tab">Grading</a></li>
@@ -66,7 +67,7 @@ weight: 0
                       <div class="container ">
                       <!-- <div class="panel-body"> -->
                          <ul>
-                             <li>Rachit will deliver sections on Thursday (Sep 7) at 5pm in Pierce Hall 320, and Friday (Sep 8) 11pm in MD 223, the topic is scientific computing with python (numpy, torch, matplotlib).</li>
+                             <li>Rachit will deliver sections on Thursday (Sep 7) at 5pm in Pierce Hall 320, and Friday (Sep 8) 11am in MD 223, the topic is scientific computing with python (numpy, torch, matplotlib).</li>
                              <li>Office hours and section arrangements have been posted, see People and Sections tabs.</li>
                              <li>HW0 is out. Due on <font color="red">Sep 8 (this Friday) at 5pm</font>.</li>
                          </ul>
@@ -167,9 +168,6 @@ weight: 0
               <div id="schedule_tab" class="row tab-pane fade">
                   <div class="row container">
                       <div class="tab-content">"
-                          <h3 id="schedule">Schedule</h3>
-
-
                           <table class="table">
                               <tr><th>Date</th> <th>Area</th> <th>Topic</th><th>Demos </th><th>Readings</th><th>Assignment (DUE: Fri 5pm of this week)</th></tr>
                               {% for lecture in site.data.all.lectures %}
@@ -200,6 +198,16 @@ weight: 0
                               <li> Scribing (10%) </li>
                               <li> Midterm Exam  (15%) </li>
                               <li> Final Project (40%) </li>
+                          </ul>
+                      </p>
+                  </div>
+              </div>
+              <div id="homework_tab" class="row tab-pane fade">
+                  <div class="row container">
+                      <p class="container">
+                          <ul>
+                              <li>T0 <a href="https://github.com/harvard-ml-courses/cs281-f17-homework/tree/master/T0">Preliminary</a> (<a href="https://canvas.harvard.edu/courses/29707/assignments/161722">submit</a>). Due on <font color="red">Sep 8 at 5pm</font>.</li>
+                              <li>T1 <a href="https://github.com/harvard-ml-courses/cs281-f17-homework/tree/master/T1">Fundamentals</a> (<a href="https://canvas.harvard.edu/courses/29707/assignments/167410">submit</a> | <a href="">self-grading</a>)</li>
                           </ul>
                       </p>
                   </div>
