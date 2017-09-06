@@ -67,7 +67,7 @@ lectures:
 
   - topic:
     subtopic: Linear Classification
-    hw: T1 <a href="https://harvard-ml-courses.github.io/cs281-f17-homework/h1/homework1-fundamentals.pdf">Fundamentals</a> (<a href="">submit</a> | <a href="">self-grading</a>)
+    hw: T1 <a href="https://github.com/harvard-ml-courses/cs281-f17-homework/tree/master/T1">Fundamentals</a> (<a href="https://canvas.harvard.edu/courses/29707/assignments/167410">submit</a> | <a href="">self-grading</a>)
     papers: 3.5
     section:
     demos:
