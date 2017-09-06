@@ -43,146 +43,150 @@ weight: 0
         </div>
         <div class="panel-footer">
           <ul class="nav nav-tabs invert-colors">
+            <li><a data-toggle="tab" href="#home_tab">Home</a></li>
             <li><a data-toggle="tab" href="#schedule_tab">Schedule</a></li>
+            <li><a data-toggle="tab" href="#people_tab">People</a></li>
             <li><a data-toggle="tab" href="#grading_tab">Grading</a></li>
+            <li><a data-toggle="tab" href="#references_tab">References</a></li>
             <!-- <li><a href="#faq">FAQ</a></li> -->
           </ul>
         </div>
       </div>
+
+
       <div class="container">
-        <div class="row container">
-      <h3 id="description">Course Info</h3>
+          <div class="tab-content">
+              <div id="home_tab" class="row tab-pane fade">
+                  <div class="row container">
+                      <h3 id="description">Course Info</h3>
+                      <div class="container ">
+                      <!-- <div class="panel-body"> -->
+                          <dl>
+                              <dt>Instructors</dt>
+                              <dd> <ul>
+                                  <li>Alexander "Sasha" Rush  <br>
+                                    OH: Wed 2:30-4, MD 217
+                                  </li>
+                                  <li>Email: Piazza preferred or srush at seas.harvard.edu
+                                  </li></ul>
+                              </dd>
 
-      <div class="container ">
-        <!-- <div class="panel-body"> -->
-        <dl>
-          <dt>Instructors</dt>
-          <dd> <ul>
-              <li>Alexander "Sasha" Rush  <br>
-                  OH: Wed 2:30-4, MD 217
-              </li>
-<li>Email: Piazza preferred or srush at seas.harvard.edu
-</li></ul>
-          </dd>
-
-        <dt>Lectures</dt>
-        <dd> <ul><li>Mon/Wed 1:00-2:30pm </li>
-            <li>Maxwell-Dworkin G-115
-        </li></ul></dd>
+                              <dt>Lectures</dt>
+                              <dd> <ul><li>Mon/Wed 1:00-2:30pm </li>
+                                  <li>Maxwell-Dworkin G-115
+                              </li></ul></dd>
 
 
-        <dt>Teaching Assistants</dt>
-        <dd>
-          <ul>
-            <li>
-            {% for ta in site.data.all.tas %}
-            {{ta.name}}
-            {% endfor %}
+                              <dt>Teaching Assistants</dt>
+                              <dd>
+                                <ul>
+                                  <li>
+                                  {% for ta in site.data.all.tas %}
+                                  {{ta.name}}
+                                  {% endfor %}
 
-            </li>
-          </ul>
-        </dd>
+                                  </li>
+                                </ul>
+                              </dd>
 
-        <dt>Forum and Announcements</dt>
-          <dd><ul>
-<li><a href="https://piazza.com/harvard/fall2017/cs281">Piazza </a></li></ul></dd>
+                              <dt>Forum and Announcements</dt>
+                              <dd><ul>
+                                  <li><a href="https://piazza.com/harvard/fall2017/cs281">Piazza </a></li>
+                              </ul></dd>
 
-        <dt>Office Hours</dt>
-        <dd>
-          <ul>
-            {% for oh in site.data.all.ohs %}
-            <li>{{oh.time}}: {{oh.location}}</li>
-            {% endfor %}
-          </ul>
-        </dd>
-          
-        <dt>Section Times </dt>
-          <dd>
-            <ul>
-              <li>Thursday 5-6pm</li>
-              <li>Friday 11-11:59am</li>
-            </ul>
-        </dd>
+                              <dt>Office Hours</dt>
+                              <dd>
+                                <ul>
+                                  {% for oh in site.data.all.ohs %}
+                                  <li>{{oh.time}}: {{oh.location}}</li>
+                                  {% endfor %}
+                                </ul>
+                              </dd>
+                                
+                              <dt>Section Times </dt>
+                              <dd>
+                                  <ul>
+                                    <li>Thursday 5-6pm</li>
+                                    <li>Friday 11-11:59am</li>
+                                  </ul>
+                              </dd>
          
-        <dt>References</dt>
-          <dd><ul>
-              <li> Murphy, <a href="http://harvardcoopbooks.bncollege.com/webapp/wcs/stores/servlet/BNCB_TextbookDetailView?catalogId=10001&item=N&langId=-1&productId=600005699137&storeId=52084">Machine Learning: A Probabilistic Perspective</a>
-            <li> Gelman et al, <a href="http://www.stat.columbia.edu/~gelman/book/"> Bayesian Data Analysis </a> </li>
-              <li> Petersen and Pedersen, <a href="http://www2.imm.dtu.dk/pubdb/views/edoc_download.php/3274/pdf/imm3274.pdf">The Matrix Cookbook</a>
-              <li> Blei et al, <a href="https://arxiv.org/pdf/1601.00670.pdf">Variational Inference: A Review for Statisticians</a>
-</ul>
-          </dd>
+                              <dt>References</dt>
+                              <dd><ul>
+                                  <li> Murphy, <a href="http://harvardcoopbooks.bncollege.com/webapp/wcs/stores/servlet/BNCB_TextbookDetailView?catalogId=10001&item=N&langId=-1&productId=600005699137&storeId=52084">Machine Learning: A Probabilistic Perspective</a>
+                                  <li> Gelman et al, <a href="http://www.stat.columbia.edu/~gelman/book/"> Bayesian Data Analysis </a> </li>
+                                  <li> Petersen and Pedersen, <a href="http://www2.imm.dtu.dk/pubdb/views/edoc_download.php/3274/pdf/imm3274.pdf">The Matrix Cookbook</a>
+                                  <li> Blei et al, <a href="https://arxiv.org/pdf/1601.00670.pdf">Variational Inference: A Review for Statisticians</a>
+                              </ul></dd>
 
 
-    <dt>Syllabus and Collaboration Policy</dt>
-        <dd>
-          <ul>
-
-            <li>See the course <a href="syllabus.pdf">syllabus</a>
-</ul>
-        </dd>
-
-
-     <dt>Links</dt>
-        <dd>
-          <ul>
-            <li><a href="https://classroom.github.com/a/VQo8aFH2">GitHub Classrooms</a></li>
-            <li><a href="https://canvas.harvard.edu/courses/29707">Canvas Site</a></li>
-            <li><a href="https://docs.google.com/spreadsheets/d/15MsWI7qFPDfjhW8OQmDgGfdmBM2ZxTW9XmU7XlkhNb4/edit?usp=sharing">Scribe Sign-up</a></li>
-            <li><a href="https://github.com/harvard-ml-courses/cs281-scribe">Scribe Notes GitHub</a></li>
-          </ul>
-        </dd>
-
-      </dl>
-      </div>
-      </div>
-        <hr>
-        <hr>
-        <div class="tab-content">
-            <div id="schedule_tab" class="row tab-pane fade">
-                <div class="row container">
-                    <div class="tab-content">"
-                        <h3 id="schedule">Schedule</h3>
+                              <dt>Syllabus and Collaboration Policy</dt>
+                              <dd>
+                                  <ul>
+                                      <li>See the course <a href="syllabus.pdf">syllabus</a>
+                                  </ul>
+                              </dd>
 
 
-                        <table class="table">
-                            <tr><th>Date</th> <th>Area</th> <th>Topic</th><th>Demos </th><th>Readings</th><th>Assignment (DUE: Fri 5pm of this week)</th></tr>
-                            {% for lecture in site.data.all.lectures %}
-                            <tr class = {{lecture.active|default("",true)}}>
-                                <td> {{site.data.all.dates[forloop.index]}} </td> <td> {{lecture.topic | default("",true)}} </td>
-                                <td> {{lecture.subtopic|default("", true)}}</td>
-                                <td>
-                                    {{lecture.demos|default("", true)}}
-                                </td>
-                                <td>
-                                    {{lecture.papers|default("", true)}}
-                                </td>
+                              <dt>Links</dt>
+                              <dd>
+                                  <ul>
+                                     <li><a href="https://classroom.github.com/a/VQo8aFH2">GitHub Classrooms</a></li>
+                                     <li><a href="https://canvas.harvard.edu/courses/29707">Canvas Site</a></li>
+                                     <li><a href="https://docs.google.com/spreadsheets/d/15MsWI7qFPDfjhW8OQmDgGfdmBM2ZxTW9XmU7XlkhNb4/edit?usp=sharing">Scribe Sign-up</a></li>
+                                     <li><a href="https://github.com/harvard-ml-courses/cs281-scribe">Scribe Notes GitHub</a></li>
+                                  </ul>
+                              </dd>
+                          </dl>
+                      </div>
+                  </div>
+              </div>
+              <hr>
+              <hr>
+              <div id="schedule_tab" class="row tab-pane fade">
+                  <div class="row container">
+                      <div class="tab-content">"
+                          <h3 id="schedule">Schedule</h3>
 
-                                <td> {{lecture.hw | default("",true)}}</td>
-                            </tr>
-                            {% endfor %}
-                        </table>
-                    </div>
-                </div>
-            </div>
-            <hr>
 
-            <div id="grading_tab" class="row tab-pane fade">
-                <div class="row container">
-                    <h3 id="grading">Grading</h3>
+                          <table class="table">
+                              <tr><th>Date</th> <th>Area</th> <th>Topic</th><th>Demos </th><th>Readings</th><th>Assignment (DUE: Fri 5pm of this week)</th></tr>
+                              {% for lecture in site.data.all.lectures %}
+                              <tr class = {{lecture.active|default("",true)}}>
+                                  <td> {{site.data.all.dates[forloop.index]}} </td> <td> {{lecture.topic | default("",true)}} </td>
+                                  <td> {{lecture.subtopic|default("", true)}}</td>
+                                  <td>
+                                      {{lecture.demos|default("", true)}}
+                                  </td>
+                                  <td>
+                                      {{lecture.papers|default("", true)}}
+                                  </td>
 
-                    <p class="container">
-                        Grades are determined by four aspects of the class:
-                        <ul>
-                            <li> Assignments (35%) </li>
-                            <li> Scribing (10%) </li>
-                            <li> Midterm Exam  (15%) </li>
-                            <li> Final Project (40%) </li>
-                        </ul>
-                    </p>
-                </div>
-            </div>
-        </div>
+                                  <td> {{lecture.hw | default("",true)}}</td>
+                              </tr>
+                              {% endfor %}
+                          </table>
+                      </div>
+                  </div>
+              </div>
+              <hr>
+
+              <div id="grading_tab" class="row tab-pane fade">
+                  <div class="row container">
+                      <h3 id="grading">Grading</h3>
+
+                      <p class="container">
+                          Grades are determined by four aspects of the class:
+                          <ul>
+                              <li> Assignments (35%) </li>
+                              <li> Scribing (10%) </li>
+                              <li> Midterm Exam  (15%) </li>
+                              <li> Final Project (40%) </li>
+                          </ul>
+                      </p>
+                  </div>
+              </div>
+          </div>
 
 
       <!-- <div class="row container"> -->
