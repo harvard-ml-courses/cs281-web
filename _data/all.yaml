@@ -32,7 +32,7 @@ lectures:
     demos:
     active: 'active'
   - topic: Fundamentals
-    subtopic: Discrete Models
+    subtopic: Discrete Models (<a href="https://github.com/harvard-ml-courses/cs281-scribe/blob/master/2/2.pdf">scribe</a>)
     hw: T0 <a href="https://github.com/harvard-ml-courses/cs281-f17-homework/tree/master/T0">Preliminary</a> (<a href="https://canvas.harvard.edu/courses/29707/assignments/161722">submit</a>)
     papers: 2.3, 3.3-4
     section:
