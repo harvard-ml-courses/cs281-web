@@ -46,7 +46,7 @@ lectures:
     active: 'active'
 
   - topic:
-    subtopic: Gaussian Models
+    subtopic: Gaussian Models (<a href="https://github.com/harvard-ml-courses/cs281-scribe/blob/master/3/3.pdf">scribe</a>)
     hw:
     papers: 2.4, 4.1, 4.3, 4.6
     section:
