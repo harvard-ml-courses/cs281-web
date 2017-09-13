@@ -33,7 +33,7 @@ lectures:
     active: 'active'
   - topic: Fundamentals
     subtopic: Discrete Models (<a href="https://github.com/harvard-ml-courses/cs281-scribe/blob/master/2/2.pdf">scribe</a>)
-    hw: T0 <a href="https://github.com/harvard-ml-courses/cs281-f17-homework/tree/master/T0">Preliminary</a> (<a href="https://canvas.harvard.edu/courses/29707/assignments/161722">submit</a>)
+    hw: T0 <a href="https://github.com/harvard-ml-courses/cs281-f17-homework/tree/master/T0">Preliminary</a> (<a href="https://canvas.harvard.edu/courses/29707/assignments/161722">submit</a> | <a href="https://canvas.harvard.edu/courses/29707/quizzes/73161">self-grading</a>)
     papers: 2.3, 3.3-4
     section:
     demos: <a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/Beta.ipynb">Beta</a>
