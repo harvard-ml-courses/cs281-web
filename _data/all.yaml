@@ -64,7 +64,7 @@ lectures:
     section:
     demos: <a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/Regression.ipynb">Regression</a>,<a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/BasisRegression.ipynb"> Basis Regression</a>
   - topic:
-    subtopic: Bayesian Methods
+    subtopic: <a href="https://github.com/harvard-ml-courses/cs281-sections/blob/master/02/02.pdf">Bayesian Methods</a> (Section)
     hw:
     papers:
     section:
