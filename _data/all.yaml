@@ -8,14 +8,20 @@ dates: ["", "Aug. 30", "Sep. 1", "Sep. 6", "Sep. 8", "Sep. 11", "Sep. 13", "Sep.
 ohs:
   - time: Wednesday 2:30-4pm
     location: MD 217 (Sasha)
+  - time: Wednesday 7-9pm 
+    location: MD 1st Floor (Nancy)
   - time: Wednesday 8-10pm
     location: Currier House (Rachit)
   - time: Thursday 6-8pm
     location: MD 1st Floor (Zhirui)
+  - time: Thursday 7-9pm
+    location: MD 1st Floor (Haozhe)
   - time: Thursday 8-10pm
     location: MD 1st Floor (Mark)
   - time: Friday 10-11:59am
     location: MD 2nd Floor (Yuntian)
+  
+  
 
 lectures:
   - topic: Advanced Machine Learning
