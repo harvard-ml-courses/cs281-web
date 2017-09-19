@@ -60,7 +60,7 @@ lectures:
     section:
     demos:
   - topic:
-    subtopic: Linear Regression
+    subtopic: Linear Regression (<a href="https://github.com/harvard-ml-courses/cs281-scribe/blob/master/4/4.pdf">scribe</a>)
     hw:
     papers: 7.1-7.3, 7.6
     section:
