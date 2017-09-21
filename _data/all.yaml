@@ -151,7 +151,7 @@ lectures:
     papers: 
     section:
     demos:
-  - topic: Variational Inference and EM 
+  - topic: Variational Inference
     subtopic: Information Theory
     hw:
     papers: 2.8 
@@ -171,13 +171,13 @@ lectures:
     section:
     demos:
   - topic: 
-    subtopic: Mixture Model 
+    subtopic: Mixture Models
     hw:
     papers: 11.1, 11.2, 11.4
     section:
     demos:
   - topic:
-    subtopic: Mixture Model 
+    subtopic: EM Review
     hw:
     papers:
     section:
