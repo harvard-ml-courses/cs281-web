@@ -147,7 +147,7 @@ lectures:
     active: 'active'
   - topic:
     subtopic: Recurrent Neural Networks 
-    hw:
+    hw: T3 <a href="https://harvard-ml-courses.github.io/cs281-f17-homework/h2/homework2-classification.pdf">Inference</a> (<a href="https://canvas.harvard.edu/courses/21992/assignments/117078">submit</a> |  <a href="https://canvas.harvard.edu/courses/21992/quizzes/55050">self-grading</a>)
     papers: 
     section:
     demos:
@@ -166,7 +166,7 @@ lectures:
     active: 'active'
   - topic:
     subtopic: Midterm
-    hw: T3 <a href="https://harvard-ml-courses.github.io/cs281-f17-homework/h2/homework2-classification.pdf">Inference</a> (<a href="https://canvas.harvard.edu/courses/21992/assignments/117078">submit</a> |  <a href="https://canvas.harvard.edu/courses/21992/quizzes/55050">self-grading</a>)
+    hw: 
     papers:
     section:
     demos:
