@@ -87,7 +87,7 @@ lectures:
     section:
     demos:
   - topic:
-    subtopic: Optimization
+    subtopic: <a href="https://github.com/harvard-ml-courses/cs281/blob/master/cs281-f17/sections/03/section-handout-efd.pdf">Exponential Families & GLMs</a>
     hw:
     papers:
     section:
