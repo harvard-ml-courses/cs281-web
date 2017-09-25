@@ -74,14 +74,14 @@ lectures:
     active: 'active'
 
   - topic:
-    subtopic: Linear Classification
+    subtopic: Linear Classification (<a href="https://github.com/harvard-ml-courses/cs281-scribe/blob/master/5/5.pdf">scribe</a>)
     hw: T1 <a href="https://github.com/harvard-ml-courses/cs281-f17-homework/tree/master/T1">Fundamentals</a> (<a href="https://canvas.harvard.edu/courses/29707/assignments/167410">submit</a> | <a href="">self-grading</a>)
     papers: 3.5
     section:
     demos:
 
   - topic: Graphical Models
-    subtopic:  Exponential Families
+    subtopic:  Exponential Families (<a href="https://github.com/harvard-ml-courses/cs281-scribe/blob/master/6/6.pdf">scribe</a>)
     hw:
     papers:  9.1-3
     section:
