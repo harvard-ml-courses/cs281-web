@@ -95,7 +95,7 @@ lectures:
     active: 'active'
 
   - topic:
-    subtopic: Neural Networks 
+    subtopic: Neural Networks (<a href="https://github.com/harvard-ml-courses/cs281-scribe/blob/master/7/7.pdf">scribe</a>)
     hw:
     papers: 16.5
     section:
