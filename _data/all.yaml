@@ -87,7 +87,7 @@ lectures:
     section:
     demos:
   - topic:
-    subtopic: <a href="https://github.com/harvard-ml-courses/cs281/blob/master/cs281-f17/sections/03/section-handout-efd.pdf">Exponential Families & GLMs</a>
+    subtopic: <a href="https://github.com/harvard-ml-courses/cs281-sections/blob/master/03/03.pdf">Exponential Families & GLMs</a>
     hw:
     papers:
     section:
@@ -101,13 +101,13 @@ lectures:
     section:
     demos:
   - topic:
-    subtopic: Directed Graphical Models 
+    subtopic: Directed Graphical Models (<a href="https://github.com/harvard-ml-courses/cs281-scribe/blob/master/8/8.pdf">scribe</a>)
     hw:
     papers: 10.1, 10.2, 10.5 
     section:
     demos:
   - topic:
-    subtopic: Graphical Models
+    subtopic: <a href="https://github.com/harvard-ml-courses/cs281-sections/blob/master/04/04.pdf">Graphical Models</a>
     hw:
     papers:
     section:
