@@ -47,7 +47,7 @@ lectures:
     hw:
     papers: 7.1-7.3, 7.6
     section:
-    demos:
+    demos: <a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/Regression.ipynb">Beta</a>
   - topic:
     subtopic: Bayesian Methods
     hw:
