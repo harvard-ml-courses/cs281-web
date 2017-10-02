@@ -134,13 +134,13 @@ lectures:
     active: 'active'
   - topic: 
     subtopic: Belief Propagation 
-    hw:
+    hw: <a href="https://harvard-ml-courses.github.io/cs281-web/project.pdf">Project Proposal</a>
     papers: 20.1-3 
     section:
     demos:
   - topic:
     subtopic: Belief Propagation
-    hw: FINAL PROJECT PROPOSAL DUE
+    hw: 
     papers:
     section:
     demos:
