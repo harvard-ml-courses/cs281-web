@@ -126,7 +126,7 @@ lectures:
     section:
     demos:
   - topic:
-    subtopic: Undirected Models
+    subtopic: <a href="https://github.com/harvard-ml-courses/cs281-sections/blob/master/05/05.pdf">UGMs Section</a> (<a href="https://github.com/harvard-ml-courses/cs281-sections/blob/master/05/05-soln.pdf">Solutions</a>)
     hw:
     papers:
     section:
