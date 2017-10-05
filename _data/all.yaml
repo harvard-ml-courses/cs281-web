@@ -78,7 +78,7 @@ lectures:
     hw: T1 <a href="https://github.com/harvard-ml-courses/cs281-f17-homework/tree/master/T1">Fundamentals</a> (<a href="https://canvas.harvard.edu/courses/29707/assignments/167410">submit</a> | <a href="">self-grading</a>)
     papers: 3.5
     section:
-    demos:
+    demos: <a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/Softmax.ipynb">Softmax</a>,<a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/SoftmaxTorch.ipynb">SoftmaxTorch</a>
 
   - topic: Graphical Models
     subtopic:  Exponential Families (<a href="https://github.com/harvard-ml-courses/cs281-scribe/blob/master/6/6.pdf">scribe</a>)
