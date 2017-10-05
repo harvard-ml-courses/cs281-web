@@ -58,7 +58,7 @@ lectures:
     hw:
     papers: 2.4, 4.1, 4.3, 4.6
     section:
-    demos:
+    demos: <a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/Gaussian.ipynb">Gaussian</a>
   - topic:
     subtopic: Linear Regression (<a href="https://github.com/harvard-ml-courses/cs281-scribe/blob/master/4/4.pdf">scribe</a>)
     hw:
