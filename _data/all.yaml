@@ -166,7 +166,7 @@ lectures:
     active: 'active'
   - topic:
     subtopic: Midterm
-    hw: 
+    hw: <a href="topics.pdf">Midterm Topics</a>
     papers:
     section:
     demos:
