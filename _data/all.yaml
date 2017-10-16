@@ -99,7 +99,7 @@ lectures:
     hw:
     papers: 16.5
     section:
-    demos:
+    demos: <a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/NNModel.ipynb">NN</a> <a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/Autograd.ipynb">Autograd</a>
   - topic:
     subtopic: Directed Graphical Models (<a href="https://github.com/harvard-ml-courses/cs281-scribe/blob/master/8/8.pdf">scribe</a>)
     hw:
@@ -124,7 +124,7 @@ lectures:
     hw:
     papers: 17.4, 18.1, 18.3 
     section:
-    demos:
+    demos: 
   - topic:
     subtopic: <a href="https://github.com/harvard-ml-courses/cs281-sections/blob/master/05/05.pdf">UGMs Section</a> (<a href="https://github.com/harvard-ml-courses/cs281-sections/blob/master/05/05-soln.pdf">Solutions</a>)
     hw:
@@ -137,7 +137,7 @@ lectures:
     hw: <a href="https://harvard-ml-courses.github.io/cs281-web/project.pdf">Project Proposal</a>
     papers: 20.1-3 
     section:
-    demos:
+    demos: <a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/ForwardBackward.ipynb">Forward Backward</a>
   - topic:
     subtopic: Belief Propagation
     hw: 
@@ -150,7 +150,7 @@ lectures:
     hw: T3 <a href="https://github.com/harvard-ml-courses/cs281-f17-homework/blob/master/T3/assignment-3.pdf">Inference</a> (<a href="https://canvas.harvard.edu/courses/21992/assignments/117078">submit</a> |  <a href="https://canvas.harvard.edu/courses/21992/quizzes/55050">self-grading</a>)
     papers: <a href="http://karpathy.github.io/2015/05/21/rnn-effectiveness/">Unreasonable</a>
     section:
-    demos:
+    demos: <a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/RNN.ipynb">RNN</a>
   - topic: Variational Inference
     subtopic: Information Theory
     hw:
