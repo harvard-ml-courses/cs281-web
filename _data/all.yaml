@@ -139,7 +139,7 @@ lectures:
     section:
     demos: <a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/ForwardBackward.ipynb">Forward Backward</a>
   - topic:
-    subtopic: Belief Propagation
+    subtopic: <a href="https://github.com/harvard-ml-courses/cs281-sections/blob/master/06/main.pdf">Belief Propagation</a>
     hw: 
     papers:
     section:
