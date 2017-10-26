@@ -177,7 +177,7 @@ lectures:
     section:
     demos:
   - topic:
-    subtopic: EM Review
+    subtopic: <a href="https://github.com/harvard-ml-courses/cs281-sections/blob/master/07/07.pdf">EM Review</a> (<a href="https://github.com/harvard-ml-courses/cs281-sections/blob/master/07/07-soln.pdf">Solutions</a>)
     hw:
     papers:
     section:
