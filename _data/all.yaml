@@ -204,7 +204,7 @@ lectures:
     active: 'active'
   - topic:
     subtopic: Variational Auto-Encoders   
-    hw: T4 <a href="https://github.com/harvard-ml-courses/cs281-f17-homework/tree/master/h5">Approximations</a> (<a href="">submit</a>)
+    hw: T4 <a href="https://github.com/harvard-ml-courses/cs281-f17-homework/tree/master/T4">Approximations</a> (<a href="">submit</a>)
     papers:  
     section:
     demos:
