@@ -242,7 +242,7 @@ lectures:
     active: 'active'
 
   - topic:
-    subtopic: Deep Learning in Health Care (Guest Lecture) <a href='nov20_lecture.pdf'> more info </a>
+    subtopic: Deep Learning in Health Care (Guest Lecture) <a href="nov20_lecture.pdf"> more info </a>
     hw:
     papers:
     section:
