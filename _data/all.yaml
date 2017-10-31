@@ -152,7 +152,7 @@ lectures:
     section:
     demos: <a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/RNN.ipynb">RNN</a>
   - topic: Variational Inference
-    subtopic: Information Theory
+    subtopic: Information Theory (<a href="https://github.com/harvard-ml-courses/cs281-scribe/blob/master/13/13.pdf">scribe</a>)
     hw:
     papers: 2.8 
     section:
