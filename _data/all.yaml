@@ -196,7 +196,7 @@ lectures:
     section:
     demos:
   - topic:
-    subtopic: Mean Field
+    subtopic: <a href="https://github.com/harvard-ml-courses/cs281-sections/blob/master/08/Section_08.pdf">Mean Field</a>
     hw:
     papers:
     section:
