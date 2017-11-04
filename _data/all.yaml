@@ -234,7 +234,7 @@ lectures:
     section: 
     demos:
   - topic:
-    subtopic: Practical MCMC
+    subtopic: Particle Filtering
     hw:
     papers:
     section:
@@ -248,19 +248,19 @@ lectures:
     section:
     demos:
   - topic: 
-    subtopic: Gibbs Sampling and MCMC
-    hw:
-    papers: 21.1-21.4
-    section:
-    demos:
-  - topic:
-    subtopic: Advanced Sampling 
+    subtopic: Applications: Attention and Translation
     hw:
     papers: 
     section:
     demos:
   - topic:
-    subtopic: Applications
+    subtopic: MCMC
+    hw:
+    papers: 21.1-21.4
+    section:
+    demos:
+  - topic:
+    subtopic: Gaussian Processes
     hw:
     papers:
     section:
