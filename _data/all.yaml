@@ -184,13 +184,13 @@ lectures:
     demos:
     active: 'active'
   - topic:
-    subtopic: Mean Field 
+    subtopic: Variational Inference 
     hw:
     papers: 21.1-21.3 
     section:
     demos:
   - topic: 
-    subtopic:  Advanced Variational Inference 
+    subtopic: Mean Field and Topic Models
     hw:
     papers:  21.6, 22.2  
     section:
@@ -203,13 +203,13 @@ lectures:
     demos:
     active: 'active'
   - topic:
-    subtopic: Variational Auto-Encoders   
+    subtopic: Loopy BP, SVI
     hw: T4 (Due Mon, Nov 13) <a href="https://github.com/harvard-ml-courses/cs281-f17-homework/tree/master/T4">Approximations</a> (<a href="">submit</a>)
     papers:  
     section:
     demos:
   - topic: 
-    subtopic: MAP and Relaxations 
+    subtopic: Variational Auto-encoders and GANs 
     hw:
     papers: 22.6
     section:
