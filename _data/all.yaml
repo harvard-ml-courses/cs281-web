@@ -192,7 +192,7 @@ lectures:
   - topic: 
     subtopic: Mean Field and Topic Models
     hw:
-    papers:  21.6, 22.2  
+    papers:  21.6, 22.2, <a href="https://arxiv.org/abs/1601.00670">VI</a>
     section:
     demos:
   - topic:
@@ -211,7 +211,7 @@ lectures:
   - topic: 
     subtopic: Variational Auto-encoders and GANs 
     hw:
-    papers: 22.6
+    papers: <a href="https://arxiv.org/abs/1312.6114">VAEs</a>
     section:
     demos:
   - topic:
