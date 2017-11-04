@@ -254,7 +254,7 @@ lectures:
     section:
     demos:
   - topic:
-    subtopic: MCMC
+    subtopic: MCMC and Boltzmann Machines
     hw:
     papers: 21.1-21.4
     section:
