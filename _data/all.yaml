@@ -172,7 +172,7 @@ lectures:
     section:
     demos:
   - topic: 
-    subtopic: Mixture Models
+    subtopic: Mixture Models (<a href="https://github.com/harvard-ml-courses/cs281-scribe/blob/master/14/14.pdf">scribe</a>)
     hw:
     papers: 11.1, 11.2, 11.4
     section:
@@ -185,13 +185,13 @@ lectures:
     demos:
     active: 'active'
   - topic:
-    subtopic: Variational Inference 
+    subtopic: Variational Inference  (<a href="https://github.com/harvard-ml-courses/cs281-scribe/blob/master/15/15.pdf">scribe</a>)
     hw:
     papers: 21.1-21.3 
     section:
     demos:
   - topic: 
-    subtopic: Mean Field and Topic Models
+    subtopic: Mean Field and Topic Models (<a href="https://github.com/harvard-ml-courses/cs281-scribe/blob/master/16/16.pdf">scribe</a>)
     hw:
     papers:  21.6, 22.2, <a href="https://arxiv.org/abs/1601.00670">VI</a>
     section:
