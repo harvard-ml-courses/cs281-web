@@ -204,7 +204,7 @@ lectures:
     demos:
     active: 'active'
   - topic:
-    subtopic: Loopy BP, SVI
+    subtopic: Loopy BP, SVI (<a href="https://github.com/harvard-ml-courses/cs281-scribe/blob/master/17/17.pdf">scribe</a>)
     hw: T4 (Due Mon, Nov 13) <a href="https://github.com/harvard-ml-courses/cs281-f17-homework/tree/master/T4">Approximations</a> (<a href="">submit</a>)
     papers:  
     section:
