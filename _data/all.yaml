@@ -249,7 +249,7 @@ lectures:
     section:
     demos:
   - topic: 
-    subtopic: "Applications: Attention and Translation"
+    subtopic: (Thanksgiving)
     hw:
     papers: 
     section:
@@ -261,7 +261,7 @@ lectures:
     section:
     demos:
   - topic:
-    subtopic: Gaussian Processes and Bayesian Optimization
+    subtopic: "Applications: Attention and Translation"
     hw:
     papers:
     section:
