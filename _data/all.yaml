@@ -269,7 +269,7 @@ lectures:
 
   - topic:
     subtopic: Projects Poster Session (11:30am-2:30pm, Pierce 301)
-    hw: Final Report (Due Mon, Dec 11)
+    hw: <a href="https://github.com/harvard-ml-courses/cs281-f17-homework/blob/master/project/example.pdf">Final Report</a> (Due Mon, Dec 11)
     papers:
     section:
     demos:
