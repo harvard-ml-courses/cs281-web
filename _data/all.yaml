@@ -7,11 +7,11 @@ tas:
   - name: <a href="mailto:nancyzhang@mail.harvard.edu">Nancy</a>
 
 
-dates: ["", "Aug. 30", "Sep. 1", "Sep. 6", "Sep. 8", "Sep. 11", "Sep. 13", "Sep. 15", "Sep. 18","Sep. 20", "Sep. 22", "Sep. 25.", "Sep. 27.", "Sep. 29.", "Oct. 2", "Oct. 4", "Oct. 6", "Oct. 11", "Oct. 13", "Oct. 16", "Oct. 18", "Oct. 20", "Oct. 23", "Oct. 25", "Oct. 27", "Oct. 30", "Nov. 1","Nov. 3", "Nov. 6", "Nov. 8",  "Nov. 10", "Nov. 13", "Nov. 15","Nov. 17" , "Nov. 20", "Nov. 22", "Nov. 27", "Nov. 29", "Dec. 6"]
+dates: ["", "Sep. 5", "Sep. 7", "Sep. 10", "Sep. 12", "Sep. 14", "Sep. 17", "Sep. 19", "Sep. 21", "Sep. 24", "Sep. 26", "Sep. 28", "Oct. 1", "Oct. 3.", "Oct. 5.", "Oct. 10", "Oct. 12", "Oct. 15", "Oct. 17", "Oct. 19", "Oct. 22", "Oct. 24", "Oct. 26", "Oct. 29", "Oct. 31", "Nov. 1", "Nov. 5", "Nov. 7", "Nov. 9", "Nov. 12", "Nov. 14", "Nov. 16", "Nov 19", "Nov. 26", "Nov. 28", "Nov. 30", "Dec 3", "Dec 5"]
 ohs:
   - time: Wednesday 2:30-4pm
     location: MD 217 (Sasha)
-  - time: Wednesday 7-9pm 
+  - time: Wednesday 7-9pm
     location: MD 1st Floor (Nancy)
   - time: Wednesday 8-10pm
     location: Currier House (Rachit)
@@ -23,8 +23,8 @@ ohs:
     location: MD 1st Floor (Mark)
   - time: Friday 10-11:59am
     location: MD 2nd Floor (Yuntian)
-  
-  
+
+
 
 lectures:
   - topic: Advanced Machine Learning
@@ -34,40 +34,48 @@ lectures:
     section:
     demos:
   - topic:
-    subtopic: <a href="https://github.com/harvard-ml-courses/cs281-sections/tree/master/00">Math Review</a> (Pierce 301, 10-11am)
+    subtopic: <a href="">Math Review</a> (Room TBD)
     hw:
     papers:
     section:
     demos:
     active: 'active'
   - topic: Fundamentals
-    subtopic: Discrete Models (<a href="https://github.com/harvard-ml-courses/cs281-scribe/blob/master/2/2.pdf">scribe</a>)
-    hw: T0 <a href="https://github.com/harvard-ml-courses/cs281-f17-homework/tree/master/T0">Preliminary</a> (<a href="https://canvas.harvard.edu/courses/29707/assignments/161722">submit</a> | <a href="https://canvas.harvard.edu/courses/29707/quizzes/73161">self-grading</a>)
+    subtopic: Multivariate Distributions, Information Theory, Neural Networks
+    hw: T0 <a href="https://github.com/harvard-ml-courses/cs281-f18-homework/tree/master/T0">Preliminary</a> (<a href="">submit</a>)
     papers: 2.3, 3.3-4
     section:
-    demos: <a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/Beta.ipynb">Beta</a>
-  - topic:
-    subtopic: <a href="https://github.com/harvard-ml-courses/cs281-sections/blob/master/01/main.ipynb">Code Review</a>
-    hw:
-    papers:
-    section:
-    demos:
-    active: 'active'
+    demos: <a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/Beta.ipynb"></a>
 
   - topic:
-    subtopic: Gaussian Models (<a href="https://github.com/harvard-ml-courses/cs281-scribe/blob/master/3/3.pdf">scribe</a>)
+    subtopic: Maximum Likelihood, SGD, Directed Graphical Models
     hw:
     papers: 2.4, 4.1, 4.3, 4.6
     section:
-    demos: <a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/Gaussian.ipynb">Gaussian</a>
+    demos: <a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/Gaussian.ipynb"></a>
   - topic:
-    subtopic: Linear Regression (<a href="https://github.com/harvard-ml-courses/cs281-scribe/blob/master/4/4.pdf">scribe</a>)
+    subtopic: <a href="https://github.com/harvard-ml-courses/cs281-sections/blob/master/01/main.ipynb">PyTorch Tutorial</a>
+    hw:
+    papers:
+    section:
+    demos:
+    active: 'active'
+
+  - topic: Uncertainty and Latent Variables
+    subtopic: Bayesian Linear Regression
     hw:
     papers: 7.1-7.3, 7.6
     section:
-    demos: <a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/Regression.ipynb">Regression</a>,<a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/BasisRegression.ipynb"> Basis Regression</a>
+    demos: <a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/Regression.ipynb"></a>
+
   - topic:
-    subtopic: <a href="https://github.com/harvard-ml-courses/cs281-sections/blob/master/02/02.pdf">Bayesian Methods</a> (Section)
+    subtopic: Bayesian Linear Classification
+    hw: T1 <a href="https://github.com/harvard-ml-courses/cs281-f17-homework/tree/master/T1">Fundamentals</a> (<a href="https://canvas.harvard.edu/courses/29707/assignments/167410">submit</a> | <a href="">self-grading</a>)
+    papers: 3.5
+    section:
+    demos:
+  - topic:
+    subtopic: <a href="https://github.com/harvard-ml-courses/cs281-sections/blob/master/02/02.pdf"></a>Conjugacy and Uncertainty
     hw:
     papers:
     section:
@@ -75,38 +83,38 @@ lectures:
     active: 'active'
 
   - topic:
-    subtopic: Linear Classification (<a href="https://github.com/harvard-ml-courses/cs281-scribe/blob/master/5/5.pdf">scribe</a>)
-    hw: T1 <a href="https://github.com/harvard-ml-courses/cs281-f17-homework/tree/master/T1">Fundamentals</a> (<a href="https://canvas.harvard.edu/courses/29707/assignments/167410">submit</a> | <a href="">self-grading</a>)
-    papers: 3.5
-    section:
-    demos: <a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/Softmax.ipynb">Softmax</a>, <a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/SoftmaxTorch.ipynb">SoftmaxTorch</a>
-
-  - topic: Graphical Models
-    subtopic:  Exponential Families (<a href="https://github.com/harvard-ml-courses/cs281-scribe/blob/master/6/6.pdf">scribe</a>)
+    subtopic:  Exponential Families and Sufficient Statistics
     hw:
     papers:  9.1-3
     section:
     demos:
   - topic:
-    subtopic: <a href="https://github.com/harvard-ml-courses/cs281-sections/blob/master/03/03.pdf">Exponential Families & GLMs</a>
+    subtopic: Latent Variables Models, Marginal Likelihood
+    hw:
+    papers: 16.5
+    section:
+    demos: <a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/NNModel.ipynb">NN</a>
+  - topic:
+    subtopic: Exponential Families
     hw:
     papers:
     section:
     demos:
     active: 'active'
 
-  - topic:
-    subtopic: Neural Networks (<a href="https://github.com/harvard-ml-courses/cs281-scribe/blob/master/7/7.pdf">scribe</a>)
+
+  - topic: Variational Inference
+    subtopic: ELBO, Expectation-Maximization
     hw:
-    papers: 16.5
+    papers: 10.1, 10.2, 10.5
     section:
-    demos: <a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/NNModel.ipynb">NN</a> <a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/Autograd.ipynb">Autograd</a>
+    demos: <a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/DGM.ipynb"></a>
   - topic:
-    subtopic: Directed Graphical Models (<a href="https://github.com/harvard-ml-courses/cs281-scribe/blob/master/8/8.pdf">scribe</a>)
-    hw:
-    papers: 10.1, 10.2, 10.5 
+    subtopic:  Mean Field
+    hw: T2 <a href="https://github.com/harvard-ml-courses/cs281-f17-homework/blob/master/T2/main.pdf">Models</a> (<a href="https://canvas.harvard.edu/courses/29707/assignments/173677">submit</a> )
+    papers: 19.1-3
     section:
-    demos: <a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/DGM.ipynb">Directed Graphical Models</a>
+    demos:
   - topic:
     subtopic: <a href="https://github.com/harvard-ml-courses/cs281-sections/blob/master/04/04.pdf">Graphical Models</a>
     hw:
@@ -114,18 +122,13 @@ lectures:
     section:
     demos:
     active: 'active'
-  - topic: 
-    subtopic:  Undirected Graphical Models (<a href="https://github.com/harvard-ml-courses/cs281-scribe/blob/master/9/9.pdf">scribe</a>)
-    hw: T2 <a href="https://github.com/harvard-ml-courses/cs281-f17-homework/blob/master/T2/main.pdf">Models</a> (<a href="https://canvas.harvard.edu/courses/29707/assignments/173677">submit</a> |  <a href="">self-grading</a>)
-    papers: 19.1-3  
+
+  - topic:
+    subtopic:  Gradient-Based VI, VAEs
+    hw:
+    papers: 17.4, 18.1, 18.3
     section:
     demos:
-  - topic: Exact Inference
-    subtopic:  Time-Series Models (<a href="https://github.com/harvard-ml-courses/cs281-scribe/blob/master/10/10.pdf">scribe</a>)
-    hw:
-    papers: 17.4, 18.1, 18.3 
-    section:
-    demos: 
   - topic:
     subtopic: <a href="https://github.com/harvard-ml-courses/cs281-sections/blob/master/05/05.pdf">UGMs Section</a> (<a href="https://github.com/harvard-ml-courses/cs281-sections/blob/master/05/05-soln.pdf">Solutions</a>)
     hw:
@@ -133,31 +136,41 @@ lectures:
     section:
     demos:
     active: 'active'
-  - topic: 
-    subtopic: Belief Propagation (<a href="https://github.com/harvard-ml-courses/cs281-scribe/blob/master/11/11.pdf">scribe</a>)
-    hw: <a href="https://harvard-ml-courses.github.io/cs281-web/project.pdf">Project Proposal</a>
-    papers: 20.1-3 
+  - topic:
+    subtopic: Alternative Approaches
+    hw:
+    papers: <a href="http://karpathy.github.io/2015/05/21/rnn-effectiveness/">Unreasonable</a>
+    section:
+    demos: <a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/RNN.ipynb">RNN</a>
+
+  - topic: Applications
+    subtopic:  Auto-regressive Neural Networks, RNNs
+    hw: T3 <a href="https://github.com/harvard-ml-courses/cs281-f17-homework/blob/master/T3/assignment-3.pdf">Variational Inference</a> (<a href="https://canvas.harvard.edu/courses/29707/assignments/175506">submit</a> )
+    papers: 20.1-3
     section:
     demos: <a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/ForwardBackward.ipynb">Forward Backward</a>
+
   - topic:
     subtopic: <a href="https://github.com/harvard-ml-courses/cs281-sections/blob/master/06/main.pdf">Belief Propagation</a>
-    hw: 
+    hw:
     papers:
     section:
     demos:
     active: 'active'
+
   - topic:
-    subtopic: Recurrent Neural Networks 
-    hw: T3 <a href="https://github.com/harvard-ml-courses/cs281-f17-homework/blob/master/T3/assignment-3.pdf">Inference</a> (<a href="https://canvas.harvard.edu/courses/29707/assignments/175506">submit</a> |  <a href="https://canvas.harvard.edu/courses/21992/quizzes/55050">self-grading</a>)
-    papers: <a href="http://karpathy.github.io/2015/05/21/rnn-effectiveness/">Unreasonable</a>
-    section:
-    demos: <a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/RNN.ipynb">RNN</a>
-  - topic: Variational Inference
-    subtopic: Information Theory (<a href="https://github.com/harvard-ml-courses/cs281-scribe/blob/master/13/13.pdf">scribe</a>)
+    subtopic:  Deep Generative Models
     hw:
-    papers: 2.8 
+    papers: 2.8
     section:
     demos:
+  - topic:
+    subtopic: Midterm
+    hw:
+    papers:
+    section:
+    demos:
+
   - topic:
     subtopic: Midterm Review
     hw:
@@ -165,16 +178,17 @@ lectures:
     section:
     demos:
     active: 'active'
-  - topic:
-    subtopic: Midterm
-    hw: <a href="topics.pdf">Midterm Topics</a>
-    papers:
-    section:
-    demos:
-  - topic: 
-    subtopic: Mixture Models (<a href="https://github.com/harvard-ml-courses/cs281-scribe/blob/master/14/14.pdf">scribe</a>)
+
+  - topic: More Models
+    subtopic: Undirected Graphical Models
     hw:
     papers: 11.1, 11.2, 11.4
+    section:
+    demos:
+  - topic:
+    subtopic: Time-Series Models
+    hw:
+    papers: 21.1-21.3
     section:
     demos:
   - topic:
@@ -184,93 +198,84 @@ lectures:
     section:
     demos:
     active: 'active'
-  - topic:
-    subtopic: Variational Inference  (<a href="https://github.com/harvard-ml-courses/cs281-scribe/blob/master/15/15.pdf">scribe</a>)
-    hw:
-    papers: 21.1-21.3 
-    section:
-    demos:
-  - topic: 
-    subtopic: Mean Field and Topic Models (<a href="https://github.com/harvard-ml-courses/cs281-scribe/blob/master/16/16.pdf">scribe</a>)
-    hw:
-    papers:  21.6, 22.2, <a href="https://arxiv.org/abs/1601.00670">VI</a>
-    section:
-    demos:
-  - topic:
-    subtopic: <a href="https://github.com/harvard-ml-courses/cs281-sections/blob/master/08/Section_08.pdf">Mean Field</a>
+  - topic: Sampling
+    subtopic: Monte Carlo, Rejection Sampling, Importance Sampling
     hw:
     papers:
-    section:
-    demos:
-    active: 'active'
-  - topic:
-    subtopic: Loopy BP, SVI (<a href="https://github.com/harvard-ml-courses/cs281-scribe/blob/master/17/17.pdf">scribe</a>)
-    hw: T4 (Due Mon, Nov 13) <a href="https://github.com/harvard-ml-courses/cs281-f17-homework/tree/master/T4">Approximations</a> (<a href="">submit</a>)
-    papers:  
-    section:
-    demos:
-  - topic: 
-    subtopic: Variational Auto-encoders and GANs 
-    hw:
-    papers: <a href="https://arxiv.org/abs/1312.6114">VAEs</a>
-    section:
-    demos:
-  - topic:
-    subtopic: Variational
-    hw:
-    papers:
-    section:
-    demos:
-    active: 'active'
-  - topic:  Sampling-Based Inference
-    subtopic: Monte Carlo Basics
-    hw: Project Abstracts (Fri) (<a href="https://canvas.harvard.edu/courses/29707/assignments/180868">submit</a>)
-    papers: 2.7, 23.1-3 
     section:
     demos:
   - topic:
     subtopic: Importance Sampling and Particle Filtering
-    hw:
-    papers: 23.4-23.5 
-    section: 
+    hw: T4  <a href="https://github.com/harvard-ml-courses/cs281-f17-homework/tree/master/T4">Time-Series</a> (<a href="">submit</a>)
+    papers: <a href="https://arxiv.org/abs/1312.6114">VAEs</a>
+    section:
     demos:
   - topic:
-    subtopic: Particle Filtering
+    subtopic:
+    hw:
+    papers:
+    section:
+    demos:
+    active: 'active'
+  - topic:
+    subtopic: MCMC, Gibbs Sampling
+    hw:
+    papers: 2.7, 23.1-3
+    section:
+    demos:
+  - topic: Guest Lecture
+    subtopic: ML for Systems Biology
+    hw:
+    papers: 23.4-23.5
+    section:
+    demos:
+
+  - topic:
+    subtopic:
     hw:
     papers:
     section:
     demos:
     active: 'active'
 
+
   - topic:
-    subtopic: Deep Learning in Health Care (Guest Lecture) <a href="nov20_lecture.pdf"> more info </a>
+    subtopic: HMC
     hw:
     papers:
     section:
     demos:
-  - topic: 
-    subtopic: (Thanksgiving)
+  - topic: Additional Topics
+    subtopic: Factor Analysis
     hw:
-    papers: 
+    papers:
     section:
     demos:
   - topic:
-    subtopic: MCMC and Boltzmann Machines
-    hw:
+    subtopic: Gaussian Processes
+    hw: T5  <a href="https://github.com/harvard-ml-courses/cs281-f17-homework/tree/master/T4">Sampling</a> (<a href="">submit</a>)
     papers: 21.1-21.4
-    section:
-    demos:
-  - topic:
-    subtopic: "Applications: Attention and Translation"
-    hw:
-    papers: "<a href='https://arxiv.org/abs/1409.0473'>Neural Machine Translation by Jointly Learning to Align and Translate
-</a>  <a href='https://arxiv.org/pdf/1706.03762.pdf'>Attention is All You Need</a>"
     section:
     demos:
 
   - topic:
-    subtopic: Projects Poster Session (11:30am-2:30pm, Pierce 301)
-    hw: <a href="https://canvas.harvard.edu/courses/29707/assignments/184040">Final Report</a> (Due Mon, Dec 11) <a href="https://github.com/harvard-ml-courses/cs281-f17-homework/blob/master/project/example.pdf">(example)</a>
+    subtopic: Midterm Review
+    hw:
+    papers:
+    section:
+    demos:
+    active: 'active'
+
+  - topic: Applications
+    subtopic: "Attention and Translation"
+    hw:
+    papers:
+    section:
+    demos:
+
+  - topic:
+    subtopic: Midterm 2
+    hw:
     papers:
     section:
     demos:
