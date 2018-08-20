@@ -70,7 +70,7 @@ lectures:
 
   - topic:
     subtopic: Bayesian Linear Classification
-    hw: T1 <a href="https://github.com/harvard-ml-courses/cs281-f17-homework/tree/master/T1">Regression</a> (<a href="https://canvas.harvard.edu/courses/29707/assignments/167410">submit</a> </a>)
+    hw: T1 <a href="https://github.com/harvard-ml-courses/cs281-f17-homework/tree/master/T1">Regression</a> (<a href="https://canvas.harvard.edu/courses/29707/assignments/167410">submit</a> )
     papers: 3.5
     section:
     demos:
