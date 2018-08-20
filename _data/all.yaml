@@ -93,7 +93,7 @@ lectures:
     hw:
     papers: 16.5
     section:
-    demos: <a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/NNModel.ipynb">NN</a>
+    demos: <a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/NNModel.ipynb"></a>
   - topic:
     subtopic: Exponential Families
     hw:
@@ -116,7 +116,7 @@ lectures:
     section:
     demos:
   - topic:
-    subtopic: <a href="https://github.com/harvard-ml-courses/cs281-sections/blob/master/04/04.pdf">Graphical Models</a>
+    subtopic: <a href="https://github.com/harvard-ml-courses/cs281-sections/blob/master/04/04.pdf">Variational</a>
     hw:
     papers:
     section:
@@ -130,7 +130,7 @@ lectures:
     section:
     demos:
   - topic:
-    subtopic: <a href="https://github.com/harvard-ml-courses/cs281-sections/blob/master/05/05.pdf">UGMs Section</a> (<a href="https://github.com/harvard-ml-courses/cs281-sections/blob/master/05/05-soln.pdf">Solutions</a>)
+    subtopic: <a href="https://github.com/harvard-ml-courses/cs281-sections/blob/master/05/05.pdf">Modern VI</a> (<a href="https://github.com/harvard-ml-courses/cs281-sections/blob/master/05/05-soln.pdf">Solutions</a>)
     hw:
     papers:
     section:
@@ -148,10 +148,10 @@ lectures:
     hw: T3 <a href="https://github.com/harvard-ml-courses/cs281-f17-homework/blob/master/T3/assignment-3.pdf">Latent Variables</a> (<a href="https://canvas.harvard.edu/courses/29707/assignments/175506">submit</a> )
     papers: 20.1-3
     section:
-    demos: <a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/ForwardBackward.ipynb">Forward Backward</a>
+    demos: <a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/ForwardBackward.ipynb"></a>
 
   - topic:
-    subtopic: <a href="https://github.com/harvard-ml-courses/cs281-sections/blob/master/06/main.pdf">Belief Propagation</a>
+    subtopic: <a href="https://github.com/harvard-ml-courses/cs281-sections/blob/master/06/main.pdf">Midterm Review</a>
     hw:
     papers:
     section:
