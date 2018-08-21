@@ -46,7 +46,6 @@ weight: 0
             <li class="active"><a data-toggle="tab" href="#home_tab">Home</a></li>
             <li><a data-toggle="tab" href="#schedule_tab">Schedule</a></li>
             <li><a data-toggle="tab" href="#people_tab">People</a></li>
-            <li><a data-toggle="tab" href="#project_tab">Project</a></li>
             <!--li><a data-toggle="tab" href="#grading_tab">Grading</a></li>
             <li><a data-toggle="tab" href="#references_tab">References</a></li-->
             <!-- <li><a href="#faq">FAQ</a></li> -->
@@ -76,7 +75,7 @@ weight: 0
                           <dl>
                               <dt>Forum and Announcements</dt>
                               <dd><ul>
-                                  <li><a href="https://piazza.com/harvard/fall2018/cs281">Piazza </a></li>
+                                  <li><a href="https://piazza.com/class/jl3q9gb9ip0142">Piazza </a></li>
                               </ul></dd>
 
                               <dt>Section Times (TBD) </dt>
@@ -105,16 +104,17 @@ weight: 0
                               <dt>Links</dt>
                               <dd>
                                   <ul>
-                                     <li><a href="https://classroom.github.com/a/VQo8aFH2">GitHub Classrooms</a></li>
                                      <li><a href="https://canvas.harvard.edu/courses/29707">Canvas Site</a></li>
-                                     <li><a href="https://docs.google.com/spreadsheets/d/15MsWI7qFPDfjhW8OQmDgGfdmBM2ZxTW9XmU7XlkhNb4/edit?usp=sharing">Scribe Sign-up</a></li>
-                                     <li><a href="https://github.com/harvard-ml-courses/cs281-scribe">Scribe Notes GitHub</a></li>
                                   </ul>
                               </dd>
 
-                              <dt>References</dt>
+                              <dt>Texts</dt>
                               <dd><ul>
                                   <li> Murphy, <a href="http://harvardcoopbooks.bncollege.com/webapp/wcs/stores/servlet/BNCB_TextbookDetailView?catalogId=10001&item=N&langId=-1&productId=600005699137&storeId=52084">Machine Learning: A Probabilistic Perspective</a>
+                                  <li> Bishop, <a href="https://www.amazon.com/Pattern-Recognition-Learning-Information-Statistics/dp/0387310738">Pattern Recognition and Machine Learning</a>
+                              </ul></dd>
+                              <dt>Other References</dt>
+                                    <dd><ul>
                                   <li> Gelman et al, <a href="http://www.stat.columbia.edu/~gelman/book/"> Bayesian Data Analysis </a> </li>
                                   <li> Petersen and Pedersen, <a href="http://www2.imm.dtu.dk/pubdb/views/edoc_download.php/3274/pdf/imm3274.pdf">The Matrix Cookbook</a>
                                   <li> Wainwright and Jordan <a href = "https://people.eecs.berkeley.edu/~wainwrig/Papers/WaiJor08_FTML.pdf"> Graphical Models, Exp. Families, and Variational Inference (Section 3.3) </a>
@@ -135,7 +135,38 @@ weight: 0
                           </ul></dd>
                       </dl>
                   </div>
-              </div-->
+</div-->
+           <div id="schedule_tab" class="row tab-pane fade">
+             <div class="row container">
+                     <div class="tab-content">
+                         <table class="table">
+                             <tr><th>Date</th> <th>Area</th> <th>Topic</th><th>Demos </th><th>Reading</
+th><th>Assignment <br> (DUE: Fri 5pm)</th></tr>
+                             {% for lecture in site.data.all.lectures %}
+                             <tr class = {{lecture.active|default("",true)}}>
+                               <td> {{site.data.all.dates[forloop.index]}} </td> <td>
+                                 {{lecture.topic
+| default("",true)}} </td>
+                                 <td> {{lecture.subtopic|default("", true)}}</td>
+                                 <td>
+                                     {{lecture.demos|default("", true)}}
+                                 </td>
+                               <td>
+                                 <ul>
+                                 {% for paper in lecture.papers %}
+                                 <li>{{paper |default("", true)}}</li>
+                                 {% endfor %}
+                                 </ul>
+                                 </td>
+
+                                 <td> {{lecture.hw | default("",true)}}</td>
+                             </tr>
+                             {% endfor %}
+                         </table>
+                     </div>
+                 </div>
+             </div>
+
               <div id="people_tab" class="row tab-pane fade">
                   <div class="row container">
                       <dl>
@@ -151,11 +182,13 @@ weight: 0
                           <dt>Teaching Assistants</dt>
                           <dd>
                               <ul>
-                                  <li>
                                   {% for ta in site.data.all.tas %}
+                                <li>
+
                                   {{ta.name}}
-                                  {% endfor %}
-                                  </li>
+
+                                </li>
+                                                                  {% endfor %}
                                </ul>
                           </dd>
                           <dt>Office Hours</dt>
@@ -229,93 +262,6 @@ weight: 0
                        </table>
                   </div>
               </div>
-              <div id="project_tab" class="row tab-pane fade">
-                  <p>
-                  The ideal outcome of this project
-                  would be a paper that could be submitted to a top-tier machine learning conference such as NIPS,
-                  ICML, UAI, AISTATS, or KDD. There are different ways to approach this project, which are dis-
-                  cussed in a more comprehensive document that is available on the course website. There are four
-                  separate components of the project.
-                  </p>
-                  <p>
-                  You will upload these materials via Canvas. Please see the syllabus (linked
-                  in the course website) for a more thorough description of the final project and policies related to
-                  collaboration, etc.
-                  </p>
-                  <hr>
-                  <h3>Important Dates</h3>
-                  <div class="row container">
-                       <table class="table">
-                           <thead>
-                               <tr _base_target="_blank">
-                                   <th class="col-md-1">Date</th>
-                                   <th class="col-md-2">Due</th>
-                                   <th class="col-md-9">Descriptions</th>
-                               </tr>
-                           </thead>
-                           <tbody>
-                               <tr class="lecture" _base_target="_blank">
-                                   <td>Oct. 13</td>
-                                   <td>Proposal</td>
-                                   <td>
-                                       This is a two-page document that describes the problem you intend to
-                                       solve, your approach to solving it and the experiments that you intend to run to evaluate
-                                       your solution.
-                                   </td>
-                               </tr>
-                               <tr>
-                                   <td>Nov. 17</td>
-                                   <td>Abstract and Status Report</td>
-                                   <td>
-                                       This is a three to four page document that contains a
-                                       draft of your final abstract, as well as a brief status report on the progress of your project.
-                                   </td>
-                               </tr>
-                               <tr>
-                                   <td>Dec. 6</td>
-                                   <td>Poster Session</td>
-                                   <td>
-                                       You will make a conference-style poster about your project, with a class
-                                       poster session during reading week. SEAS will pay for the cost of producing the poster. You
-                                       will also submit a PDF file of your poster.
-                                   </td>
-                               </tr>
-                               <tr>
-                                   <td>Dec. 11</td>
-                                   <td>Final Report</td>
-                                   <td>
-                                       You will write a report of up to ten pages, in the style of a mainstream CS
-                                       conference paper. See the papers linked on the course website for examples
-                                   </td>
-                               </tr>
-                           </tbody>
-                       </table>
-                  </div>
-              </div>
-              <div id="schedule_tab" class="row tab-pane fade">
-                  <div class="row container">
-                      <div class="tab-content">
-                          <table class="table">
-                              <tr><th>Date</th> <th>Area</th> <th>Topic</th><th>Demos </th><th>Readings</th><th>Assignment (DUE: Fri 5pm of this week)</th></tr>
-                              {% for lecture in site.data.all.lectures %}
-                              <tr class = {{lecture.active|default("",true)}}>
-                                  <td> {{site.data.all.dates[forloop.index]}} </td> <td> {{lecture.topic | default("",true)}} </td>
-                                  <td> {{lecture.subtopic|default("", true)}}</td>
-                                  <td>
-                                      {{lecture.demos|default("", true)}}
-                                  </td>
-                                  <td>
-                                      {{lecture.papers|default("", true)}}
-                                  </td>
-
-                                  <td> {{lecture.hw | default("",true)}}</td>
-                              </tr>
-                              {% endfor %}
-                          </table>
-                      </div>
-                  </div>
-              </div>
-
               <!--div id="grading_tab" class="row tab-pane fade">
                   <div class="row container">
                       <p class="container">
