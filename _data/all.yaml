@@ -56,7 +56,7 @@ lectures:
     papers:
       - "B &sect; 5.1-5.3"
       - "M &sect; 16.5"
-      -  <a href="https://pytorch.org/tutorials/beginner/blitz/autograd_tutorial.html">NN</a>
+      -  PyTorch <a href="https://pytorch.org/tutorials/beginner/blitz/autograd_tutorial.html">NN</a>
     section:
     demos: <a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/Gaussian.ipynb"></a>
   - topic:
@@ -73,7 +73,7 @@ lectures:
     papers:
       - "B &sect; 2.3, 3.3"
       - "M &sect; 4.3-4.4, 7.3, 7.6"
-      - <a href="https://pytorch.org/docs/stable/distributions.html#multivariatenormal">MVN</a>
+      - PyTorch <a href="https://pytorch.org/docs/stable/distributions.html#multivariatenormal">MVN</a>
     section:
     demos: <a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/Regression.ipynb"></a>
 
@@ -83,7 +83,7 @@ lectures:
     papers:
       - "B &sect; 2.2, 4.2"
       - "M &sect; 3.3-3.5"
-      - <a href="https://pytorch.org/docs/stable/distributions.html#beta">Beta and Cat</a>
+      - PyTorch <a href="https://pytorch.org/docs/stable/distributions.html#beta">Beta and Cat</a>
     section:
     demos:
   - topic:
@@ -132,7 +132,7 @@ lectures:
     hw: T2 <a href="">Classification</a> (<a href="https://canvas.harvard.edu/courses/29707/assignments/173677">submit</a>)
     papers:
       - "B &sect; 10.3, 10.4"
-      - Tutorial
+      - <a href="https://arxiv.org/pdf/1601.00670.pdf">Variational Inference</a>
     section:
     demos:
   - topic:
@@ -147,7 +147,7 @@ lectures:
     subtopic:  Gradient-Based VI, VAEs
     hw:
     papers:
-      - Tutorial
+      - <a href="">Tutorial</a>
     section:
     demos:
   - topic:
@@ -158,15 +158,15 @@ lectures:
     demos:
     active: 'active'
   - topic:
-    subtopic: Alternative Approaches
+    subtopic: Deep Generative Models
     hw:
-    papers: <a href="http://karpathy.github.io/2015/05/21/rnn-effectiveness/"></a>
+    papers: 
     section:
     demos: <a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/RNN.ipynb"></a>
-  - topic:
-    subtopic:  Deep Generative Models
+  - topic: Application  
+    subtopic:  Vision
     hw: T3 <a href="">Latent Variables</a> (<a href="https://canvas.harvard.edu/courses/29707/assignments/175506">submit</a>)
-    papers: 2.8
+    papers: 
     section:
     demos:
 
@@ -202,13 +202,13 @@ lectures:
   - topic:
     subtopic: Time-Series Models
     hw:
-    papers: 21.1-21.3
+    papers: 
     section:
     demos:
   - topic:
     subtopic: VI for UGMs
     hw:
-    papers: 21.1-21.3
+    papers: 
     section:
     demos:
 
@@ -219,10 +219,10 @@ lectures:
     section:
     demos:
     active: 'active'
-  - topic: Applications
-    subtopic:  Auto-regressive Neural Networks, RNNs
+  - topic: 
+    subtopic:  Auto-regressive NNs
     hw:
-    papers: 20.1-3
+    papers: 
     section:
     demos: <a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/ForwardBackward.ipynb"></a>
   - topic: Sampling
@@ -242,13 +242,13 @@ lectures:
   - topic:
     subtopic: Importance Sampling and Particle Filtering
     hw:
-    papers: <a href="https://arxiv.org/abs/1312.6114"></a>
+    papers: 
     section:
     demos:
   - topic: Guest Lecture
     subtopic: ML for Systems Biology
     hw:
-    papers: 23.4-23.5
+    papers: 
     section:
     demos:
 
@@ -263,7 +263,7 @@ lectures:
   - topic:
     subtopic: MCMC, Gibbs Sampling
     hw:
-    papers: 2.7, 23.1-3
+    papers: 
     section:
     demos:
 
@@ -273,7 +273,7 @@ lectures:
     papers:
     section:
     demos:
-  - topic: Additional Topics
+  - topic: 
     subtopic: Factor Analysis
     hw: T5  <a href="https://github.com/harvard-ml-courses/cs281-f17-homework/tree/master/T4">Sampling</a> (<a href="">submit</a>)
     papers:
@@ -288,10 +288,10 @@ lectures:
     demos:
     active: 'active'
 
-  - topic: Applications
-    subtopic: "Attention and Translation"
+  - topic: Application
+    subtopic: Natural Language Processing
     hw:
-    papers:
+    papers: 
     section:
     demos:
 
