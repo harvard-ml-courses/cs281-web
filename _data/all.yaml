@@ -60,7 +60,7 @@ lectures:
     section:
     demos: <a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/Gaussian.ipynb"></a>
   - topic:
-    subtopic: <a href="https://github.com/harvard-ml-courses/cs281-sections/blob/master/01/main.ipynb">PyTorch Tutorial</a>
+    subtopic: PyTorch Tutorial
     hw:
     papers:
     section:
