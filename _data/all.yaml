@@ -95,7 +95,7 @@ lectures:
     active: 'active'
 
   - topic:
-    subtopic:  Exponential Families and Sufficient Statistics
+    subtopic: Exponential Families and Sufficient Statistics
     hw:
     papers:
       - "B &sect; 2.4"
@@ -103,7 +103,7 @@ lectures:
     section:
     demos:
   - topic:
-    subtopic: Latent Variables Models, Marginal Likelihood
+    subtopic: Mixture Models, Marginal Likelihood
     hw:
     papers:
       - "B &sect; 3.5, 9.2"
@@ -128,11 +128,10 @@ lectures:
     section:
     demos: <a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/DGM.ipynb"></a>
   - topic:
-    subtopic:  Mean Field
+    subtopic:  Gradient-Based VI, VAEs
     hw: T2 <a href="">Classification</a> (<a href="https://canvas.harvard.edu/courses/29707/assignments/173677">submit</a>)
     papers:
-      - "B &sect; 10.3, 10.4"
-      - <a href="https://arxiv.org/pdf/1601.00670.pdf">Variational Inference</a>
+
     section:
     demos:
   - topic:
@@ -144,14 +143,15 @@ lectures:
     active: 'active'
 
   - topic:
-    subtopic:  Gradient-Based VI, VAEs
+    subtopic:  Mean Field
     hw:
     papers:
-      - <a href="">Tutorial</a>
+      - <a href="https://arxiv.org/pdf/1601.00670.pdf">Variational Inference</a>
+      - "B &sect; 10.3, 10.4"
     section:
     demos:
   - topic:
-    subtopic: Modern VI
+    subtopic: VI
     hw:
     papers:
     section:
