@@ -46,6 +46,7 @@ weight: 0
             <li class="active"><a data-toggle="tab" href="#home_tab">Home</a></li>
             <li><a data-toggle="tab" href="#schedule_tab">Schedule</a></li>
             <li><a data-toggle="tab" href="#people_tab">People</a></li>
+            <li><a data-toggle="tab" href="#section_tab">Section</a></li>
             <!--li><a data-toggle="tab" href="#grading_tab">Grading</a></li>
             <li><a data-toggle="tab" href="#references_tab">References</a></li-->
             <!-- <li><a href="#faq">FAQ</a></li> -->
@@ -95,9 +96,9 @@ weight: 0
                               <dt>Grading</dt>
                               <dd>
                                 <ul>
-                                    <li> Assignments (55%) </li>
-                                    <li> Midterm Exams (30%) </li>
-                                    <li> Final Project (15%) </li>
+                                    <li> Assignments (50%) </li>
+                                    <li> Midterm Exams (40%) </li>
+                                    <li> Paper Reading (10%) </li>
                                 </ul>
                               </dd>
 
@@ -139,12 +140,44 @@ weight: 0
            <div id="schedule_tab" class="row tab-pane fade">
              <div class="row container">
                      <div class="tab-content">
+                         <table class="table table-striped table-hover">
+                             <tr><th>Date</th> <th>Area</th> <th>Topic</th><th>Demos </th><th>Reading</
+th><th>Assignment <br> (DUE: Fri 5pm)</th></tr>
+{% for lecture in site.data.all.lectures %}
+
+                             <tr style="line-height: 8px; height: 8px;" class = {{lecture.active|default("",true)}}>
+                               <td> {{site.data.all.dates[forloop.index]}} </td> <td>
+                                 {{lecture.topic
+| default("",true)}} </td>
+                                 <td> {{lecture.subtopic|default("", true)}}</td>
+                                 <td>
+                                     {{lecture.demos|default("", true)}}
+                                 </td>
+                               <td>
+                                 <ul>
+                                 {% for paper in lecture.papers %}
+                                 <li>{{paper |default("", true)}}</li>
+                                 {% endfor %}
+                                 </ul>
+                                 </td>
+
+                                 <td> {{lecture.hw | default("",true)}}</td>
+                             </tr>
+                             {% endfor %}
+                         </table>
+                     </div>
+                 </div>
+             </div>
+
+           <div id="section_tab" class="row tab-pane fade">
+             <div class="row container">
+                     <div class="tab-content">
                          <table class="table">
                              <tr><th>Date</th> <th>Area</th> <th>Topic</th><th>Demos </th><th>Reading</
 th><th>Assignment <br> (DUE: Fri 5pm)</th></tr>
-                             {% for lecture in site.data.all.lectures %}
+                             {% for lecture in site.data.all.sections %}
                              <tr class = {{lecture.active|default("",true)}}>
-                               <td> {{site.data.all.dates[forloop.index]}} </td> <td>
+                               <td> {{site.data.all.sections_dates[forloop.index]}} </td> <td>
                                  {{lecture.topic
 | default("",true)}} </td>
                                  <td> {{lecture.subtopic|default("", true)}}</td>
