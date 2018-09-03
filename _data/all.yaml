@@ -54,7 +54,7 @@ lectures:
     subtopic: Distributions, Graphical Models
     hw:
     papers:
-      - "B &sect; 1.2, 1.6, 2.1-2, 8.1"
+      - "B &sect; 1.2, 2.1-2, 8.1"
       - "M &sect; 2.2, 2.8, 10.1"
       - PyTorch <a href="https://pytorch.org/tutorials/beginner/blitz/tensor_tutorial.html#sphx-glr-beginner-blitz-tensor-tutorial-py">Tutorial</a> and <a href="https://pytorch.org/docs/stable/distributions.html">Dist</a>
     section:
@@ -64,9 +64,8 @@ lectures:
     subtopic: Information Theory, Maximum Likelihood, SGD
     hw: T0 <a href="https://colab.research.google.com/drive/1zahKvddiQ9tECKSh3-_mkoHoj_H10Nda">Preliminary</a> (<a href="">submit</a>)
     papers:
-      - "B &sect; 5.1-5.3"
+      - "B &sect; 1.6, 5.1-5.3"
       - "M &sect; 16.5"
-
     section:
     demos: <a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/Gaussian.ipynb"></a>
 
@@ -93,7 +92,10 @@ lectures:
     subtopic: Non-Linear Models, Neural Networks
     hw:
     papers:
-      -  PyTorch <a href="https://pytorch.org/tutorials/beginner/blitz/autograd_tutorial.html">NN</a>
+      - "B &sect; 5.1-5.3"
+      - "M &sect; 16.5"
+      - PyTorch <a href="https://pytorch.org/tutorials/beginner/blitz/autograd_tutorial.html">NN</a>
+      - Paper 1
     section:
     demos:
   - topic:
@@ -126,7 +128,7 @@ lectures:
     subtopic:  Gradient-Based VI, VAEs
     hw:
     papers:
-
+      - Paper 2
     section:
     demos:
 
@@ -180,6 +182,7 @@ lectures:
     papers:
       - "B &sect; 13.1, 13.2"
       - "M &sect; 17.2-17.4"
+      - Paper 3
     section:
     demos:
   - topic: Sampling
@@ -210,6 +213,7 @@ lectures:
     papers:
       - "B &sect; 11.2, 11.3"
       - "M &sect; 24.2-24.3"
+      - Paper 4
     section:
     demos:
   - topic:
