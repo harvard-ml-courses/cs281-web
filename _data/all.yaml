@@ -12,20 +12,18 @@ dates: ["", "Sep. 5",  "Sep. 10", "Sep. 12",  "Sep. 17", "Sep. 19",  "Sep. 24", 
 sections_dates: ["",  "Sep. 7", "Sep. 14", "Sep. 21", "Sep. 28", "Oct. 5.", "Oct. 12", "Oct. 19", "Oct. 26", "Nov. 1", "Nov. 9", "Nov. 16", "Nov. 30"]
 
 ohs:
-  - time: Monday 3-5pm
+  - time: Monday 3-4:30pm
     location: MD 217 (Sasha)
-  - time: Wednesday 7-9pm
-    location: MD 1st Floor
+  - time: Wed 3-5pm
+    location: Cabot Library (Yaniv)
   - time: Wednesday 8-10pm
-    location:
-  - time: Thursday 6-8pm
-    location: MD 1st Floor
-  - time: Thursday 7-9pm
-    location: MD 1st Floor
-  - time: Thursday 8-10pm
-    location: MD 1st Floor
-  - time: Friday 10-11:59am
-    location: MD 2nd Floor
+    location: Lowell House - Harvard Inn (Ani)
+  - time: Thursday 6-8pm 
+    location: MD 1st Floor (Isaac)
+  - time: Thursday 8-10pm 
+    location: MD 1st Floor (Luke)
+  - time: Friday 10-11:59am 
+    location: MD 2nd Floor (Carl)
 
 sections:
   - topic:
