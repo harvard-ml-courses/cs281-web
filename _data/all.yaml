@@ -48,17 +48,19 @@ lectures:
     subtopic:
     hw:
     papers:
+      - PyTorch <a href="https://pytorch.org/tutorials/beginner/blitz/tensor_tutorial.html#sphx-glr-beginner-blitz-tensor-tutorial-py">Tutorial</a>
     section:
     demos:
+      - <a href="https://colab.research.google.com/drive/1FUqJRr8NaDmVWBS-nw8lL0s0hkxHiEpK">Prelims</a>
   - topic: Fundamentals
     subtopic: Distributions, Graphical Models
     hw:
     papers:
       - "B &sect; 1.2, 2.1-2, 8.1"
       - "M &sect; 2.2, 2.8, 10.1"
-      - PyTorch <a href="https://pytorch.org/tutorials/beginner/blitz/tensor_tutorial.html#sphx-glr-beginner-blitz-tensor-tutorial-py">Tutorial</a> and <a href="https://pytorch.org/docs/stable/distributions.html">Dist</a>
+      - PyTorch <a href="https://pytorch.org/docs/stable/distributions.html">Distributions</a>
     section:
-    demos: <a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/Beta.ipynb"></a>
+    demos: <a href=""></a>
 
   - topic:
     subtopic: Information Theory, Maximum Likelihood, SGD
