@@ -60,7 +60,7 @@ lectures:
       - "M &sect; 2.2, 2.8, 10.1"
       - PyTorch <a href="https://pytorch.org/docs/stable/distributions.html">Distributions</a>
     section:
-    demos: <a href="https://colab.research.google.com/drive/1EOQgskqVSZJyc7-MhlAm0MpnbgAFRegJ">Distributions</a>
+    demos: <a href="https://colab.research.google.com/drive/1Pjzx783qv_C1M2OqG0v_lJf2qXb1NrIt">Distributions</a>
 
   - topic:
     subtopic: Information Theory, Maximum Likelihood, SGD
@@ -101,7 +101,7 @@ lectures:
       - Paper 1
     section:
     demos:
-      - <a href="https://drive.google.com/file/d/16Uwvtqv6PWunMBvy6OXAxIm8ZRn9eFNC/view?usp=sharing">Neural Networks</a>
+      - <a href="https://colab.research.google.com/drive/1YGEi7rEHJi--M3YQ3Hd67fK7YnRlAmVx">NNs</a>
   - topic:
     subtopic: Exponential Families and Sufficient Statistics
     hw:
@@ -110,7 +110,7 @@ lectures:
       - "M &sect; 9.1-3"
     section:
     demos:
-
+      - <a href="https://colab.research.google.com/drive/1jva9j6mY3BDIpk4uE-gF9f-Si5DVQ98Z">Exp</a>
   - topic: Latent Variables  / VI
     subtopic: Mixture Models, Marginal Likelihood
     hw:
@@ -119,7 +119,7 @@ lectures:
       - "M &sect; 11.1-11.3"
     section:
     demos:
-      - <a href="https://drive.google.com/file/d/16Uwvtqv6PWunMBvy6OXAxIm8ZRn9eFNC/view?usp=sharing">Mixtures</a>
+      - <a href="https://colab.research.google.com/drive/1w9jHJfFP4DbgstmNCZNsAygFxNnHaENe">Mixtures</a>
   - topic:
     subtopic: ELBO, Expectation-Maximization
     hw: T2 <a href="">Classification</a> (<a href="https://canvas.harvard.edu/courses/29707/assignments/173677">submit</a>)
@@ -128,7 +128,7 @@ lectures:
       - "M &sect; 11.4-11.6"
     section:
     demos:
-      - <a href="https://drive.google.com/file/d/16Uwvtqv6PWunMBvy6OXAxIm8ZRn9eFNC/view?usp=sharing">Mixtures</a>
+      - <a href="https://colab.research.google.com/drive/1LAIjoZvhBCOGZSGO65g1Vum-rZ8nkggQ">EM</a>
   - topic:
     subtopic: (Columbus Day)
   - topic:
@@ -138,7 +138,7 @@ lectures:
       - Paper 2
     section:
     demos:
-      - <a href="https://drive.google.com/file/d/16Uwvtqv6PWunMBvy6OXAxIm8ZRn9eFNC/view?usp=sharing">VAEs</a>
+      - <a href="https://colab.research.google.com/drive/1nADR0WDAmyOn9AJcSLkbERftU6_6kjzT">VAEs</a>
 
   - topic:
     subtopic:  Mean Field
@@ -148,7 +148,7 @@ lectures:
       - "B &sect; 10.3, 10.4"
     section:
     demos:
-      - <a href="https://drive.google.com/file/d/16Uwvtqv6PWunMBvy6OXAxIm8ZRn9eFNC/view?usp=sharing">VAEs</a>
+      - <a href="https://colab.research.google.com/drive/11AIT42dPMlTzja1yr-2XYGdTCLRypnNk">Mean Field</a>
   - topic:
     subtopic: Deep Generative Models
     hw: T3 <a href="">Latent Variables</a> (<a href="https://canvas.harvard.edu/courses/29707/assignments/175506">submit</a>)
