@@ -60,7 +60,7 @@ lectures:
       - "M &sect; 2.2, 2.8, 10.1"
       - PyTorch <a href="https://pytorch.org/docs/stable/distributions.html">Distributions</a>
     section:
-    demos: <a href=""></a>
+    demos: <a href="https://colab.research.google.com/drive/1Dn0UfHwwM805uaayipxsR8IQufmNfoY6">Distributions</a>
 
   - topic:
     subtopic: Information Theory, Maximum Likelihood, SGD
@@ -69,7 +69,7 @@ lectures:
       - "B &sect; 1.6, 5.1-5.3"
       - "M &sect; 16.5"
     section:
-    demos: <a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/Gaussian.ipynb"></a>
+    demos: <a href="https://colab.research.google.com/drive/1N0ky02Pq5hJanaRSkhY-lM0PDakp0FHO">MLE</a>
 
   - topic: Core Models
     subtopic: Bayesian Linear Regression, MVN
@@ -79,7 +79,7 @@ lectures:
       - "M &sect; 4.3-4.4, 7.3, 7.6"
       - PyTorch <a href="https://pytorch.org/docs/stable/distributions.html#multivariatenormal">MVN</a>
     section:
-    demos: <a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/Regression.ipynb"></a>
+    demos: <a href="https://colab.research.google.com/drive/1GZNXIAXazaTxJF_shjkwTCkT1ok2MMlE">Gaussians</a>
 
   - topic:
     subtopic: Bayesian Linear Classification, Discrete
@@ -90,6 +90,7 @@ lectures:
       - PyTorch <a href="https://pytorch.org/docs/stable/distributions.html#beta">Beta and Cat</a>
     section:
     demos:
+      - <a href="https://colab.research.google.com/drive/1EOQgskqVSZJyc7-MhlAm0MpnbgAFRegJ">Discrete</a>
   - topic:
     subtopic: Non-Linear Models, Neural Networks
     hw:
@@ -100,6 +101,7 @@ lectures:
       - Paper 1
     section:
     demos:
+      - <a href="https://drive.google.com/file/d/16Uwvtqv6PWunMBvy6OXAxIm8ZRn9eFNC/view?usp=sharing">Neural Networks</a>
   - topic:
     subtopic: Exponential Families and Sufficient Statistics
     hw:
@@ -108,6 +110,7 @@ lectures:
       - "M &sect; 9.1-3"
     section:
     demos:
+
   - topic: Latent Variables  / VI
     subtopic: Mixture Models, Marginal Likelihood
     hw:
@@ -115,7 +118,8 @@ lectures:
       - "B &sect; 3.5, 9.2"
       - "M &sect; 11.1-11.3"
     section:
-    demos: <a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/NNModel.ipynb"></a>
+    demos:
+      - <a href="https://drive.google.com/file/d/16Uwvtqv6PWunMBvy6OXAxIm8ZRn9eFNC/view?usp=sharing">Mixtures</a>
   - topic:
     subtopic: ELBO, Expectation-Maximization
     hw: T2 <a href="">Classification</a> (<a href="https://canvas.harvard.edu/courses/29707/assignments/173677">submit</a>)
@@ -123,7 +127,8 @@ lectures:
       - "B &sect; 9.3, 9.4, 10.1"
       - "M &sect; 11.4-11.6"
     section:
-    demos: <a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/DGM.ipynb"></a>
+    demos:
+      - <a href="https://drive.google.com/file/d/16Uwvtqv6PWunMBvy6OXAxIm8ZRn9eFNC/view?usp=sharing">Mixtures</a>
   - topic:
     subtopic: (Columbus Day)
   - topic:
@@ -133,6 +138,7 @@ lectures:
       - Paper 2
     section:
     demos:
+      - <a href="https://drive.google.com/file/d/16Uwvtqv6PWunMBvy6OXAxIm8ZRn9eFNC/view?usp=sharing">VAEs</a>
 
   - topic:
     subtopic:  Mean Field
@@ -140,9 +146,9 @@ lectures:
     papers:
       - <a href="https://arxiv.org/pdf/1601.00670.pdf">Variational Inference</a>
       - "B &sect; 10.3, 10.4"
-
     section:
     demos:
+      - <a href="https://drive.google.com/file/d/16Uwvtqv6PWunMBvy6OXAxIm8ZRn9eFNC/view?usp=sharing">VAEs</a>
   - topic:
     subtopic: Deep Generative Models
     hw: T3 <a href="">Latent Variables</a> (<a href="https://canvas.harvard.edu/courses/29707/assignments/175506">submit</a>)
