@@ -64,7 +64,7 @@ lectures:
 
   - topic:
     subtopic: Information Theory, Maximum Likelihood, SGD
-    hw: T0 <a href="https://colab.research.google.com/drive/1zahKvddiQ9tECKSh3-_mkoHoj_H10Nda">Preliminary</a> (<a href="">submit</a>)
+    hw: T0 <a href="https://colab.research.google.com/drive/1zahKvddiQ9tECKSh3-_mkoHoj_H10Nda">Preliminary</a> (<a href="https://canvas.harvard.edu/courses/42647/assignments/226703">submit</a>)
     papers:
       - "B &sect; 1.6, 5.1-5.3"
       - "M &sect; 16.5"
@@ -77,17 +77,15 @@ lectures:
     papers:
       - "B &sect; 2.3, 3.3"
       - "M &sect; 4.3-4.4, 7.3, 7.6"
-      - PyTorch <a href="https://pytorch.org/docs/stable/distributions.html#multivariatenormal">MVN</a>
     section:
     demos: <a href="https://colab.research.google.com/drive/1GZNXIAXazaTxJF_shjkwTCkT1ok2MMlE">Gaussians</a>
 
   - topic:
     subtopic: Bayesian Linear Classification, Discrete
-    hw: T1 <a href="https://github.com/harvard-ml-courses/cs281-f17-homework/tree/master/T1">Regression</a> (<a href="https://canvas.harvard.edu/courses/29707/assignments/167410">submit</a> )
+    hw: T1 <a href="">Regression</a> (<a href="https://canvas.harvard.edu/courses/42647/assignments/232294">submit</a> )
     papers:
       - "B &sect; 2.2, 4.2"
       - "M &sect; 3.3-3.5"
-      - PyTorch <a href="https://pytorch.org/docs/stable/distributions.html#beta">Beta and Cat</a>
     section:
     demos:
       - <a href="https://colab.research.google.com/drive/1EOQgskqVSZJyc7-MhlAm0MpnbgAFRegJ">Discrete</a>
@@ -122,7 +120,7 @@ lectures:
       - <a href="https://colab.research.google.com/drive/1w9jHJfFP4DbgstmNCZNsAygFxNnHaENe">Mixtures</a>
   - topic:
     subtopic: ELBO, Expectation-Maximization
-    hw: T2 <a href="">Classification</a> (<a href="https://canvas.harvard.edu/courses/29707/assignments/173677">submit</a>)
+    hw: T2 <a href="">Classification</a> (<a href="https://canvas.harvard.edu/courses/42647/assignments/232297">submit</a>)
     papers:
       - "B &sect; 9.3, 9.4, 10.1"
       - "M &sect; 11.4-11.6"
@@ -151,7 +149,7 @@ lectures:
       - <a href="https://colab.research.google.com/drive/11AIT42dPMlTzja1yr-2XYGdTCLRypnNk">Mean Field</a>
   - topic:
     subtopic: Deep Generative Models
-    hw: T3 <a href="">Latent Variables</a> (<a href="https://canvas.harvard.edu/courses/29707/assignments/175506">submit</a>)
+    hw: T3 <a href="">Latent Variables</a> (<a href="https://canvas.harvard.edu/courses/42647/assignments/232299">submit</a>)
     papers:
     section:
     demos: <a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/RNN.ipynb"></a>
@@ -195,7 +193,7 @@ lectures:
     demos:
   - topic: Sampling
     subtopic: Monte Carlo, Rejection Sampling, Importance Sampling
-    hw: T4  <a href="https://github.com/harvard-ml-courses/cs281-f17-homework/tree/master/T4">Joint Inference</a> (<a href="">submit</a>)
+    hw: T4  <a href="">Joint Inference</a> (<a href="https://canvas.harvard.edu/courses/42647/assignments/232301">submit</a>)
     papers:
       - "B &sect; 11.1"
       - "M &sect; 23.2-23.4"
@@ -242,7 +240,7 @@ lectures:
 
   - topic:
     subtopic: Factor Analysis, Non-Linear Embedding
-    hw: T5  <a href="https://github.com/harvard-ml-courses/cs281-f17-homework/tree/master/T4">Sampling</a> (<a href="">submit</a>)
+    hw: T5  <a href="">Sampling</a> (<a href="https://canvas.harvard.edu/courses/42647/assignments/232303">submit</a>)
     papers:
       - "B &sect; 12.2, 12.4"
       - "M &sect; 12.1, 12.2.4"
