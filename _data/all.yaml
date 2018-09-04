@@ -60,7 +60,7 @@ lectures:
       - "M &sect; 2.2, 2.8, 10.1"
       - PyTorch <a href="https://pytorch.org/docs/stable/distributions.html">Distributions</a>
     section:
-    demos: <a href="https://colab.research.google.com/drive/1Pjzx783qv_C1M2OqG0v_lJf2qXb1NrIt">Distributions</a>
+    demos: <a href="https://colab.research.google.com/drive/1EOQgskqVSZJyc7-MhlAm0MpnbgAFRegJ">Distributions</a>
 
   - topic:
     subtopic: Information Theory, Maximum Likelihood, SGD
