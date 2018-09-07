@@ -29,8 +29,8 @@ sections:
   - topic:
     subtopic: Math Review
     hw:
-    papers:
-    section:
+    papers: 
+    section: <a href="https://github.com/harvard-ml-courses/cs281/blob/master/cs281-f17/sections/00-math-review/00.pdf">Notes</a>
     demos:
     active: 'active'
   - topic:
