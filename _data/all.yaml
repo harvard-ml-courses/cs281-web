@@ -40,6 +40,8 @@ sections:
     section:
     demos:
     active: 'active'
+    
+  Sections are Thursday 5-6 in MD 223 and Friday 10-11 in MD 110.
 
 lectures:
   - topic: Advanced Machine Learning
