@@ -37,8 +37,8 @@ sections:
     subtopic: PyTorch Review
     hw:
     papers:
-    section: <a href="https://colab.research.google.com/drive/1s7FeSwpUYMpaAHvZL6OEy2zDUNzKf2WZ">Section-Notes</a>
-    demos:
+    section: 
+    demos: <a href="https://colab.research.google.com/drive/1s7FeSwpUYMpaAHvZL6OEy2zDUNzKf2WZ">Section-Notes</a>
     active: 'active'
     
 lectures:
