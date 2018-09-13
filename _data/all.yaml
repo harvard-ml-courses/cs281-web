@@ -3,7 +3,6 @@ tas:
   - name: <a href="mailto:carldenton@college.harvard.edu>,">Carl Denton</a>
   - name: <a href="">Yaniv Yacoby</a>
   - name: <a href="mailto:isaaclage@g.harvard.edu">Isaac Lage</a>
-  - name: <a href="">Demi Guo</a>
   - name: <a href="mailto:lmelaskyriazi@college.harvard.edu">Luke Melas-Kyriazi </a>
 
 
@@ -186,6 +185,7 @@ lectures:
       - "M &sect; 19.1-19.4"
   - topic:
     subtopic: Time-Series Models, Auto-regressive NNs
+    papers:
       - "B &sect; 13.1, 13.2"
       - "M &sect; 17.2-17.4"
       - Paper 3
