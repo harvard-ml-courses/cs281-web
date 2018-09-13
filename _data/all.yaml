@@ -79,7 +79,7 @@ lectures:
 
   - topic:
     subtopic: Bayesian Linear Classification, Discrete
-    hw: T1 <a href="">Regression</a> (<a href="https://canvas.harvard.edu/courses/42647/assignments/232294">submit</a> )
+    hw: 
     papers:
       - "B &sect; 2.2, 4.2"
       - "M &sect; 3.3-3.5"
@@ -88,7 +88,7 @@ lectures:
       - <a href="https://colab.research.google.com/drive/1EOQgskqVSZJyc7-MhlAm0MpnbgAFRegJ">Discrete</a>
   - topic:
     subtopic: Non-Linear Models, Neural Networks
-    hw:
+    hw: T1 <a href="">Regression</a> (<a href="https://canvas.harvard.edu/courses/42647/assignments/232294">submit</a>)
     papers:
       - "B &sect; 5.1-5.3"
       - "M &sect; 16.5"
