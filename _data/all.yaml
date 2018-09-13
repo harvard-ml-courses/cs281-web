@@ -88,7 +88,7 @@ lectures:
       - <a href="https://colab.research.google.com/drive/1EOQgskqVSZJyc7-MhlAm0MpnbgAFRegJ">Discrete</a>
   - topic:
     subtopic: Non-Linear Models, Neural Networks
-    hw: T1 <a href="">Regression</a> (<a href="https://canvas.harvard.edu/courses/42647/assignments/232294">submit</a>)
+    hw: T1 <a href="https://colab.research.google.com/drive/1GI43uHC8RsqP0Unug1k0djl3qBGLrN6T">Regression</a> (<a href="https://canvas.harvard.edu/courses/42647/assignments/232294">submit</a>)
     papers:
       - "B &sect; 5.1-5.3"
       - "M &sect; 16.5"
