@@ -173,17 +173,19 @@ lectures:
     section:
     demos:
   - topic:
-    subtopic: VI for UGMs
+    subtopic: (Guest Lecture) ML for Systems Biology 
+    hw:
+    papers:
+    section:
+    demos:
+  - topic:
+    subtopic: VI for UGMs 
     hw:
     papers:
       - "B &sect; 8.3, 8.4"
       - "M &sect; 19.1-19.4"
-    section:
-    demos:
   - topic:
     subtopic: Time-Series Models, Auto-regressive NNs
-    hw:
-    papers:
       - "B &sect; 13.1, 13.2"
       - "M &sect; 17.2-17.4"
       - Paper 3
@@ -204,12 +206,6 @@ lectures:
     section:
       - "B &sect; 13.3"
       - "M &sect; 23.5"
-    demos:
-  - topic:
-    subtopic: (Guest Lecture) ML for Systems Biology
-    hw:
-    papers:
-    section:
     demos:
   - topic:
     subtopic: MCMC, Gibbs Sampling
