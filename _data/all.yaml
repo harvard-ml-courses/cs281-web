@@ -61,7 +61,7 @@ lectures:
 
   - topic:
     subtopic: Information Theory, Maximum Likelihood, SGD
-    hw: T0 <a href="https://colab.research.google.com/drive/1zahKvddiQ9tECKSh3-_mkoHoj_H10Nda">Preliminary</a> (<a href="https://canvas.harvard.edu/courses/42647/assignments/226703">submit</a>)
+    hw: T0 <a href="https://colab.research.google.com/drive/1zahKvddiQ9tECKSh3-_mkoHoj_H10Nda">Preliminary</a> (<a href="https://canvas.harvard.edu/courses/42647/assignments/226703">submit</a> | <a href="https://canvas.harvard.edu/courses/42647/quizzes/118528">self-grading</a>)
     papers:
       - "B &sect; 1.6, 5.1-5.3"
       - "M &sect; 16.5"
