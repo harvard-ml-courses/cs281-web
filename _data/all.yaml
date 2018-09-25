@@ -93,7 +93,7 @@ lectures:
       - "B &sect; 5.1-5.3"
       - "M &sect; 16.5"
       - PyTorch <a href="https://pytorch.org/tutorials/beginner/blitz/autograd_tutorial.html">NN</a>
-      - <a href="https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf">Paper 1- ImageNet Classification</a>
+      - <a href="https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf">Paper 1- ImageNet Classification</a> <a href="https://canvas.harvard.edu/courses/42647/quizzes/119311">(Check)</a>
     section:
     demos:
       - <a href="https://colab.research.google.com/drive/1YGEi7rEHJi--M3YQ3Hd67fK7YnRlAmVx">NNs</a>
