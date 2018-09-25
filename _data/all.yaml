@@ -117,7 +117,7 @@ lectures:
       - <a href="https://colab.research.google.com/drive/1w9jHJfFP4DbgstmNCZNsAygFxNnHaENe">Mixtures</a>
   - topic:
     subtopic: ELBO, Expectation-Maximization
-    hw: T2 <a href="">Classification</a> (<a href="https://canvas.harvard.edu/courses/42647/assignments/232297">submit</a>)
+    hw: T2 <a href="https://colab.research.google.com/drive/1MPJZZDV03FxcD751hR_DYraJWigX-3Q3">Classification</a> (<a href="https://canvas.harvard.edu/courses/42647/assignments/232297">submit</a>)
     papers:
       - "B &sect; 9.3, 9.4, 10.1"
       - "M &sect; 11.4-11.6"
