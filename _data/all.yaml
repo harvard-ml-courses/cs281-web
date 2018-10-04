@@ -46,7 +46,21 @@ sections:
     section: 
     demos: 
     active: 'active'
-    
+  - topic:
+    subtopic: NNs and Exponential Family
+    hw:
+    papers: 
+    section: 
+    demos: 
+    active: 'active'
+  - topic:
+    subtopic: Mixture Models and E.M.
+    hw:
+    papers: Section notes by the end of Friday
+    section: 
+    demos: <a href="https://colab.research.google.com/drive/1oiPAby0UsJAGEymX5LVxfrG600ws1_2g#scrollTo=IOPS6qD8g0F7">E.M. for GMMs Exercise</a>
+    active: 'active'
+
 lectures:
   - topic: Advanced Machine Learning
     subtopic:
