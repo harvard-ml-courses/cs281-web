@@ -28,7 +28,7 @@ sections:
   - topic:
     subtopic: Math Review
     hw:
-    papers: <a href="https://github.com/harvard-ml-courses/cs281-web/blob/gh-pages/sections/00.pdf">Notes</a>
+    papers: <a href="https://github.com/harvard-ml-courses/cs281-web/blob/gh-pages/section_0/Section_0.pdf">Notes</a>
     section:
     demos:
     active: 'active'
@@ -56,7 +56,7 @@ sections:
   - topic:
     subtopic: Mixture Models and E.M.
     hw:
-    papers: Section notes by the end of Friday
+    papers: <a href="https://github.com/harvard-ml-courses/cs281-web/blob/gh-pages/sections/section_4/04.pdf">Section-Notes</a>
     section: 
     demos: <a href="https://colab.research.google.com/drive/1oiPAby0UsJAGEymX5LVxfrG600ws1_2g#scrollTo=IOPS6qD8g0F7">E.M. for GMMs Exercise</a>
     active: 'active'
