@@ -151,7 +151,7 @@ lectures:
     subtopic:  Gradient-Based VI
     hw:
     papers:
-      - <a href="https://arxiv.org/abs/1312.6114">Paper 2: VAE<a>
+      - <a href="https://arxiv.org/abs/1312.6114">Paper 2- VAE<a>
     section:
     demos:
       - <a href="https://colab.research.google.com/drive/1nADR0WDAmyOn9AJcSLkbERftU6_6kjzT">VAEs</a>
