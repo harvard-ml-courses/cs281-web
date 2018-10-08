@@ -148,16 +148,16 @@ lectures:
   - topic:
     subtopic: (Columbus Day)
   - topic:
-    subtopic:  Gradient-Based VI, VAEs
+    subtopic:  Gradient-Based VI
     hw:
     papers:
-      - Paper 2
+      - <a href="https://arxiv.org/abs/1312.6114">Paper 2: VAE<a>
     section:
     demos:
       - <a href="https://colab.research.google.com/drive/1nADR0WDAmyOn9AJcSLkbERftU6_6kjzT">VAEs</a>
 
   - topic:
-    subtopic:  Mean Field
+    subtopic: VAEs, More VI
     hw:
     papers:
       - <a href="https://arxiv.org/pdf/1601.00670.pdf">Variational Inference</a>
@@ -167,7 +167,7 @@ lectures:
       - <a href="https://colab.research.google.com/drive/11AIT42dPMlTzja1yr-2XYGdTCLRypnNk">Mean Field</a>
   - topic:
     subtopic: Deep Generative Models
-    hw: T3 <a href="">Latent Variables</a> (<a href="https://canvas.harvard.edu/courses/42647/assignments/232299">submit</a>)
+    hw: T3 <a href="https://colab.research.google.com/drive/17ybA1aKdGAWqRstZn1S6BFaZBRZPG2a5">Latent Variables</a> (<a href="https://canvas.harvard.edu/courses/42647/assignments/232299">submit</a>)
     papers:
     section:
     demos: <a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/RNN.ipynb"></a>
