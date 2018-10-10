@@ -178,9 +178,9 @@ lectures:
     section:
     demos:
   - topic:
-    subtopic: Midterm
+    subtopic: Midterm 
     hw:
-    papers:
+    papers: <a href="https://colab.research.google.com/drive/1BNYyATorsmCBCw9aR4s-QtA1BYZqIyk5">Topics</a>
     section:
     active: "active"
     demos:
