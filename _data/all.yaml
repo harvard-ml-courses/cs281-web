@@ -60,7 +60,7 @@ sections:
     section: 
     demos: <a href="https://colab.research.google.com/drive/1oiPAby0UsJAGEymX5LVxfrG600ws1_2g#scrollTo=IOPS6qD8g0F7">E.M. for GMMs Exercise</a>
     active: 'active'
-- topic:
+  - topic:
     subtopic: Variational Inference and VAEs
     hw:
     papers: <a href="https://colab.research.google.com/drive/1dUaYUpWlUTvBRVbinMJ2EALjTfWqUrtw">Variational Inference and VAEs</a>
