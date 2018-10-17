@@ -161,7 +161,7 @@ lectures:
       - <a href="https://arxiv.org/abs/1312.6114">Paper 2- VAE<a>
     section:
     demos:
-
+      - <a href="https://colab.research.google.com/drive/1nADR0WDAmyOn9AJcSLkbERftU6_6kjzT">SGD VI</a>
   - topic:
     subtopic: Exponential-Family VI  
     hw:
@@ -170,14 +170,13 @@ lectures:
       - "B &sect; 10.3, 10.4"
     section:
     demos:
-      - <a href="https://colab.research.google.com/drive/11AIT42dPMlTzja1yr-2XYGdTCLRypnNk">Mean Field</a>
   - topic:
     subtopic: Latent Review, VAEs
     hw: T3 <a href="https://colab.research.google.com/drive/17ybA1aKdGAWqRstZn1S6BFaZBRZPG2a5">Latent Variables</a> (<a href="https://canvas.harvard.edu/courses/42647/assignments/232299">submit</a>)
     papers:
     section:
     demos: 
-      - <a href="https://colab.research.google.com/drive/1nADR0WDAmyOn9AJcSLkbERftU6_6kjzT">VAEs</a>
+          - <a href="https://colab.research.google.com/drive/11AIT42dPMlTzja1yr-2XYGdTCLRypnNk">VAE</a>
   - topic: Application
     subtopic:  Vision
     hw:
