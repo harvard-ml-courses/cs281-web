@@ -178,11 +178,11 @@ lectures:
     demos: 
           - <a href="https://colab.research.google.com/drive/11AIT42dPMlTzja1yr-2XYGdTCLRypnNk">VAE</a>
   - topic: Application
-    subtopic:  Vision
+    subtopic:  GANs
     hw:
     papers:
     section:
-    demos:
+    demos: <a href="https://colab.research.google.com/drive/1lsYaG9cVAjx8ARNxN60OYpPd_oYox0qw">Dist</a>
   - topic:
     subtopic: Midterm 
     hw:
