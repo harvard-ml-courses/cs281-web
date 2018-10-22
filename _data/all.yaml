@@ -182,7 +182,8 @@ lectures:
     hw:
     papers:
     section:
-    demos: <a href="https://colab.research.google.com/drive/1lsYaG9cVAjx8ARNxN60OYpPd_oYox0qw">Dist</a>
+    demos: 
+          - <a href="https://colab.research.google.com/drive/1lsYaG9cVAjx8ARNxN60OYpPd_oYox0qw">Dist</a>
   - topic:
     subtopic: Midterm 
     hw:
