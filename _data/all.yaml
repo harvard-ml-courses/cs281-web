@@ -199,6 +199,7 @@ lectures:
       - "M &sect; 19.1-19.4"
     section:
     demos:
+       - <a href="https://colab.research.google.com/drive/1_oSt1hwzGfxduvUVo9FHqiS98CwR4zKh">UGM</a>
   - topic:
     subtopic: (Guest Lecture) ML for Systems Biology 
     hw:
