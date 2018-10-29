@@ -203,7 +203,7 @@ lectures:
   - topic:
     subtopic: (Guest Lecture) ML for Systems Biology 
     hw:
-    papers:
+    papers: <a href="https://www.nature.com/articles/s41592-018-0138-4.pdf">Paper 3</a>
     section:
     demos:
   - topic:
@@ -217,7 +217,6 @@ lectures:
     papers:
       - "B &sect; 13.1, 13.2"
       - "M &sect; 17.2-17.4"
-      - Paper 3
     section:
     demos:
   - topic: Sampling
