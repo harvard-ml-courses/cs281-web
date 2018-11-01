@@ -229,7 +229,7 @@ lectures:
     demos:
   - topic: Sampling
     subtopic: Monte Carlo, Rejection Sampling, Importance Sampling
-    hw: T4  <a href="">Joint Inference</a> (<a href="https://canvas.harvard.edu/courses/42647/assignments/232301">submit</a>)
+    hw: T4  <a href="https://colab.research.google.com/drive/18EmAdBSN25bsUbF3Ln2sYBbMpnWPQWCo">Joint Inference</a> (<a href="https://canvas.harvard.edu/courses/42647/assignments/232301">submit</a>)
     papers:
       - "B &sect; 11.1"
       - "M &sect; 23.2-23.4"
