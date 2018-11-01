@@ -67,6 +67,13 @@ sections:
     section: 
     demos: 
     active: 'active'
+  - topic:
+    subtopic: UGMs and Belief Prop
+    hw:
+    papers: <a href="https://github.com/harvard-ml-courses/cs281-web/blob/gh-pages/sections/CS_281_F18_Section_6.pdf">Section-Notes</a>
+    section: 
+    demos: 
+    active: 'active'
 
 lectures:
   - topic: Advanced Machine Learning
