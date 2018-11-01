@@ -8,7 +8,8 @@ tas:
 
 dates: ["", "Sep. 5",  "Sep. 10", "Sep. 12",  "Sep. 17", "Sep. 19",  "Sep. 24", "Sep. 26",  "Oct. 1", "Oct. 3.", "Oct. 8.",  "Oct. 10",  "Oct. 15", "Oct. 17",  "Oct. 22", "Oct. 24",  "Oct. 29", "Oct. 31",  "Nov. 5", "Nov. 7",  "Nov. 12", "Nov. 14",  "Nov. 19", "Nov. 21", "Nov. 26", "Nov. 28", "Dec. 3", "Dec. 5"]
 
-sections_dates: ["",  "Sep. 7", "Sep. 14", "Sep. 21", "Sep. 28", "Oct. 5.", "Oct. 12", "Oct. 19", "Oct. 26", "Nov. 1", "Nov. 9", "Nov. 16", "Nov. 30"]
+sections_dates: ["",  "Sep. 7", "Sep. 14", "Sep. 21", "Sep. 28", "Oct. 5.", "Oct. 12", "Nov. 1", "Nov. 9", "Nov. 16", "Nov. 30"]
+# "Oct. 19", "Oct. 26" b/c midterm review and midterm week no section
 
 ohs:
   - time: Monday 3-4:30pm
