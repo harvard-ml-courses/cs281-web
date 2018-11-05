@@ -229,7 +229,7 @@ lectures:
     demos:
   - topic: Sampling
     subtopic: Monte Carlo, Rejection Sampling, Importance Sampling
-    hw: T4  <a href="https://colab.research.google.com/drive/18EmAdBSN25bsUbF3Ln2sYBbMpnWPQWCo">Joint Inference</a> (<a href="https://canvas.harvard.edu/courses/42647/assignments/232301">submit</a>)
+    hw:
     papers:
       - "B &sect; 11.1"
       - "M &sect; 23.2-23.4"
@@ -237,7 +237,7 @@ lectures:
     demos: <a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/ForwardBackward.ipynb"></a>
   - topic:
     subtopic: Particle Filtering, LDS
-    hw:
+    hw:  T4  <a href="https://colab.research.google.com/drive/18EmAdBSN25bsUbF3Ln2sYBbMpnWPQWCo">Joint Inference</a> (<a href="https://canvas.harvard.edu/courses/42647/assignments/232301">submit</a>)
     papers:
     section:
       - "B &sect; 13.3"
