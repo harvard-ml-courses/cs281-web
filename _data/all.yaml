@@ -234,7 +234,7 @@ lectures:
       - "B &sect; 11.1"
       - "M &sect; 23.2-23.4"
     section:
-    demos: <a href="https://github.com/harvard-ml-courses/cs281-demos/blob/master/ForwardBackward.ipynb"></a>
+    demos: <a href="https://colab.research.google.com/drive/154xqxi9jeTnF8W6A8NwKOjOjRPWWJ5Oo">Sample</a>
   - topic:
     subtopic: Particle Filtering, LDS
     hw:  T4  <a href="https://colab.research.google.com/drive/18EmAdBSN25bsUbF3Ln2sYBbMpnWPQWCo">Joint Inference</a> (<a href="https://canvas.harvard.edu/courses/42647/assignments/232301">submit</a>)
@@ -242,7 +242,8 @@ lectures:
     section:
       - "B &sect; 13.3"
       - "M &sect; 23.5"
-    demos:
+    demos:  <a href="https://colab.research.google.com/drive/1SbY-OBLErv4g_d7cEy_6v4gHF3pABVvx">Filter</a>
+  - topic:
   - topic:
     subtopic: MCMC, Gibbs Sampling
     hw:
