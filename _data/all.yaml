@@ -64,7 +64,7 @@ sections:
   - topic:
     subtopic: Variational Inference and VAEs
     hw:
-    papers: <a href="https://colab.research.google.com/drive/1dUaYUpWlUTvBRVbinMJ2EALjTfWqUrtw">Variational Inference and VAEs</a>
+    papers: <a href="https://colab.research.google.com/drive/1dUaYUpWlUTvBRVbinMJ2EALjTfWqUrtw">Section-Notes</a>
     section: 
     demos: 
     active: 'active'
@@ -72,6 +72,13 @@ sections:
     subtopic: UGMs and Belief Prop
     hw:
     papers: <a href="https://github.com/harvard-ml-courses/cs281-web/blob/gh-pages/sections/CS_281_F18_Section_6.pdf">Section-Notes</a>
+    section: 
+    demos: 
+    active: 'active'
+  - topic:
+    subtopic: Kalman and Particle Filtering (with Importance Sampling)
+    hw:
+    papers: <a href="https://colab.research.google.com/drive/1LVNdARC6yGeunUy5sBqpjEm6_-mnlL2L">Section-Notes and Demos</a>
     section: 
     demos: 
     active: 'active'
