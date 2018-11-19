@@ -294,7 +294,8 @@ lectures:
   - topic:
     subtopic: Midterm 2
     hw:
-    papers:
+    papers: 
+       - <a href="https://colab.research.google.com/drive/1uO7_Ie1qzKlHHb5N-AkO5_30S5OSL1Gs">Topics</a>
     active: "active"
     section:
     demos:
