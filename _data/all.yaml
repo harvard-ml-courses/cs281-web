@@ -258,7 +258,7 @@ lectures:
       - "M &sect; 24.2-24.3"
       - Paper 4
     section:
-    demos:
+    demos: <a href="https://colab.research.google.com/drive/1btOomMoDNYMWBM6GUSAUfcxgwvk5G1WO">Lecture-Notes and Demos</a>
   - topic:
     subtopic: (Thanksgiving)
     hw:
