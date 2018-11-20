@@ -277,7 +277,7 @@ lectures:
 
   - topic:
     subtopic: Factor Analysis, Non-Linear Embedding
-    hw: T5  <a href="">Sampling</a> (<a href="https://canvas.harvard.edu/courses/42647/assignments/232303">submit</a>)
+    hw: T5  <a href="">Sampling</a> (<a href="https://colab.research.google.com/drive/1ElW8a390Jx-FRhBs1PskZ1S1EHFTSn8s">submit</a>)
     papers:
       - "B &sect; 12.2, 12.4"
       - "M &sect; 12.1, 12.2.4"
