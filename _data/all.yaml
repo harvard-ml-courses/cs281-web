@@ -246,9 +246,9 @@ lectures:
     subtopic: Particle Filtering, LDS
     hw:  T4  <a href="https://colab.research.google.com/drive/18EmAdBSN25bsUbF3Ln2sYBbMpnWPQWCo">Joint Inference</a> (<a href="https://canvas.harvard.edu/courses/42647/assignments/232301">submit</a>)
     papers:
-    section:
       - "B &sect; 13.3"
       - "M &sect; 23.5"
+    section:
     demos:  <a href="https://colab.research.google.com/drive/1SbY-OBLErv4g_d7cEy_6v4gHF3pABVvx">Filter</a>
   - topic:
     subtopic: MCMC, Gibbs Sampling
