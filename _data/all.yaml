@@ -267,15 +267,13 @@ lectures:
     demos:
 
   - topic:
-    subtopic: HMC
+    subtopic: Training UGMs
     hw:
     papers:
-      - "B &sect; 11.5"
-      - "M &sect; 24.5"
     section:
     demos:
 
-  - topic:
+  - topic: Topics
     subtopic: Factor Analysis, Non-Linear Embedding
     hw: T5  <a href="">Sampling</a> (<a href="https://colab.research.google.com/drive/1ElW8a390Jx-FRhBs1PskZ1S1EHFTSn8s">submit</a>)
     papers:
@@ -284,7 +282,7 @@ lectures:
     section:
     demos:
 
-  - topic: Application
+  - topic: 
     subtopic: Natural Language Processing
     hw:
     papers:
