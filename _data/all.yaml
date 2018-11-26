@@ -272,7 +272,7 @@ lectures:
     papers:
     section:
     demos:
-
+      - <a href="https://colab.research.google.com/drive/1tGPr_OoYQ1EUNq6j0QhLXOp-sRpMB1au">UGM2</a>
   - topic: Topics
     subtopic: Factor Analysis, Non-Linear Embedding
     hw: T5  <a href="">Sampling</a> (<a href="https://colab.research.google.com/drive/1ElW8a390Jx-FRhBs1PskZ1S1EHFTSn8s">submit</a>)
