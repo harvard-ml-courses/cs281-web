@@ -277,6 +277,7 @@ lectures:
     subtopic: MAP Inference
     hw: T5  <a href="https://colab.research.google.com/drive/1ElW8a390Jx-FRhBs1PskZ1S1EHFTSn8s">Sampling</a> (<a href="https://canvas.harvard.edu/courses/42647/assignments/232303">submit</a>)
     papers:
+      - "M &sect; 22.6"
     section:
     demos:
 
