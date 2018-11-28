@@ -280,6 +280,7 @@ lectures:
       - "M &sect; 22.6"
     section:
     demos:
+      - <a href="https://colab.research.google.com/drive/1_WIO7ELfC0xrbYeCshc7Rxl1UhOCB32n">MAP</a>
 
   - topic: 
     subtopic: Natural Language Processing
