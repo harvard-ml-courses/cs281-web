@@ -148,6 +148,7 @@ weight: 0
 
                              <tr style="line-height: 8px; height: 8px;" class = {{lecture.active|default("",true)}}>
                                <td> {{site.data.all.dates[forloop.index]}} </td>
+			       <td> {{lecture.instructor | default("",true)}} </td>
 			       <td> {{lecture.topic | default("",true)}} </td>
                                  <td> {{lecture.subtopic|default("", true)}}</td>
                                <td>

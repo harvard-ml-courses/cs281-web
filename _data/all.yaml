@@ -3,7 +3,7 @@ tas:
   - name: <a href="mailto:kellywzhang@g.harvard.edu>,">Kelly Zhang</a>
 
 
-dates: ["", "Sep. 4",  "Sep. 9", "Sep. 11",  "Sep. 16", "Sep. 18",  "Sep. 23", "Sep. 25", "Sep. 30", "Oct. 2.", "Oct. 7.",  "Oct. 9",  "Oct. 14", "Oct. 16",  "Oct. 21", "Oct. 23",  "Oct. 28", "Oct. 30",  "Nov. 4", "Nov. 6",  "Nov. 11", "Nov. 13",  "Nov. 18", "Nov. 20", "Nov. 25", "Nov. 27", "Dec. 3"]
+dates: ["", "Sep. 4",  "Sep. 9", "Sep. 11",  "Sep. 16", "Sep. 18",  "Sep. 23", "Sep. 25", "Sep. 30", "Oct. 2.", "Oct. 7.",  "Oct. 9",  "Oct. 14", "Oct. 16",  "Oct. 21", "Oct. 23",  "Oct. 28", "Oct. 30",  "Nov. 4", "Nov. 6",  "Nov. 11", "Nov. 13",  "Nov. 18", "Nov. 20", "Nov. 25", "Nov. 27", "Dec. 2"]
 
 sections_dates: ["",  "TBD", "TBD"]
 # "Oct. 19", "Oct. 26" b/c midterm review and midterm week no section
@@ -82,178 +82,152 @@ lectures:
     instructor: Wick
     
   - topic:
-    subtopic: Distributions, Graphical Models
+    subtopic: 
     hw:
     papers:
     section:
     instructor: Wick
 
   - topic:
-    subtopic: Information Theory, Maximum Likelihood, SGD
+    subtopic: 
     hw:
     papers:
     section:
-    instructor: 
-
-  - topic: Core Models
-    subtopic: Bayesian Linear Regression, MVN
-    hw:
-    papers:
-    section:
-    instructor: 
-
-  - topic:
-    subtopic: Bayesian Linear Classification, Discrete
-    hw: 
-    papers:
-    section:
-    instructor:
-    
-  - topic:
-    subtopic: Non-Linear Models, Neural Networks
-    hw: 
-    papers:
-    section:
-    instructor:
-    
-  - topic:
-    subtopic: Exponential Families and Sufficient Statistics
-    hw:
-    papers:
-    section:
-    instructor:
-    
-  - topic: Latent Variables  / VI
-    subtopic: Mixture Models, Marginal Likelihood
-    hw:
-    papers:
-    section:
-    instructor:
-    
-  - topic:
-    subtopic: ELBO, Expectation-Maximization
-    hw: 
-    papers:
-    section:
-    
-  - topic:
-    subtopic: (Columbus Day)
-    
-  - topic:
-    subtopic:  Gradient-Based VI
-    hw:
-    papers:
-    section:
-    instructor:
-  - topic:
-    subtopic: Exponential-Family VI  
-    hw:
-    papers:
-    section:
-    instructor:
-    
-  - topic:
-    subtopic: Latent Review, VAEs
-    hw: 
-    papers:
-    section:
-    instructor:
-    
-  - topic: Application
-    subtopic:  GANs
-    hw:
-    papers:
-    section:
-    instructor:
-    
-  - topic:
-    subtopic: Midterm 
-    hw:
-    papers: 
-    section:
-    active: "active"
-    instructor:
-    
-  - topic: More Models
-    subtopic: Undirected Graphical Models
-    hw:
-    papers:
-    section:
-    instructor:
-    
-  - topic:
-    subtopic: (Guest Lecture) ML for Systems Biology 
-    hw:
-    papers:
-    section:
-    instructor:
-    
-  - topic:
-    subtopic: VI for UGMs 
-    hw:
-    papers:
-    
-  - topic:
-    subtopic: Time-Series Models, Auto-regressive NNs
-    papers:
-    section:
-    instructor:
-    
-  - topic: Sampling
-    subtopic: Monte Carlo, Rejection Sampling, Importance Sampling
-    hw:
-    papers:
-      - "B &sect; 11.1"
-      - "M &sect; 23.2-23.4"
-    section:
-    instructor:
-    
-  - topic:
-    subtopic: Particle Filtering, LDS
-    hw: 
-    papers:
-    section:
-    instructor:
-    
-  - topic:
-    subtopic: MCMC, Gibbs Sampling
-    hw:
-    papers:
-    section:
-    instructor:
-    
-  - topic:
-    subtopic: (Thanksgiving)
-    hw:
-    papers:
-    section:
-    instructor:
-
-  - topic:
-    subtopic: Training UGMs
-    hw:
-    papers:
-    section:
-    instructor:
-    
-  - topic: Topics
-    subtopic: MAP Inference
-    hw: 
-    papers:
-    section:
-    instructor:
+    instructor: Tristan
 
   - topic: 
-    subtopic: Natural Language Processing
+    subtopic: 
     hw:
     papers:
     section:
-    instructor:
+    instructor: Tristan
 
   - topic:
-    subtopic: Midterm 2
+    subtopic: 
+    hw: 
+    papers:
+    section:
+    instructor: Wick
+    
+  - topic:
+    subtopic: 
+    hw: 
+    papers:
+    section:
+    instructor: Tristan
+    
+  - topic:
+    subtopic: 
+    hw:
+    papers:
+    section:
+    instructor: Tristan
+    
+  - topic: 
+    subtopic: 
+    hw:
+    papers:
+    section:
+    instructor: Wick
+    
+  - topic:
+    subtopic: 
+    hw: 
+    papers:
+    section:
+    instructor: Tristan
+    
+  - topic:
+    subtopic:
+    instructor: Wick
+    
+  - topic:
+    subtopic:  
+    hw:
+    papers:
+    section:
+    instructor: Tristan
+    
+  - topic: Columbus day
+    
+  - topic: Midterm 
+ 
+    
+  - topic: Deep learning
+    subtopic:  
+    hw:
+    papers:
+    section:
+    instructor: Wick
+    
+  - topic:
+    subtopic: 
     hw:
     papers: 
-    active: "active"
     section:
-    instructor:
+    instructor: Tristan
+    
+  - topic: 
+    subtopic: 
+    hw:
+    papers:
+    section:
+    instructor: Wick
+    
+  - topic:
+    subtopic: 
+    hw:
+    papers:
+    section:
+    instructor: Wick
+    
+  - topic:
+    subtopic: 
+    hw:
+    papers: Wick
+    
+  - topic:
+    subtopic: 
+    papers:
+    section:
+    instructor: Wick
+    
+  - topic: 
+    subtopic: 
+    hw:
+    papers:
+    section:
+    instructor: Wick
+    
+  - topic:
+    subtopic: 
+    hw: 
+    papers:
+    section:
+    instructor: Tristan
+    
+  - topic:
+    subtopic: 
+    hw:
+    papers:
+    section:
+    instructor: Tristan
+    
+  - topic:
+    subtopic: 
+    hw:
+    papers:
+    section:
+    instructor: Tristan
+
+  - topic:
+    subtopic: 
+    hw:
+    papers:
+    section:
+    instructor: Tristan
+    
+  - topic: (Thanksgiving)
+
+  - topic: Poster session
+
