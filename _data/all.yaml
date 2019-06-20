@@ -1,29 +1,18 @@
 tas:
-  - name: <a href="mailto:anirudh_suresh@college.harvard.edu">Anirudh Suresh</a>
-  - name: <a href="mailto:carldenton@college.harvard.edu>,">Carl Denton</a>
-  - name: <a href="">Yaniv Yacoby</a>
-  - name: <a href="mailto:isaaclage@g.harvard.edu">Isaac Lage</a>
-  - name: <a href="mailto:lmelaskyriazi@college.harvard.edu">Luke Melas-Kyriazi </a>
+  - name: <a href="mailto:zziegler@g.harvard.edu">Zachary Ziegler</a>
+  - name: <a href="mailto:kellywzhang@g.harvard.edu>,">Kelly Zhang</a>
 
 
-dates: ["", "Sep. 5",  "Sep. 10", "Sep. 12",  "Sep. 17", "Sep. 19",  "Sep. 24", "Sep. 26",  "Oct. 1", "Oct. 3.", "Oct. 8.",  "Oct. 10",  "Oct. 15", "Oct. 17",  "Oct. 22", "Oct. 24",  "Oct. 29", "Oct. 31",  "Nov. 5", "Nov. 7",  "Nov. 12", "Nov. 14",  "Nov. 19", "Nov. 21", "Nov. 26", "Nov. 28", "Dec. 3", "Dec. 5"]
+dates: ["", "Sep. 4",  "Sep. 9", "Sep. 11",  "Sep. 16", "Sep. 18",  "Sep. 23", "Sep. 25", "Sep. 30", "Oct. 2.", "Oct. 7.",  "Oct. 9",  "Oct. 14", "Oct. 16",  "Oct. 21", "Oct. 23",  "Oct. 28", "Oct. 30",  "Nov. 4", "Nov. 6",  "Nov. 11", "Nov. 13",  "Nov. 18", "Nov. 20", "Nov. 25", "Nov. 27", "Dec. 3"]
 
-sections_dates: ["",  "Sep. 7", "Sep. 14", "Sep. 21", "Sep. 28", "Oct. 5.", "Oct. 12", "Nov. 1", "Nov. 9", "Nov. 16", "Nov. 30"]
+sections_dates: ["",  "TBD", "TBD"]
 # "Oct. 19", "Oct. 26" b/c midterm review and midterm week no section
 
 ohs:
-  - time: --- Monday 3-4:30pm
-    location: MD 217 (Sasha)
-  - time: Wed 3-5pm
-    location: MD 2nd Floor (Yaniv)
-  - time: Wednesday 8-10pm
-    location: Lowell House - Harvard Inn (Ani)
-  - time: Thursday 6-8pm 
-    location: MD 1st Floor (Isaac)
-  - time: Thursday 8-10pm 
-    location: MD 1st Floor (Luke)
-  - time: Friday 10-11:59am 
-    location: MD 2nd Floor (Carl)
+  - time: TBD
+    location: TBD (Zachary)
+  - time: TBD
+    location: TBD (Kelly)
 
 sections:
   - topic:
@@ -84,15 +73,15 @@ sections:
     active: 'active'
 
 lectures:
-  - topic: Advanced Machine Learning
-    subtopic:
+  - topic: Fundamentals
+    subtopic: 
     hw: <a href="https://goo.gl/forms/2sGPtqLjG74ILq8I2">Course Application</a>
     papers:
       - PyTorch <a href="https://pytorch.org/tutorials/beginner/blitz/tensor_tutorial.html#sphx-glr-beginner-blitz-tensor-tutorial-py">Tutorial</a>
     section:
     demos:
       - <a href="https://colab.research.google.com/drive/1FUqJRr8NaDmVWBS-nw8lL0s0hkxHiEpK">Prelims</a>
-  - topic: Fundamentals
+  - topic:
     subtopic: Distributions, Graphical Models
     hw:
     papers:
