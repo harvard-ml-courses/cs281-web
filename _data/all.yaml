@@ -83,7 +83,7 @@ lectures:
     
   - topic:
     subtopic: Core models
-    hw:
+    hw: A1 released
     papers:
     section:
     instructor: Wick
@@ -111,14 +111,14 @@ lectures:
     
   - topic:
     subtopic: (Stochastic) Gradient Descent
-    hw: 
+    hw: A1 due
     papers:
     section:
     instructor: Tristan
     
   - topic:
     subtopic: Regularization
-    hw:
+    hw: A2 released
     papers:
     section:
     instructor: Tristan
@@ -143,7 +143,7 @@ lectures:
     
   - topic:
     subtopic: Recap 
-    hw:
+    hw: A2 due
     papers:
     section:
     instructor: Tristan
@@ -162,7 +162,7 @@ lectures:
     
   - topic:
     subtopic: Backpropagation
-    hw:
+    hw: A3 released
     papers: 
     section:
     instructor: Tristan
@@ -189,13 +189,14 @@ lectures:
     
   - topic:
     subtopic: Generative adversarial networks
+    hw: A3 due
     papers:
     section:
     instructor: Wick
     
   - topic: 
     subtopic: Structure learning
-    hw:
+    hw: A4 released
     papers:
     section:
     instructor: Wick
@@ -223,7 +224,7 @@ lectures:
 
   - topic:
     subtopic: Variational inference
-    hw:
+    hw: A4 due
     papers:
     section:
     instructor: Tristan
