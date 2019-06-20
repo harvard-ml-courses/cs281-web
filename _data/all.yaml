@@ -83,7 +83,7 @@ lectures:
     
   - topic:
     subtopic: Core models
-    hw: A1 released
+    hw: A1 out
     papers:
     section:
     instructor: Wick
@@ -118,7 +118,7 @@ lectures:
     
   - topic:
     subtopic: Regularization
-    hw: A2 released
+    hw: A2 out
     papers:
     section:
     instructor: Tristan
@@ -159,10 +159,11 @@ lectures:
     papers:
     section:
     instructor: Wick
+    project: Proposal due
     
   - topic:
     subtopic: Backpropagation
-    hw: A3 released
+    hw: A3 out
     papers: 
     section:
     instructor: Tristan
@@ -196,7 +197,7 @@ lectures:
     
   - topic: 
     subtopic: Structure learning
-    hw: A4 released
+    hw: A4 out
     papers:
     section:
     instructor: Wick
@@ -221,6 +222,7 @@ lectures:
     papers:
     section:
     instructor: Tristan
+    project: Abstract and Status due
 
   - topic:
     subtopic: Variational inference
@@ -229,7 +231,8 @@ lectures:
     section:
     instructor: Tristan
     
-  - topic: (Thanksgiving)
+  - topic: Thanksgiving
 
   - topic: Poster session
+    project: Paper due
 
