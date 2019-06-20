@@ -20,209 +20,185 @@ sections:
     hw:
     papers: <a href="https://github.com/harvard-ml-courses/cs281-web/blob/gh-pages/sections/section_0/Section_0.pdf">Notes</a>
     section:
-    demos:
+    instructor:
     active: 'active'
   - topic:
     subtopic: PyTorch Review
     hw:
     papers:
     section: 
-    demos: <a href="https://colab.research.google.com/drive/1s7FeSwpUYMpaAHvZL6OEy2zDUNzKf2WZ">Section-Notes</a>
+    instructor: <a href="https://colab.research.google.com/drive/1s7FeSwpUYMpaAHvZL6OEy2zDUNzKf2WZ">Section-Notes</a>
     active: 'active'
   - topic:
     subtopic: MVNs and Naive Bayes
     hw:
     papers: <a href="https://github.com/harvard-ml-courses/cs281-web/blob/gh-pages/sections/section_2/">Section-Notes</a>
     section: 
-    demos: 
+    instructor: 
     active: 'active'
   - topic:
     subtopic: NNs and Exponential Family
     hw:
     papers: 
     section: 
-    demos: 
+    instructor: 
     active: 'active'
   - topic:
     subtopic: Mixture Models and E.M.
     hw:
     papers: <a href="https://github.com/harvard-ml-courses/cs281-web/blob/gh-pages/sections/section_4/04.pdf">Section-Notes</a>
     section: 
-    demos: <a href="https://colab.research.google.com/drive/1oiPAby0UsJAGEymX5LVxfrG600ws1_2g#scrollTo=IOPS6qD8g0F7">E.M. for GMMs Exercise</a>
+    instructor: <a href="https://colab.research.google.com/drive/1oiPAby0UsJAGEymX5LVxfrG600ws1_2g#scrollTo=IOPS6qD8g0F7">E.M. for GMMs Exercise</a>
     active: 'active'
   - topic:
     subtopic: Variational Inference and VAEs
     hw:
     papers: <a href="https://colab.research.google.com/drive/1dUaYUpWlUTvBRVbinMJ2EALjTfWqUrtw">Section-Notes</a>
     section: 
-    demos: 
+    instructor: 
     active: 'active'
   - topic:
     subtopic: UGMs and Belief Prop
     hw:
     papers: <a href="https://github.com/harvard-ml-courses/cs281-web/blob/gh-pages/sections/CS_281_F18_Section_6.pdf">Section-Notes</a>
     section: 
-    demos: 
+    instructor: 
     active: 'active'
   - topic:
     subtopic: Kalman and Particle Filtering (with Importance Sampling)
     hw:
-    papers: <a href="https://colab.research.google.com/drive/1LVNdARC6yGeunUy5sBqpjEm6_-mnlL2L">Section-Notes and Demos</a>
+    papers: <a href="https://colab.research.google.com/drive/1LVNdARC6yGeunUy5sBqpjEm6_-mnlL2L">Section-Notes and Instructor</a>
     section: 
-    demos: 
+    instructor: 
     active: 'active'
 
 lectures:
+
   - topic: Fundamentals
     subtopic: 
-    hw: <a href="https://goo.gl/forms/2sGPtqLjG74ILq8I2">Course Application</a>
+    hw: 
     papers:
-      - PyTorch <a href="https://pytorch.org/tutorials/beginner/blitz/tensor_tutorial.html#sphx-glr-beginner-blitz-tensor-tutorial-py">Tutorial</a>
     section:
-    demos:
-      - <a href="https://colab.research.google.com/drive/1FUqJRr8NaDmVWBS-nw8lL0s0hkxHiEpK">Prelims</a>
+    instructor: Wick
+    
   - topic:
     subtopic: Distributions, Graphical Models
     hw:
     papers:
-      - "B &sect; 1.2, 2.1-2, 8.1"
-      - "M &sect; 2.2, 2.8, 10.1"
-      - PyTorch <a href="https://pytorch.org/docs/stable/distributions.html">Distributions</a>
     section:
-    demos: <a href="https://colab.research.google.com/drive/1Pjzx783qv_C1M2OqG0v_lJf2qXb1NrIt">Distributions</a>
+    instructor: Wick
 
   - topic:
     subtopic: Information Theory, Maximum Likelihood, SGD
-    hw: T0 <a href="https://colab.research.google.com/drive/1zahKvddiQ9tECKSh3-_mkoHoj_H10Nda">Preliminary</a> (<a href="https://canvas.harvard.edu/courses/42647/assignments/226703">submit</a> | <a href="https://canvas.harvard.edu/courses/42647/quizzes/118528">self-grading</a>)
+    hw:
     papers:
-      - "B &sect; 1.6, 5.1-5.3"
-      - "M &sect; 16.5"
     section:
-    demos: <a href="https://colab.research.google.com/drive/1N0ky02Pq5hJanaRSkhY-lM0PDakp0FHO">MLE</a>
+    instructor: 
 
   - topic: Core Models
     subtopic: Bayesian Linear Regression, MVN
     hw:
     papers:
-      - "B &sect; 2.3, 3.3"
-      - "M &sect; 4.3-4.4, 7.3, 7.6"
     section:
-    demos: <a href="https://colab.research.google.com/drive/1GZNXIAXazaTxJF_shjkwTCkT1ok2MMlE">Gaussians</a>
+    instructor: 
 
   - topic:
     subtopic: Bayesian Linear Classification, Discrete
     hw: 
     papers:
-      - "B &sect; 2.2, 4.2"
-      - "M &sect; 3.3-3.5"
     section:
-    demos:
-      - <a href="https://colab.research.google.com/drive/1EOQgskqVSZJyc7-MhlAm0MpnbgAFRegJ">Discrete</a>
+    instructor:
+    
   - topic:
     subtopic: Non-Linear Models, Neural Networks
-    hw: T1 <a href="https://colab.research.google.com/drive/1sGYVorQ6mYFHnK4tkmxl2v8oUIcb2bI6">Regression</a> (<a href="https://canvas.harvard.edu/courses/42647/assignments/232294">submit</a>)
+    hw: 
     papers:
-      - "B &sect; 5.1-5.3"
-      - "M &sect; 16.5"
-      - PyTorch <a href="https://pytorch.org/tutorials/beginner/blitz/autograd_tutorial.html">NN</a>
-      - <a href="https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf">Paper 1- ImageNet Classification</a> <a href="https://canvas.harvard.edu/courses/42647/quizzes/119311">(Check)</a>
     section:
-    demos:
-      - <a href="https://colab.research.google.com/drive/1YGEi7rEHJi--M3YQ3Hd67fK7YnRlAmVx">NNs</a>
+    instructor:
+    
   - topic:
     subtopic: Exponential Families and Sufficient Statistics
     hw:
     papers:
-      - "B &sect; 2.4"
-      - "M &sect; 9.1-3"
     section:
-    demos:
-      - <a href="https://colab.research.google.com/drive/1jva9j6mY3BDIpk4uE-gF9f-Si5DVQ98Z">Exp</a>
+    instructor:
+    
   - topic: Latent Variables  / VI
     subtopic: Mixture Models, Marginal Likelihood
     hw:
     papers:
-      - "B &sect; 3.5, 9.2"
-      - "M &sect; 11.1-11.3"
     section:
-    demos:
-      - <a href="https://colab.research.google.com/drive/1w9jHJfFP4DbgstmNCZNsAygFxNnHaENe">Mixtures</a>
+    instructor:
+    
   - topic:
     subtopic: ELBO, Expectation-Maximization
-    hw: T2 <a href="https://colab.research.google.com/drive/1MPJZZDV03FxcD751hR_DYraJWigX-3Q3">Classification</a> (<a href="https://canvas.harvard.edu/courses/42647/assignments/232297">submit</a>)
+    hw: 
     papers:
-      - "B &sect; 9.3, 9.4, 10.1"
-      - "M &sect; 11.4-11.6"
     section:
-    demos:
-      - <a href="https://colab.research.google.com/drive/1LAIjoZvhBCOGZSGO65g1Vum-rZ8nkggQ">EM</a>
+    
   - topic:
     subtopic: (Columbus Day)
+    
   - topic:
     subtopic:  Gradient-Based VI
     hw:
     papers:
-      - <a href="https://arxiv.org/abs/1312.6114">Paper 2- VAE<a>
     section:
-    demos:
-      - <a href="https://colab.research.google.com/drive/1nADR0WDAmyOn9AJcSLkbERftU6_6kjzT">SGD VI</a>
+    instructor:
   - topic:
     subtopic: Exponential-Family VI  
     hw:
     papers:
-      - <a href="https://arxiv.org/pdf/1601.00670.pdf">Variational Inference</a>
-      - "B &sect; 10.3, 10.4"
     section:
-    demos:
+    instructor:
+    
   - topic:
     subtopic: Latent Review, VAEs
-    hw: T3 <a href="https://colab.research.google.com/drive/17ybA1aKdGAWqRstZn1S6BFaZBRZPG2a5">Latent Variables</a> (<a href="https://canvas.harvard.edu/courses/42647/assignments/232299">submit</a>)
+    hw: 
     papers:
     section:
-    demos: 
-      - <a href="https://colab.research.google.com/drive/11AIT42dPMlTzja1yr-2XYGdTCLRypnNk">VAE</a>
+    instructor:
+    
   - topic: Application
     subtopic:  GANs
     hw:
     papers:
     section:
-    demos: 
-      - <a href="https://colab.research.google.com/drive/1lsYaG9cVAjx8ARNxN60OYpPd_oYox0qw">Dist</a>
+    instructor:
+    
   - topic:
     subtopic: Midterm 
     hw:
-    papers: <a href="https://colab.research.google.com/drive/1BNYyATorsmCBCw9aR4s-QtA1BYZqIyk5">Topics</a>
+    papers: 
     section:
     active: "active"
-    demos:
+    instructor:
+    
   - topic: More Models
     subtopic: Undirected Graphical Models
     hw:
     papers:
-      - "B &sect; 8.3, 8.4"
-      - "M &sect; 19.1-19.4"
     section:
-    demos:
-       - <a href="https://colab.research.google.com/drive/1_oSt1hwzGfxduvUVo9FHqiS98CwR4zKh">UGM</a>
+    instructor:
+    
   - topic:
     subtopic: (Guest Lecture) ML for Systems Biology 
     hw:
-    papers: <a href="https://www.nature.com/articles/s41592-018-0138-4.pdf">Paper 3</a>
+    papers:
     section:
-    demos:
+    instructor:
+    
   - topic:
     subtopic: VI for UGMs 
     hw:
     papers:
-      - "B &sect; 8.3, 8.4"
-      - "M &sect; 19.1-19.4"
+    
   - topic:
     subtopic: Time-Series Models, Auto-regressive NNs
     papers:
-      - "B &sect; 13.1, 13.2"
-      - "M &sect; 17.2-17.4"
     section:
-    demos:
+    instructor:
+    
   - topic: Sampling
     subtopic: Monte Carlo, Rejection Sampling, Importance Sampling
     hw:
@@ -230,59 +206,54 @@ lectures:
       - "B &sect; 11.1"
       - "M &sect; 23.2-23.4"
     section:
-    demos: <a href="https://colab.research.google.com/drive/154xqxi9jeTnF8W6A8NwKOjOjRPWWJ5Oo">Sample</a>
+    instructor:
+    
   - topic:
     subtopic: Particle Filtering, LDS
-    hw:  T4  <a href="https://colab.research.google.com/drive/18EmAdBSN25bsUbF3Ln2sYBbMpnWPQWCo">Joint Inference</a> (<a href="https://canvas.harvard.edu/courses/42647/assignments/232301">submit</a>)
+    hw: 
     papers:
-      - "B &sect; 13.3"
-      - "M &sect; 23.5"
     section:
-    demos:  <a href="https://colab.research.google.com/drive/1SbY-OBLErv4g_d7cEy_6v4gHF3pABVvx">Filter</a>
+    instructor:
+    
   - topic:
     subtopic: MCMC, Gibbs Sampling
     hw:
     papers:
-      - "B &sect; 11.2, 11.3"
-      - "M &sect; 24.2-24.3"
-      - Paper 4
     section:
-    demos: <a href="https://colab.research.google.com/drive/1btOomMoDNYMWBM6GUSAUfcxgwvk5G1WO">Lecture-Notes and Demos</a>
+    instructor:
+    
   - topic:
     subtopic: (Thanksgiving)
     hw:
     papers:
     section:
-    demos:
+    instructor:
 
   - topic:
     subtopic: Training UGMs
     hw:
     papers:
     section:
-    demos:
-      - <a href="https://colab.research.google.com/drive/1tGPr_OoYQ1EUNq6j0QhLXOp-sRpMB1au">UGM2</a>
+    instructor:
+    
   - topic: Topics
     subtopic: MAP Inference
-    hw: T5  <a href="https://colab.research.google.com/drive/1ElW8a390Jx-FRhBs1PskZ1S1EHFTSn8s">Sampling</a> (<a href="https://canvas.harvard.edu/courses/42647/assignments/232303">submit</a>)
+    hw: 
     papers:
-      - "M &sect; 22.6"
     section:
-    demos:
-      - <a href="https://colab.research.google.com/drive/1_WIO7ELfC0xrbYeCshc7Rxl1UhOCB32n">MAP</a>
+    instructor:
 
   - topic: 
     subtopic: Natural Language Processing
     hw:
     papers:
     section:
-    demos:
+    instructor:
 
   - topic:
     subtopic: Midterm 2
     hw:
     papers: 
-       - <a href="https://colab.research.google.com/drive/1uO7_Ie1qzKlHHb5N-AkO5_30S5OSL1Gs">Topics</a>
     active: "active"
     section:
-    demos:
+    instructor:
