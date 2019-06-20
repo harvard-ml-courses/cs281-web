@@ -12,7 +12,7 @@ sections_dates: ["",  "Sep. 7", "Sep. 14", "Sep. 21", "Sep. 28", "Oct. 5.", "Oct
 # "Oct. 19", "Oct. 26" b/c midterm review and midterm week no section
 
 ohs:
-  - time: Monday 3-4:30pm
+  - time: --- Monday 3-4:30pm
     location: MD 217 (Sasha)
   - time: Wed 3-5pm
     location: MD 2nd Floor (Yaniv)
