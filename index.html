@@ -66,8 +66,7 @@ weight: 0
                       <div class="container ">
                       <!-- <div class="panel-body"> -->
                          <ul>
-                           <li>There will be a first section this Friday at 1pm in G-125. It will be a math review.</li>
-                           <li>Please fill out the <a href="https://goo.gl/forms/2sGPtqLjG74ILq8I2">course application</a> form. We will release holds by Friday. </li>
+                           <li>First class: September 4</li>
                          </ul>
                       </div>
                   </div>
@@ -76,12 +75,10 @@ weight: 0
                       <div class="container ">
                       <!-- <div class="panel-body"> -->
                           <dl>
-                              <dt>Forum and Announcements</dt>
+                              <dt>Forum</dt>
                               <dd><ul>
                                   <li><a href="https://piazza.com/class/jl3q9gb9ip0142">Piazza (password: 'kekzi') </a></li>
-                                  <li><a href="http://cs61.seas.harvard.edu/jk/cs281/">CS281 Anon (Thanks Eddie!)</a></li>
-                                  <li><a href="https://1drv.ms/f/s!ArNSimXdS0z3aH4Oca_aNfIaX2g">OneNote</a>
-                              </ul></dd>
+                               </ul></dd>
 
                               <dt>Section Times/Rooms </dt>
                               <dd><ul>
@@ -143,7 +140,7 @@ weight: 0
              <div class="row container">
                      <div class="tab-content">
                          <table class="table table-striped table-hover">
-                             <tr><th>Date</th> <th>Instructor</th> <th>Area</th> <th>Topic</th><th>Reading</th><th>Assignment <br> (DUE: Fri 5pm)</th></tr>
+                             <tr><th>Date</th> <th>Instructor</th> <th>Area</th> <th>Topic</th><th>Reading</th><th>Assignment</th></tr>
 {% for lecture in site.data.all.lectures %}
 
                              <tr style="line-height: 8px; height: 8px;" class = {{lecture.active|default("",true)}}>
@@ -172,7 +169,7 @@ weight: 0
                      <div class="tab-content">
                          <table class="table">
                              <tr><th>Date</th> <th>Area</th> <th>Topic</th><th>Demos </th><th>Reading</
-th><th>Assignment <br> (DUE: Fri 5pm)</th></tr>
+th><th>Assignment</th></tr>
                              {% for lecture in site.data.all.sections %}
                              <tr class = {{lecture.active|default("",true)}}>
                                <td> {{site.data.all.sections_dates[forloop.index]}} </td> <td>

@@ -75,74 +75,74 @@ sections:
 lectures:
 
   - topic: Fundamentals
-    subtopic: 
+    subtopic: Introduction
     hw: 
     papers:
     section:
     instructor: Wick
     
   - topic:
-    subtopic: 
+    subtopic: Core models
     hw:
     papers:
     section:
     instructor: Wick
 
   - topic:
-    subtopic: 
+    subtopic: Learning theory
     hw:
     papers:
     section:
     instructor: Tristan
 
   - topic: 
-    subtopic: 
+    subtopic: Fundamental theorem of ML
     hw:
     papers:
     section:
     instructor: Tristan
 
   - topic:
-    subtopic: 
+    subtopic: Maximum likelihood estimation
     hw: 
     papers:
     section:
     instructor: Wick
     
   - topic:
-    subtopic: 
+    subtopic: (Stochastic) Gradient Descent
     hw: 
     papers:
     section:
     instructor: Tristan
     
   - topic:
-    subtopic: 
+    subtopic: Regularization
     hw:
     papers:
     section:
     instructor: Tristan
     
   - topic: 
-    subtopic: 
+    subtopic: Model selection
     hw:
     papers:
     section:
     instructor: Wick
     
   - topic:
-    subtopic: 
+    subtopic: Margins
     hw: 
     papers:
     section:
     instructor: Tristan
     
   - topic:
-    subtopic:
+    subtopic: Kernel SVM
     instructor: Wick
     
   - topic:
-    subtopic:  
+    subtopic: Recap 
     hw:
     papers:
     section:
@@ -154,74 +154,75 @@ lectures:
  
     
   - topic: Deep learning
-    subtopic:  
+    subtopic: Multiplayer perceptron 
     hw:
     papers:
     section:
     instructor: Wick
     
   - topic:
-    subtopic: 
+    subtopic: Backpropagation
     hw:
     papers: 
     section:
     instructor: Tristan
     
   - topic: 
-    subtopic: 
+    subtopic: Convolutional neural networks
     hw:
     papers:
     section:
     instructor: Wick
     
   - topic:
-    subtopic: 
+    subtopic: Recurrent neural networks
     hw:
     papers:
     section:
     instructor: Wick
     
   - topic:
-    subtopic: 
+    subtopic: Attention mechanism
     hw:
-    papers: Wick
+    papers:
+    instructor: Wick
     
   - topic:
-    subtopic: 
+    subtopic: Generative adversarial networks
     papers:
     section:
     instructor: Wick
     
   - topic: 
-    subtopic: 
+    subtopic: Structure learning
     hw:
     papers:
     section:
     instructor: Wick
     
-  - topic:
-    subtopic: 
+  - topic: Probabilistic Modeling
+    subtopic: Bayesian machine learning
     hw: 
     papers:
     section:
     instructor: Tristan
     
   - topic:
-    subtopic: 
+    subtopic: Expectation Maximization
     hw:
     papers:
     section:
     instructor: Tristan
     
   - topic:
-    subtopic: 
+    subtopic: Markov Chain Monte Carlo
     hw:
     papers:
     section:
     instructor: Tristan
 
   - topic:
-    subtopic: 
+    subtopic: Variational inference
     hw:
     papers:
     section:
