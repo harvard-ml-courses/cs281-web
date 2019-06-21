@@ -104,28 +104,28 @@ lectures:
 
   - topic:
     subtopic: Maximum likelihood estimation
-    hw: 
+    hw: A1 due, A2 out
     papers:
     section:
     instructor: Wick
     
   - topic:
     subtopic: (Stochastic) Gradient Descent
-    hw: A1 due
+    hw: 
     papers:
     section:
     instructor: Tristan
     
   - topic:
     subtopic: Regularization
-    hw: A2 out
+    hw: 
     papers:
     section:
     instructor: Tristan
     
   - topic: 
     subtopic: Model selection
-    hw:
+    hw: A2 due, A3 out
     papers:
     section:
     instructor: Wick
@@ -140,10 +140,11 @@ lectures:
   - topic:
     subtopic: Kernel SVM
     instructor: Wick
+    hw: A2 due, A3 out
     
   - topic:
     subtopic: Recap 
-    hw: A2 due
+    hw: 
     papers:
     section:
     instructor: Tristan
