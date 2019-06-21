@@ -191,30 +191,23 @@ lectures:
     instructor: Wick
     
   - topic:
-    subtopic: Generative adversarial networks
+    subtopic: Structured prediction
     hw: 
     papers:
     section:
     instructor: Wick
     project: Proposal due
     
-  - topic: 
-    subtopic: Structure learning
-    hw: A4 due
-    papers:
-    section:
-    instructor: Wick
-    
   - topic: Probabilistic Modeling
     subtopic: Bayesian machine learning
     hw: 
     papers:
     section:
-    instructor: Tristan
+    instructor: Wick
     
-  - topic:
+  - topic: 
     subtopic: Expectation Maximization
-    hw:
+    hw: A4 due
     papers:
     section:
     instructor: Tristan
@@ -225,14 +218,21 @@ lectures:
     papers:
     section:
     instructor: Tristan
-    project: Abstract and Status due
-
+    
   - topic:
     subtopic: Variational inference
-    hw: 
+    hw:
     papers:
     section:
     instructor: Tristan
+    project: Abstract and Status due
+
+  - topic: Invited talk
+    subtopic: Reinforcement learning and game theory
+    hw: 
+    papers:
+    section:
+    instructor: Panda
     
   - topic: Thanksgiving
 
