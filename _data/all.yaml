@@ -76,14 +76,14 @@ lectures:
 
   - topic: Fundamentals
     subtopic: Introduction
-    hw: 
+    hw: A1 out
     papers:
     section:
     instructor: Wick
     
   - topic:
     subtopic: Core models
-    hw: A1 out
+    hw: 
     papers:
     section:
     instructor: Wick
@@ -125,14 +125,14 @@ lectures:
     
   - topic: 
     subtopic: Model selection
-    hw: A2 due, A3 out
+    hw: 
     papers:
     section:
     instructor: Wick
     
   - topic:
     subtopic: Margins
-    hw: 
+    hw: A2 due, A3 out
     papers:
     section:
     instructor: Tristan
@@ -140,7 +140,7 @@ lectures:
   - topic:
     subtopic: Kernel SVM
     instructor: Wick
-    hw: A2 due, A3 out
+    hw: 
     
   - topic:
     subtopic: Recap 
@@ -150,8 +150,10 @@ lectures:
     instructor: Tristan
     
   - topic: Columbus day
+    hw: A3 due
     
-  - topic: Midterm 
+  - topic: Midterm
+    hw: A4 out
  
     
   - topic: Deep learning
@@ -178,7 +180,7 @@ lectures:
     
   - topic:
     subtopic: Recurrent neural networks
-    hw:
+    hw: A4 due
     papers:
     section:
     instructor: Wick
