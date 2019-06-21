@@ -124,16 +124,6 @@ lectures:
     section:
     instructor: Tristan
         
-  - topic:
-    subtopic: Margins
-    papers:
-    section:
-    instructor: Tristan
-    
-  - topic:
-    subtopic: Kernel SVM
-    instructor: Wick
-
   - topic: Deep learning
     subtopic: Multiplayer perceptron 
     papers:
@@ -205,11 +195,21 @@ lectures:
     section:
     instructor: Tristan
 
+  - topic:
+    subtopic: ???
+    instructor: Wick
+
   - topic: 
     subtopic: ???
     papers:
     section:
     instructor: Wick
+
+  - topic: 
+    subtopic: Fairness in ML
+    papers:
+    section:
+    instructor: Tristan
 
   - topic: Invited talk
     subtopic: Reinforcement learning and game theory
