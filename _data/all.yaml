@@ -76,14 +76,14 @@ lectures:
 
   - topic: Fundamentals
     subtopic: Introduction
-    hw: A1 out
+    hw: 
     papers:
     section:
     instructor: Wick
     
   - topic:
     subtopic: Core models
-    hw: 
+    hw: A1 out
     papers:
     section:
     instructor: Wick
@@ -104,14 +104,14 @@ lectures:
 
   - topic:
     subtopic: Maximum likelihood estimation
-    hw: A1 due, A2 out
+    hw: 
     papers:
     section:
     instructor: Wick
     
   - topic:
     subtopic: (Stochastic) Gradient Descent
-    hw: 
+    hw: A1 due, A2 out
     papers:
     section:
     instructor: Tristan
@@ -132,7 +132,7 @@ lectures:
     
   - topic:
     subtopic: Margins
-    hw: A2 due, A3 out
+    hw: 
     papers:
     section:
     instructor: Tristan
@@ -140,7 +140,7 @@ lectures:
   - topic:
     subtopic: Kernel SVM
     instructor: Wick
-    hw: 
+    hw: A2 due, A3 out
     
   - topic:
     subtopic: Recap 
@@ -150,10 +150,10 @@ lectures:
     instructor: Tristan
     
   - topic: Columbus day
-    hw: A3 due
+    hw: 
     
   - topic: Midterm
-    hw: A4 out
+    hw: 
  
     
   - topic: Deep learning
@@ -165,7 +165,7 @@ lectures:
     
   - topic:
     subtopic: Backpropagation
-    hw: A3 out
+    hw: 
     papers: 
     section:
     instructor: Tristan
@@ -179,7 +179,7 @@ lectures:
     
   - topic:
     subtopic: Recurrent neural networks
-    hw: A4 due
+    hw: 
     papers:
     section:
     instructor: Wick
