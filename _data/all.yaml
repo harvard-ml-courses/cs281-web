@@ -139,7 +139,7 @@ lectures:
     instructor: Wick
     hw: A2 due
 
- - topic: Deep learning
+  - topic: Deep learning
     subtopic: Multiplayer perceptron 
     hw: 
     papers:
