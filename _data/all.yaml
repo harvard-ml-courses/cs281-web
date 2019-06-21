@@ -16,75 +16,65 @@ ohs:
 
 sections:
   - topic:
-    subtopic: Math Review
+    subtopic: 
     hw:
-    papers: <a href="https://github.com/harvard-ml-courses/cs281-web/blob/gh-pages/sections/section_0/Section_0.pdf">Notes</a>
+    papers: 
     section:
     instructor:
-    active: 'active'
   - topic:
     subtopic: 
     hw:
     papers:
     section: 
     instructor: 
-    active: 
-  - topic:
-    subtopic: MVNs and Naive Bayes
-    hw:
-    papers: 
-    section: 
-    instructor: 
-    active: 
   - topic:
     subtopic: 
     hw:
     papers: 
     section: 
     instructor: 
-    active: 
+  - topic:
+    subtopic: 
+    hw:
+    papers: 
+    section: 
+    instructor: 
   - topic:
     subtopic: 
     hw:
     papers: 
     section: 
     instructor:
-    active: 'active'
   - topic:
-    subtopic: Variational Inference and VAEs
+    subtopic: 
     hw:
     papers:
     section: 
     instructor: 
-    active: 
   - topic:
     subtopic: 
     hw:
     papers: 
     section: 
     instructor: 
-    active: 
   - topic:
     subtopic: 
     hw:
     papers: 
     section: 
     instructor: 
-    active: 'active'
   - topic:
     subtopic: 
     hw:
     papers: 
     section: 
     instructor: 
-    active: 
   - topic:
     subtopic: 
     hw:
     papers: 
     section: 
     instructor: 
-    active: 
 
 lectures:
 
