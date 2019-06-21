@@ -216,14 +216,14 @@ lectures:
     papers:
     section:
     instructor: Tristan
-    project: Abstract and status due
 
   - topic:
     subtopic: Variational inference
     hw:
     papers:
     section:
-    instructor: Tristan  
+    instructor: Tristan
+    project: Abstract and status due
 
   - topic: 
     subtopic: Model selection
