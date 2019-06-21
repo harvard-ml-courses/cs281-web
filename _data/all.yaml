@@ -144,7 +144,7 @@ lectures:
     papers:
     section:
     instructor: Wick
-    hw: A2 due
+    hw: A2 due, A3 out
 
   - topic:
     subtopic: Backpropagation
@@ -159,11 +159,11 @@ lectures:
     
   - topic: 
     subtopic: Midterm 
-    hw: A3 out
+    hw: 
     
   - topic: 
     subtopic: Convolutional neural networks
-    hw:
+    hw: A3 due, A4 out
     papers:
     section:
     instructor: Wick
@@ -184,13 +184,13 @@ lectures:
 
   - topic:
     subtopic: Attention mechanism
-    hw: A3 due, A4 out
+    hw: 
     papers:
     instructor: Wick
     
   - topic: Probabilistic machine learning
     subtopic: Structured prediction
-    hw: 
+    hw: A4 due
     papers:
     section:
     instructor: Wick
