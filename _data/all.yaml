@@ -5,6 +5,10 @@ tas:
 
 dates: ["", "Sep. 4",  "Sep. 9", "Sep. 11",  "Sep. 16", "Sep. 18",  "Sep. 23", "Sep. 25", "Sep. 30", "Oct. 2.", "Oct. 7.",  "Oct. 9",  "Oct. 14", "Oct. 16",  "Oct. 21", "Oct. 23",  "Oct. 28", "Oct. 30",  "Nov. 4", "Nov. 6",  "Nov. 11", "Nov. 13",  "Nov. 18", "Nov. 20", "Nov. 25", "Nov. 27", "Dec. 2", "Dec. 9"]
 
+hw: ["", "",  "A1 out", "",  "", "",  "A1 due, A2 out", "", "", "", "A2 due, A3 out",  "",  "", "",  "A3 due, A4 out", "",  "", "",  "A4 due", "",  "", "",  "", "", "", "", "", ""]
+
+project: ["", "",  "", "",  "", "",  "", "", "", "", "",  "",  "", "",  "", "",  "", "",  "Proposal due", "",  "", "",  "Abstract and status due", "", "", "", "	Poster due", "Paper due"]
+
 sections_dates: ["",  "Sep. 9", "Sep. 16", "Sep. 23", "Sep. 30", "Oct. 7", "Oct. 21", "Oct. 28", "Nov. 4", "Nov. 11", "Nov. 18"]
 # "Oct. 19", "Oct. 26" b/c midterm review and midterm week no section
 
@@ -80,56 +84,48 @@ lectures:
 
   - topic: Fundamentals
     subtopic: Introduction
-    hw: 
     papers:
     section:
     instructor: Wick
     
   - topic:
     subtopic: Core models
-    hw: A1 out
     papers:
     section:
     instructor: Wick
 
   - topic:
-    subtopic: Learning theory
-    hw:
+    subtopic: Learning theory 1
     papers:
     section:
     instructor: Tristan
 
   - topic: 
-    subtopic: Fundamental theorem of ML
-    hw:
+    subtopic: Learning theory 2
     papers:
     section:
     instructor: Tristan
 
   - topic:
     subtopic: Maximum likelihood estimation
-    hw: 
     papers:
     section:
     instructor: Wick
     
   - topic:
-    subtopic: (Stochastic) Gradient Descent
-    hw: A1 due, A2 out
+    subtopic: Analysis of ML algorithms 1: SGD
     papers:
     section:
     instructor: Tristan
     
   - topic:
-    subtopic: Regularization
-    hw: 
+    subtopic: Analysis of ML algorithms 1: Stability
     papers:
     section:
     instructor: Tristan
         
   - topic:
     subtopic: Margins
-    hw: 
     papers:
     section:
     instructor: Tristan
@@ -140,101 +136,83 @@ lectures:
 
   - topic: Deep learning
     subtopic: Multiplayer perceptron 
-    hw: 
     papers:
     section:
     instructor: Wick
-    hw: A2 due, A3 out
 
   - topic:
     subtopic: Backpropagation
-    hw: 
     papers: 
     section:
     instructor: Tristan
 
   - topic: 
     subtopic: Columbus day 
-    hw: 
     
   - topic: 
     subtopic: Midterm 
-    hw: 
     
   - topic: 
     subtopic: Convolutional neural networks
-    hw: A3 due, A4 out
     papers:
     section:
     instructor: Wick
     
   - topic:
     subtopic: Recurrent neural networks
-    hw: 
     papers:
     section:
     instructor: Wick
 
   - topic:
     subtopic: Project introduction 
-    hw: 
     papers:
     section:
     instructor: Tristan
 
   - topic: 
     subtopic: Structured prediction
-    hw: 
     papers:
     section:
     instructor: Wick
 
   - topic:
     subtopic: Attention mechanism
-    hw: A4 due
     papers:
     instructor: Wick
-    project: Proposal due    
 
   - topic: Probabilistic machine learning
     subtopic: Bayesian machine learning
-    hw: 
     papers:
     section:
     instructor: Tristan
     
   - topic: 
     subtopic: Expectation Maximization
-    hw: 
     papers:
     section:
     instructor: Tristan
     
   - topic:
     subtopic: Markov Chain Monte Carlo
-    hw: 
     papers:
     section:
     instructor: Tristan
 
   - topic:
     subtopic: Variational inference
-    hw:
     papers:
     section:
     instructor: Tristan
-    project: Abstract and status due
 
   - topic: 
     subtopic: ???
-    hw: 
     papers:
     section:
     instructor: Wick
 
   - topic: Invited talk
     subtopic: Reinforcement learning and game theory
-    hw: 
     papers:
     section:
     instructor: Panda
@@ -242,8 +220,6 @@ lectures:
   - topic: Thanksgiving
 
   - topic: Poster session
-    project: Poster due
 
   - topic:
-    project: Paper due
 

@@ -161,8 +161,9 @@ weight: 0
                                  </ul>
                                  </td>
 
-                               <td> {{lecture.hw | default("",true)}}</td>
-			       <td> {{lecture.project | default("",true)}} </td>
+			       <td> {{site.data.all.hw[forloop.index]}} </td>
+			       <td> {{site.data.all.project[forloop.index]}} </td>
+                               
                              </tr>
                              {% endfor %}
                          </table>
