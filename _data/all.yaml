@@ -160,15 +160,15 @@ lectures:
     section:
     instructor: Tristan
 
+  - topic:
+    subtopic: Attention mechanism
+    papers:
+    instructor: Wick
+
   - topic: 
     subtopic: Structured prediction
     papers:
     section:
-    instructor: Wick
-
-  - topic:
-    subtopic: Attention mechanism
-    papers:
     instructor: Wick
 
   - topic: Probabilistic machine learning
