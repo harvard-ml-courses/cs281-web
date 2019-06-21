@@ -162,7 +162,6 @@ lectures:
     papers:
     section:
     instructor: Wick
-    project: Proposal due
     
   - topic:
     subtopic: Backpropagation
@@ -193,14 +192,15 @@ lectures:
     
   - topic:
     subtopic: Generative adversarial networks
-    hw: A3 due
+    hw: 
     papers:
     section:
     instructor: Wick
+    project: Proposal due
     
   - topic: 
     subtopic: Structure learning
-    hw: A4 out
+    hw: 
     papers:
     section:
     instructor: Wick
@@ -229,7 +229,7 @@ lectures:
 
   - topic:
     subtopic: Variational inference
-    hw: A4 due
+    hw: 
     papers:
     section:
     instructor: Tristan
