@@ -36,7 +36,7 @@ sections:
   - topic: Reading
     subtopic: 
     hw:
-    papers: 
+    papers: <a href="https://icml.cc/Conferences/2015/wp-content/uploads/2015/06/icml_ranking.pdf">Learning to Rank using Gradient Descen</a>
     section: 
     instructor: 
   - topic: Reading

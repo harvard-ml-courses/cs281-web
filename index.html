@@ -184,13 +184,8 @@ th></tr>
                                  <td>
                                      {{lecture.demos|default("", true)}}
                                  </td>
-                               <td>
-                                 <ul>
-                                 {% for paper in lecture.papers %}
-                                 <li>{{paper |default("", true)}}</li>
-                                 {% endfor %}
-                                 </ul>
-                                 </td>
+                               <td> {{paper |default("", true)}} </td>
+                                 
 
                                  
                              </tr>
