@@ -137,7 +137,6 @@ lectures:
   - topic:
     subtopic: Kernel SVM
     instructor: Wick
-    hw: A2 due
 
   - topic: Deep learning
     subtopic: Multiplayer perceptron 
@@ -145,7 +144,8 @@ lectures:
     papers:
     section:
     instructor: Wick
-    
+    hw: A2 due
+
   - topic:
     subtopic: Backpropagation
     hw: 
@@ -170,7 +170,7 @@ lectures:
     
   - topic:
     subtopic: Recurrent neural networks
-    hw: A3 due, A4 out
+    hw: 
     papers:
     section:
     instructor: Wick
@@ -184,7 +184,7 @@ lectures:
 
   - topic:
     subtopic: Attention mechanism
-    hw: 
+    hw: A3 due, A4 out
     papers:
     instructor: Wick
     
@@ -205,14 +205,14 @@ lectures:
     
   - topic: 
     subtopic: Expectation Maximization
-    hw: A4 due
+    hw: 
     papers:
     section:
     instructor: Tristan
     
   - topic:
     subtopic: Markov Chain Monte Carlo
-    hw:
+    hw: A4 due
     papers:
     section:
     instructor: Tristan
