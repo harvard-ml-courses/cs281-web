@@ -60,7 +60,7 @@ sections:
   - topic: Reading
     subtopic: 
     hw:
-    papers: 
+    papers: <a href="https://arxiv.org/abs/1806.07366">Neural Ordinary Differential Equations</a>
     section: 
     instructor: 
   - topic: Reading
@@ -126,14 +126,7 @@ lectures:
     papers:
     section:
     instructor: Tristan
-    
-  - topic: 
-    subtopic: Model selection
-    hw: 
-    papers:
-    section:
-    instructor: Wick
-    
+        
   - topic:
     subtopic: Margins
     hw: 
@@ -145,22 +138,8 @@ lectures:
     subtopic: Kernel SVM
     instructor: Wick
     hw: A2 due
-    
-  - topic:
-    subtopic: Recap 
-    hw: 
-    papers:
-    section:
-    instructor: Tristan
-    
-  - topic: Columbus day
-    hw: 
-    
-  - topic: Midterm
-    hw: A3 out
- 
-    
-  - topic: Deep learning
+
+ - topic: Deep learning
     subtopic: Multiplayer perceptron 
     hw: 
     papers:
@@ -173,7 +152,20 @@ lectures:
     papers: 
     section:
     instructor: Tristan
+
+  - topic: Columbus day
+    hw: 
     
+  - topic: Midterm
+    hw: A3 out
+ 
+  - topic:
+    subtopic: Project introduction 
+    hw: 
+    papers:
+    section:
+    instructor: Tristan
+   
   - topic: 
     subtopic: Convolutional neural networks
     hw:
@@ -230,6 +222,13 @@ lectures:
     papers:
     section:
     instructor: Tristan  
+
+  - topic: 
+    subtopic: Model selection
+    hw: 
+    papers:
+    section:
+    instructor: Wick
 
   - topic: Invited talk
     subtopic: Reinforcement learning and game theory
