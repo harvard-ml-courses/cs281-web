@@ -15,61 +15,61 @@ ohs:
     location: TBD (Kelly)
 
 sections:
-  - topic:
-    subtopic: 
+  - topic: Review
+    subtopic: Math
     hw:
     papers: 
     section:
     instructor:
-  - topic:
-    subtopic: 
+  - topic: Review
+    subtopic: Python/Scikit-learn
     hw:
     papers:
     section: 
     instructor: 
-  - topic:
+  - topic: Reading
     subtopic: 
     hw:
     papers: 
     section: 
     instructor: 
-  - topic:
+  - topic: Reading
     subtopic: 
     hw:
     papers: 
     section: 
     instructor: 
-  - topic:
+  - topic: Reading
     subtopic: 
     hw:
     papers: 
     section: 
     instructor:
-  - topic:
-    subtopic: 
+  - topic: Review
+    subtopic: Pytorch
     hw:
     papers:
     section: 
     instructor: 
-  - topic:
+  - topic: Reading
     subtopic: 
     hw:
     papers: 
     section: 
     instructor: 
-  - topic:
+  - topic: Reading
     subtopic: 
     hw:
     papers: 
     section: 
     instructor: 
-  - topic:
+  - topic: Reading
     subtopic: 
     hw:
     papers: 
     section: 
     instructor: 
-  - topic:
+  - topic: Reading
     subtopic: 
     hw:
     papers: 

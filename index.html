@@ -46,7 +46,7 @@ weight: 0
             <li class="active"><a data-toggle="tab" href="#home_tab">Home</a></li>
             <li><a data-toggle="tab" href="#schedule_tab">Schedule</a></li>
             <li><a data-toggle="tab" href="#people_tab">People</a></li>
-            <li><a data-toggle="tab" href="#section_tab">Section</a></li>
+            <li><a data-toggle="tab" href="#section_tab">Sections</a></li>
 	    <li><a data-toggle="tab" href="#project_tab">Project</a></li>
             <!--li><a data-toggle="tab" href="#grading_tab">Grading</a></li>
             <li><a data-toggle="tab" href="#references_tab">References</a></li-->
@@ -173,8 +173,8 @@ weight: 0
              <div class="row container">
                      <div class="tab-content">
                          <table class="table">
-                             <tr><th>Date</th> <th>Area</th> <th>Topic</th><th>Demos </th><th>Reading</
-th><th>Assignment</th></tr>
+                             <tr><th>Week</th> <th>Type</th> <th>Topic</th><th>Demos </th><th>Reading</
+th></tr>
                              {% for lecture in site.data.all.sections %}
                              <tr class = {{lecture.active|default("",true)}}>
                                <td> {{site.data.all.sections_dates[forloop.index]}} </td> <td>
@@ -192,7 +192,7 @@ th><th>Assignment</th></tr>
                                  </ul>
                                  </td>
 
-                                 <td> {{lecture.hw | default("",true)}}</td>
+                                 
                              </tr>
                              {% endfor %}
                          </table>
