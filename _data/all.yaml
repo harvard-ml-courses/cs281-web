@@ -30,7 +30,7 @@ sections:
   - topic: Reading
     subtopic: 
     hw:
-    papers: NeurIPS 2018 Test of Time Award: The Tradeoffs of Large Scale Machine Learning, by Leon Bottou and Olivier Bousquet.
+    papers: <a href="https://leon.bottou.org/publications/pdf/nips-2007.pdf">The Tradeoffs of Large Scale Learning</a>
     section: 
     instructor: 
   - topic: Reading
