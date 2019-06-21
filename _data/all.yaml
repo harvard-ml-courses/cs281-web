@@ -188,7 +188,7 @@ lectures:
     papers:
     instructor: Wick
     
-  - topic:
+  - topic: Probabilistic machine learning
     subtopic: Structured prediction
     hw: 
     papers:
@@ -196,7 +196,7 @@ lectures:
     instructor: Wick
     project: Proposal due
     
-  - topic: Probabilistic Modeling
+  - topic: 
     subtopic: Bayesian machine learning
     hw: 
     papers:
