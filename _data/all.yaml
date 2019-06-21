@@ -140,7 +140,7 @@ lectures:
   - topic:
     subtopic: Kernel SVM
     instructor: Wick
-    hw: A2 due, A3 out
+    hw: A2 due
     
   - topic:
     subtopic: Recap 
@@ -153,12 +153,12 @@ lectures:
     hw: 
     
   - topic: Midterm
-    hw: 
+    hw: A3 out
  
     
   - topic: Deep learning
     subtopic: Multiplayer perceptron 
-    hw: A3 due, A4 out
+    hw: 
     papers:
     section:
     instructor: Wick
@@ -179,14 +179,14 @@ lectures:
     
   - topic:
     subtopic: Recurrent neural networks
-    hw: 
+    hw: A3 due, A4 out
     papers:
     section:
     instructor: Wick
     
   - topic:
     subtopic: Attention mechanism
-    hw: A4 due
+    hw: 
     papers:
     instructor: Wick
     
@@ -200,7 +200,7 @@ lectures:
     
   - topic: 
     subtopic: Structure learning
-    hw: 
+    hw: A4 due
     papers:
     section:
     instructor: Wick
