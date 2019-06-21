@@ -158,7 +158,7 @@ lectures:
     
   - topic: Deep learning
     subtopic: Multiplayer perceptron 
-    hw:
+    hw: A3 due, A4 out
     papers:
     section:
     instructor: Wick
@@ -186,7 +186,7 @@ lectures:
     
   - topic:
     subtopic: Attention mechanism
-    hw:
+    hw: A4 due
     papers:
     instructor: Wick
     
