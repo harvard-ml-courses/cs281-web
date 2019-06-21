@@ -153,19 +153,14 @@ lectures:
     section:
     instructor: Tristan
 
-  - topic: Columbus day
+  - topic: 
+    subtopic: Columbus day 
     hw: 
     
-  - topic: Midterm
+  - topic: 
+    subtopic: Midterm 
     hw: A3 out
- 
-  - topic:
-    subtopic: Project introduction 
-    hw: 
-    papers:
-    section:
-    instructor: Tristan
-   
+    
   - topic: 
     subtopic: Convolutional neural networks
     hw:
@@ -179,13 +174,19 @@ lectures:
     papers:
     section:
     instructor: Wick
-    
+
+  - topic:
+    subtopic: Project introduction 
+    hw: 
+    papers:
+    section:
+    instructor: Tristan
+
   - topic:
     subtopic: Attention mechanism
     hw: 
     papers:
     instructor: Wick
-    project: Proposal due
     
   - topic:
     subtopic: Structured prediction
@@ -193,6 +194,7 @@ lectures:
     papers:
     section:
     instructor: Wick
+    project: Proposal due
     
   - topic: Probabilistic Modeling
     subtopic: Bayesian machine learning
