@@ -36,13 +36,13 @@ sections:
   - topic: Reading
     subtopic: 
     hw:
-    papers: 
+    papers: <a href="https://icml.cc/Conferences/2015/wp-content/uploads/2015/06/icml_ranking.pdf">Learning to Rank using Gradient Descent</a>
     section: 
     instructor: 
   - topic: Reading
     subtopic: 
     hw:
-    papers: 
+    papers: <a href="https://people.eecs.berkeley.edu/~brecht/papers/07.rah.rec.nips.pdf">Random Features for Large-Scale Kernel Machines</a>
     section: 
     instructor:
   - topic: Review
@@ -66,13 +66,13 @@ sections:
   - topic: Reading
     subtopic: 
     hw:
-    papers: 
+    papers: <a href="http://ronan.collobert.com/pub/matos/2008_nlp_icml.pdf">A Unified Architecture for Natural Language Processing</a>
     section: 
     instructor: 
   - topic: Reading
     subtopic: 
     hw:
-    papers: 
+    papers: <a href="https://icml.cc/Conferences/2016/awards/dtm.pdf">Dynamic Topic Models </a>
     section: 
     instructor: 
 
