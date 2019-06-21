@@ -182,21 +182,21 @@ lectures:
     section:
     instructor: Tristan
 
-  - topic:
-    subtopic: Attention mechanism
-    hw: 
-    papers:
-    instructor: Wick
-    
-  - topic: Probabilistic machine learning
+  - topic: 
     subtopic: Structured prediction
-    hw: A4 due
+    hw: 
     papers:
     section:
     instructor: Wick
-    project: Proposal due
-    
-  - topic: 
+
+  - topic:
+    subtopic: Attention mechanism
+    hw: A4 due
+    papers:
+    instructor: Wick
+    project: Proposal due    
+
+  - topic: Probabilistic machine learning
     subtopic: Bayesian machine learning
     hw: 
     papers:
