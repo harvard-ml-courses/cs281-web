@@ -113,13 +113,13 @@ lectures:
     instructor: Wick
     
   - topic:
-    subtopic: Analysis of ML algorithms 1: SGD
+    subtopic: Analysis of ML algorithms 1, SGD
     papers:
     section:
     instructor: Tristan
     
   - topic:
-    subtopic: Analysis of ML algorithms 1: Stability
+    subtopic: Analysis of ML algorithms 1, Stability
     papers:
     section:
     instructor: Tristan
