@@ -40,7 +40,7 @@ sections:
   - topic: Reading
     subtopic: 
     hw:
-    papers: <a href="https://icml.cc/Conferences/2015/wp-content/uploads/2015/06/icml_ranking.pdf">Learning to Rank using Gradient Descent</a>
+    papers: <a href="http://www.ee.oulu.fi/research/imag/courses/Vedaldi/ShalevSiSr07.pdf">Pegasos, Primal Estimated sub-GrAdient SOlver for SVM</a>
     section: 
     instructor:
   - topic: Review
