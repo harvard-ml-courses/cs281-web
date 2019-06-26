@@ -95,13 +95,13 @@ lectures:
     instructor: Wick
 
   - topic:
-    subtopic: Learning theory 1
+    subtopic: Learning theory 1: generalization
     papers:
     section:
     instructor: Tristan
 
   - topic: 
-    subtopic: Learning theory 2
+    subtopic: Learning theory 2: ERM, PAC-learning
     papers:
     section:
     instructor: Tristan
@@ -119,7 +119,7 @@ lectures:
     instructor: Tristan
     
   - topic:
-    subtopic: Analysis of ML algorithms 1, Stability
+    subtopic: Analysis of ML algorithms 2, Stability
     papers:
     section:
     instructor: Tristan
