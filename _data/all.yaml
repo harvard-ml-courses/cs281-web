@@ -7,7 +7,7 @@ dates: ["", "Sep. 4",  "Sep. 9", "Sep. 11",  "Sep. 16", "Sep. 18",  "Sep. 23", "
 
 hw: ["", "",  "A1 out", "",  "", "",  "A1 due, A2 out", "", "", "", "A2 due, A3 out",  "",  "", "",  "A3 due, A4 out", "",  "", "",  "A4 due", "",  "", "",  "", "", "", "", "", ""]
 
-project: ["", "",  "", "",  "", "",  "", "", "", "", "",  "",  "", "",  "", "",  "", "",  "Proposal due", "",  "", "",  "Abstract and status due", "", "", "", "	Poster due", "Paper due"]
+project: ["", "",  "", "",  "", "",  "", "", "", "", "",  "",  "", "",  "", "",  "", "",  "Proposal due", "",  "", "",  "", "", "", "Status report due", "", "Paper due"]
 
 sections_dates: ["",  "Sep. 9", "Sep. 16", "Sep. 23", "Sep. 30", "Oct. 7", "Oct. 21", "Oct. 28", "Nov. 4", "Nov. 11", "Nov. 18"]
 # "Oct. 19", "Oct. 26" b/c midterm review and midterm week no section
@@ -206,7 +206,7 @@ lectures:
     instructor: Wick
 
   - topic: 
-    subtopic: Fairness in ML
+    subtopic: Markov chains mixing rates
     papers:
     section:
     instructor: Tristan
@@ -219,7 +219,7 @@ lectures:
     
   - topic: Thanksgiving
 
-  - topic: Poster session
+  - topic: Project feedback
 
   - topic:
 
