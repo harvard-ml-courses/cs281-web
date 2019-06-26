@@ -131,7 +131,7 @@ lectures:
     instructor: Wick
 
   - topic:
-    subtopic: Backpropagation
+    subtopic: Deriving backpropagation
     papers: 
     section:
     instructor: Tristan
