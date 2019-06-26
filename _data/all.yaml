@@ -95,13 +95,13 @@ lectures:
     instructor: Wick
 
   - topic:
-    subtopic: Learning theory 1: generalization
+    subtopic: Learning theory 1, generalization
     papers:
     section:
     instructor: Tristan
 
   - topic: 
-    subtopic: Learning theory 2: ERM, PAC-learning
+    subtopic: Learning theory 2, ERM and PAC-learning
     papers:
     section:
     instructor: Tristan
