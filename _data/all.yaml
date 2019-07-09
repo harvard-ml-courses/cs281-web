@@ -125,13 +125,13 @@ lectures:
     instructor: Tristan
         
   - topic: Deep learning
-    subtopic: Multiplayer perceptron 
+    subtopic: Introduction to deep learning 1
     papers:
     section:
-    instructor: Wick
+    instructor: 
 
   - topic:
-    subtopic: Deriving backpropagation
+    subtopic: Introduction to deep learning 1
     papers: 
     section:
     instructor: Tristan
@@ -195,21 +195,21 @@ lectures:
     section:
     instructor: Tristan
 
-  - topic: Contemporary problems
-    subtopic: ???
+  - topic: 
+    subtopic: TBD
     instructor: Wick
 
   - topic: 
-    subtopic: ???
+    subtopic: TBD
     papers:
     section:
     instructor: Wick
 
   - topic: 
-    subtopic: Markov chains mixing rates
+    subtopic: TBD
     papers:
     section:
-    instructor: Tristan
+    instructor: Wick
 
   - topic: Invited talk
     subtopic: Reinforcement learning and game theory
