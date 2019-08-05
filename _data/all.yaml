@@ -188,27 +188,27 @@ lectures:
     section:
     instructor: Tristan
 
-  - topic: 
-    subtopic: TBD
+  - topic: Deep learning
+    subtopic: Transfer learning
     instructor: Wick
 
   - topic: 
-    subtopic: TBD
-    papers:
-    section:
-    instructor: Wick
-
-  - topic: 
-    subtopic: TBD
+    subtopic: Deep learning and linguistics
     papers:
     section:
     instructor: Wick
 
   - topic: Invited talk
-    subtopic: Reinforcement learning and game theory
+    subtopic: Reinforcement learning
     papers:
     section:
     instructor: Panda
+
+  - topic: 
+    subtopic: You Know Nothing
+    papers:
+    section:
+    instructor: 
 
   - topic:
     subtopic: Reading exam
