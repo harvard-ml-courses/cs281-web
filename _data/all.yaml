@@ -82,43 +82,43 @@ sections:
 lectures:
 
   - topic: Foundations
-    subtopic: Introduction
+    subtopic: Introduction 1
     papers:
     section:
     instructor: Wick
     
   - topic:
-    subtopic: Core models
+    subtopic: Introduction 2
     papers:
     section:
     instructor: Wick
 
   - topic:
-    subtopic: Learning theory 1, generalization
+    subtopic: Learning theory 1
     papers:
     section:
     instructor: Tristan
 
   - topic: 
-    subtopic: Learning theory 2, ERM and PAC-learning
+    subtopic: Learning theory 2
     papers:
     section:
     instructor: Tristan
 
   - topic:
-    subtopic: Maximum likelihood estimation
+    subtopic: Optimization-based ML 1
     papers:
     section:
     instructor: Wick
     
   - topic:
-    subtopic: Analysis of ML algorithms 1, SGD
+    subtopic: Optimization-based ML 2
     papers:
     section:
     instructor: Tristan
     
   - topic:
-    subtopic: Analysis of ML algorithms 2, Stability
+    subtopic: Optimization-based ML 3, SGD analysis
     papers:
     section:
     instructor: Tristan
@@ -205,7 +205,7 @@ lectures:
     instructor: Panda
 
   - topic: 
-    subtopic: You Know Nothing
+    subtopic: So Much More to Know
     papers:
     section:
     instructor: 
