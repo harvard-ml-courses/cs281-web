@@ -115,7 +115,7 @@ lectures:
     subtopic: Optimization-based ML 2
     papers:
     section:
-    instructor: Tristan
+    instructor: Wick
     
   - topic:
     subtopic: Optimization-based ML 3, SGD analysis
