@@ -118,7 +118,7 @@ lectures:
     instructor: Wick
     
   - topic:
-    subtopic: Optimization-based ML 3, SGD analysis
+    subtopic: Optimization-based ML 3, analysis of SGD
     papers:
     section:
     instructor: Tristan
@@ -154,7 +154,7 @@ lectures:
     instructor: Wick
 
   - topic:
-    subtopic: Attention mechanism
+    subtopic: Attention mechanism, transfer learning
     papers:
     instructor: Wick
 
@@ -189,26 +189,26 @@ lectures:
     instructor: Tristan
 
   - topic: Deep learning
-    subtopic: Transfer learning
+    subtopic: Deep learning and linguistics
     instructor: Wick
 
   - topic: 
-    subtopic: Deep learning and linguistics
+    subtopic: Deep Q-Learning
     papers:
     section:
     instructor: Wick
 
   - topic: Invited talk
-    subtopic: Reinforcement learning
+    subtopic: RL and game theory
     papers:
     section:
     instructor: Panda
 
-  - topic: 
-    subtopic: So Much More to Know
+  - topic: ML and society
+    subtopic: Fairness, Privacy
     papers:
     section:
-    instructor: 
+    instructor: Tristan
 
   - topic:
     subtopic: Reading exam
