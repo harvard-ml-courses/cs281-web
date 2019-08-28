@@ -43,7 +43,7 @@ sections:
   - topic: Reading
     subtopic: 
     hw:
-    papers: <a href="http://www.image-net.org/papers/imagenet_cvpr09.pdf">"ImageNet: A Large-Scale Hierarchical Image Database"</a>
+    papers: <a href="http://www.image-net.org/papers/imagenet_cvpr09.pdf">"ImageNet:A Large-Scale Hierarchical Image Database"</a>
     section: 
     instructor: 
   - topic: Reading
@@ -67,7 +67,7 @@ sections:
   - topic: Reading
     subtopic: 
     hw:
-    papers: <a href="https://people.cs.umass.edu/~mccallum/papers/crf-icml01.ps">"Conditional Random Fields: Probabilistic Models for Segmenting and Labeling Sequence Data"</a>
+    papers: <a href="https://people.cs.umass.edu/~mccallum/papers/crf-icml01.ps">"Conditional Random Fields:Probabilistic Models for Segmenting and Labeling Sequence Data"</a>
     section: 
     instructor: 
   - topic: Reading
