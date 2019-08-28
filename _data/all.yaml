@@ -43,13 +43,13 @@ sections:
   - topic: Reading
     subtopic: 
     hw:
-    papers: <a href="https://leon.bottou.org/publications/pdf/nips-2007.pdf">The Tradeoffs of Large Scale Learning</a>
+    papers: <a href="http://www.image-net.org/papers/imagenet_cvpr09.pdf">"ImageNet: A Large-Scale Hierarchical Image Database"</a>
     section: 
     instructor: 
   - topic: Reading
     subtopic: 
     hw:
-    papers: <a href="http://www.ee.oulu.fi/research/imag/courses/Vedaldi/ShalevSiSr07.pdf">Pegasos, Primal Estimated sub-GrAdient SOlver for SVM</a>
+    papers: <a href="https://papers.nips.cc/paper/8186-adaptive-methods-for-nonconvex-optimization.pdf">"Adaptive Methods for Nonconvex Optimization"</a>
     section: 
     instructor:
   - topic: Review
@@ -61,31 +61,31 @@ sections:
   - topic: Reading
     subtopic: 
     hw:
-    papers: <a href="https://people.eecs.berkeley.edu/~brecht/papers/07.rah.rec.nips.pdf">Random Features for Large-Scale Kernel Machines</a>
+    papers: <a href="https://arxiv.org/pdf/1409.0473.pdf">"Neural Machine Translation by Jointly Learning to Align and Translate"</a>
     section: 
     instructor:
   - topic: Reading
     subtopic: 
     hw:
-    papers: <a href="https://arxiv.org/abs/1806.07366">Neural Ordinary Differential Equations</a>
+    papers: <a href="https://people.cs.umass.edu/~mccallum/papers/crf-icml01.ps">"Conditional Random Fields: Probabilistic Models for Segmenting and Labeling Sequence Data"</a>
     section: 
     instructor: 
   - topic: Reading
     subtopic: 
     hw:
-    papers: <a href="http://ronan.collobert.com/pub/matos/2008_nlp_icml.pdf">A Unified Architecture for Natural Language Processing</a>
+    papers: <a href="https://web.mit.edu/cocosci/Papers/Science-2015-Lake-1332-8.pdf">"Human-level concept learning through probabilistic program induction"</a>
     section: 
     instructor: 
   - topic: Reading
     subtopic: 
     hw:
-    papers: <a href="https://people.cs.umass.edu/~mccallum/papers/crf-icml01.ps">Conditional Random Fields</a>
+    papers: <a href="https://people.eecs.berkeley.edu/~jordan/papers/hdp.pdf">"Hierarchical Dirichlet Processes"</a>
     section: 
     instructor: 
   - topic: Reading
     subtopic: 
     hw:
-    papers: <a href="https://icml.cc/Conferences/2016/awards/dtm.pdf">Dynamic Topic Models </a>
+    papers: <a href="https://www.cs.toronto.edu/~vmnih/docs/dqn.pdf">"Playing Atari with Deep Reinforcement Learning"</a>
     section: 
     instructor: 
 
@@ -181,13 +181,13 @@ lectures:
     instructor: Tristan
     
   - topic: 
-    subtopic: Expectation Maximization
+    subtopic: Markov Chain Monte Carlo 1
     papers:
     section:
     instructor: Tristan
     
   - topic:
-    subtopic: Markov Chain Monte Carlo
+    subtopic: Markov Chain Monte Carlo 2
     papers:
     section:
     instructor: Tristan
