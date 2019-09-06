@@ -14,17 +14,15 @@ sections_dates: ["",  "Sep. 9", "Sep. 16", "Sep. 23", "Sep. 30", "Oct. 7", "Oct.
 # "Oct. 19", "Oct. 26" b/c midterm review and midterm week no section
 
 ohs:
-  - time: TBD
-    location: TBD (Tristan)
-  - time: TBD
-    location: TBD (Wick)
-  - time: TBD
+  - time: Wed 3pm-5pm 
+    location: MD217 (Tristan)
+  - time: Wed 9:15am-10:15am
     location: TBD (Ziegler)
   - time: TBD
     location: TBD (Ma)
-  - time: TBD
+  - time: Tue 9:15am-10:15am
     location: TBD (Liang)
-  - time: TBD
+  - time: Thu 7:30pm-9:30pm
     location: TBD (Fu)
 
 sections:
