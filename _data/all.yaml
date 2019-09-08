@@ -16,11 +16,11 @@ sections_dates: ["",  "Sep. 9", "Sep. 16", "Sep. 23", "Sep. 30", "Oct. 7", "Oct.
 ohs:
   - time: Wed 3pm-5pm 
     location: MD217 (Tristan)
-  - time: Wed 9:15am-10:15am
-    location: TBD (Ziegler)
+  - time: Tue 5pm-6pm, Wed 9:15am-10:15am
+    location: MD second floor (Ziegler)
   - time: TBD
     location: TBD (Ma)
-  - time: Tue 9:15am-10:15am
+  - time: Tue 8:15am-10:15am
     location: TBD (Liang)
   - time: Thu 7:30pm-9:30pm
     location: TBD (Fu)
