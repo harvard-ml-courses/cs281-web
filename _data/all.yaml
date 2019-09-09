@@ -13,7 +13,7 @@ sections_dates: ["",  "Sep. 9", "Sep. 16", "Sep. 23", "Sep. 30", "Oct. 7", "Oct.
 # "Oct. 19", "Oct. 26" b/c midterm review and midterm week no section
 
 ohs:
-  - time: Wed 3pm-5pm 
+  - time: Fri 10:30am-11:30am 
     location: MD217 (Tristan)
   - time: Tue 5pm-6pm, Wed 9:15am-10:15am
     location: MD second floor (Ziegler)
@@ -22,7 +22,7 @@ ohs:
   - time: Tue 8:15am-10:15am
     location: Adams House Dining Hall (Liang)
   - time: Thu 7:30pm-9:30pm
-    location: TBD (Fu)
+    location: Adams House Dining Hall (Fu)
 
 sections:
   - topic: Review
