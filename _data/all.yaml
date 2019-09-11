@@ -90,13 +90,13 @@ lectures:
 
   - topic: Foundations
     subtopic: Introduction 1
-    papers: 9.1, 9.1.2
+    papers: 
     section:
     instructor: Wick
     
   - topic:
     subtopic: Introduction 2
-    papers:
+    papers: UML 9.1, 9.1.2
     section:
     instructor: Wick
 
