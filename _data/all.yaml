@@ -13,8 +13,10 @@ sections_dates: ["",  "Sep. 9", "Sep. 16", "Sep. 23", "Sep. 30", "Oct. 7", "Oct.
 # "Oct. 19", "Oct. 26" b/c midterm review and midterm week no section
 
 ohs:
-  - time: Fri 10:30am-11:30am 
+  - time: By appointment
     location: MD217 (Tristan)
+  - time: By appointment
+    location: MD217 (Wick)
   - time: Tue 5pm-6pm, Wed 9:15am-10:15am
     location: MD second floor (Ziegler)
   - time: Wed 8pm-10pm
