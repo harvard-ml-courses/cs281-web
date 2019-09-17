@@ -2,6 +2,8 @@ tas:
   - name: <a href="mailto:zziegler@g.harvard.edu">Zachary Ziegler</a>
   - name: <a href="mailto:cliang@college.harvard.edu">Celine Liang</a>
   - name: <a href="mailto:wfu@college.harvard.edu">William Fu</a>
+  - name: <a href="mailto:yutingkou@g.harvard.edu">Yuting Kou</a>
+  - name: <a href="mailto:lgrossman@college.harvard.edu">Lev Grossman</a>
 
 dates: ["", "Sep. 4",  "Sep. 9", "Sep. 11",  "Sep. 16", "Sep. 18",  "Sep. 23", "Sep. 25", "Sep. 30", "Oct. 2.", "Oct. 7.",  "Oct. 9",  "Oct. 14", "Oct. 16",  "Oct. 21", "Oct. 23",  "Oct. 28", "Oct. 30",  "Nov. 4", "Nov. 6",  "Nov. 11", "Nov. 13",  "Nov. 18", "Nov. 20", "Nov. 25", "Nov. 27", "Dec. 2", "Dec. 16"]
 
@@ -25,6 +27,10 @@ ohs:
     location: Adams House Dining Hall (Liang)
   - time: Thu 7:30pm-9:30pm
     location: Adams House Dining Hall (Fu)
+  - time: ?
+    location: MD second floor (Kou)
+  - time: Mon ?pm-?pm
+    location: Quincy House Dining Hall (Grossman)
 
 sections:
   - topic: Review
