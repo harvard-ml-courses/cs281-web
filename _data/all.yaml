@@ -132,20 +132,20 @@ lectures:
     section:
     instructor: Wick
     
-  - topic:
-    subtopic: Optimization-based ML 3, analysis of SGD
-    papers:
+  - topic: Deep learning
+    subtopic: Stochastic Gradient Descent
+    papers: UML 12.1.1, 12.1.2, 14
     section:
     instructor: Tristan
         
-  - topic: Deep learning
-    subtopic: Introduction to deep learning 1
-    papers:
+  - topic: 
+    subtopic: Optimization for neural networks 1
+    papers: UML 14, 20
     section:
     instructor: Tristan
 
   - topic:
-    subtopic: Introduction to deep learning 2
+    subtopic: Optimization for neural networks 2
     papers: 
     section:
     instructor: Tristan
