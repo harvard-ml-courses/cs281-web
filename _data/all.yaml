@@ -151,16 +151,16 @@ lectures:
     instructor: Tristan
 
   - topic: 
-    subtopic: Columbus day 
+    subtopic: Convolutional neural networks
+    instructor: Wick
     
   - topic: 
     subtopic: Midterm 
     
   - topic: 
-    subtopic: Convolutional neural networks
+    subtopic: Columbus day  
     papers:
     section:
-    instructor: Wick
     
   - topic:
     subtopic: Recurrent neural networks
