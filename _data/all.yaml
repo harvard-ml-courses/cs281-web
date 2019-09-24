@@ -217,13 +217,13 @@ lectures:
     subtopic: RL and game theory
     papers:
     section:
-    instructor: Panda
+    instructor: Swetasudha Panda
 
-  - topic: ML and society
-    subtopic: Fairness, Privacy
+  - topic: Invited talk
+    subtopic: ML and sociology
     papers:
     section:
-    instructor: Tristan
+    instructor: Rediet Abebe
 
   - topic:
     subtopic: Reading exam
