@@ -152,6 +152,7 @@ lectures:
 
   - topic: 
     subtopic: Convolutional neural networks
+    papers: DL 9
     instructor: Wick
     
   - topic: 
@@ -163,25 +164,25 @@ lectures:
     section:
     
   - topic:
-    subtopic: Recurrent neural networks
-    papers:
+    subtopic: Convolutional neural networks
+    papers: DL 9
     section:
     instructor: Wick
 
   - topic:
-    subtopic: Attention mechanism, transfer learning
-    papers:
+    subtopic: Recurrent neural networks
+    papers: DL 10
     instructor: Wick
 
   - topic: 
-    subtopic: Structured prediction
-    papers:
+    subtopic: Recurrent neural networks
+    papers: DL 10
     section:
     instructor: Wick
 
   - topic: Probabilistic machine learning
     subtopic: Bayesian machine learning
-    papers:
+    papers: PRML 4
     section:
     instructor: Tristan
     
