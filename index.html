@@ -179,7 +179,7 @@ weight: 0
              <div class="row container">
                      <div class="tab-content">
                          <table class="table">
-                             <tr><th>Week</th> <th>Type</th> <th>Topic</th><th>Demos </th><th>Reading</
+                             <tr><th>Week</th> <th>Type</th> <th>Topic</th><th>TF </th><th>Reading</
 th></tr>
                              {% for lecture in site.data.all.sections %}
                              <tr class = {{lecture.active|default("",true)}}>
@@ -188,7 +188,7 @@ th></tr>
 | default("",true)}} </td>
                                  <td> {{lecture.subtopic|default("", true)}}</td>
                                  <td>
-                                     {{lecture.demos|default("", true)}}
+                                     {{lecture.instructor|default("", true)}}
                                  </td>
                                <td> {{lecture.papers |default("", true)}} </td>
                                  

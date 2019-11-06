@@ -38,7 +38,7 @@ sections:
     hw:
     papers: 
     section:
-    instructor:
+    instructor: Celine and William
   - topic: Review
     subtopic: Python/Scikit-learn
     hw:
